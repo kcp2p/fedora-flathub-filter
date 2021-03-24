@@ -1,3 +1,6 @@
+Fedora Flathub Filter Scripts and Data
+======================================
+
 Fedora Workstation ships with a flathub remote which is filtered.
 Only explicitly allowed applications and runtimes are available,
 unless the user has explicitly installed the full Flatpak remote.
@@ -39,15 +42,17 @@ Notes:
 
 Updating
 --------
+
 The `update.py` script is used to update `apps.txt`, `other.txt`, and `filter.txt`.
 Usage is simple. To download the latest data from Flathub and Fedora,
 and update the data files, run:
 
-```
+``` sh
 ./update.py
 ```
 
 Interesting options are:
+
 * `--verbose` show slightly more output
 * `--quiet` show less output
 * `--force-download` force downloading current application data,
@@ -66,6 +71,7 @@ merging changes to `apps.txt` and `other.txt` in a smart fashion.
 
 Workflow
 --------
+
 ``` sh
 git clone https://pagure.io/fedora-flathub-filter
 cd fedora-flathub-filter
@@ -85,10 +91,12 @@ git --rebase origin/main
 
 Guidelines
 ----------
-* We initially want to keep the set of included applications small. We will concentrate on including:
-  * The most popular applications on Flathub
-  * Applications of interest to Fedora's developer target audience
-  * Applications that fill a role not satisfied by any available application for Fedora.
+
+* We initially want to keep the set of included applications small.
+  We will concentrate on including:
+    * The most popular applications on Flathub
+    * Applications of interest to Fedora's developer target audience
+    * Applications that fill a role not satisfied by any available application for Fedora.
 * Once a Flathub Flatpak is included,
   it should only be excluded if there are urgent reasons to do so.
   The reason for this,
@@ -101,14 +109,14 @@ Guidelines
   If the program is coming from an established, well-known commercial entity,
   you can assume they have obtained all necessary patent and other licenses.
 * Open source code hosted on Flathub needs to be checked that it doesn't contain:
-  * Codecs and other potentially patent-encumbered technology that aren't shipped in Fedora.
-  * Other [Forbidden Items](https://fedoraproject.org/wiki/Forbidden_items?rd=ForbiddenItems)
+    * Codecs and other potentially patent-encumbered technology that aren't shipped in Fedora.
+    * Other [Forbidden Items](https://fedoraproject.org/wiki/Forbidden_items?rd=ForbiddenItems)
 * As a non-lawyer,
   you should not be doing extra new research to check for patent problems.
   Some appropriate checks:
-  * If the application is shipped in RPM form in Fedora,
-    does Fedora do anything special to strip it down?
-  * If the application is not shipped in Fedora,
-    does it contain multimedia codecs? Are there any that are not shipped in Fedora?
+    * If the application is shipped in RPM form in Fedora,
+      does Fedora do anything special to strip it down?
+    * If the application is not shipped in Fedora,
+      does it contain multimedia codecs? Are there any that are not shipped in Fedora?
 * Keep notes in `Comments` non-speculative. Something like:
   "Contains h264, not currently shipped with Fedora" is appropriate.
