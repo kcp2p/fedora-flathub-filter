@@ -3,3 +3,5 @@
 #
 # Deny by default
 deny *
+allow com.spotify.Client
+allow runtime/org.freedesktop.Platform/*/20.08

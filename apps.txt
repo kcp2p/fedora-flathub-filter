@@ -5,8 +5,8 @@ License: LicenseRef-proprietary=https://www.spotify.com/us/legal/end-user-agreem
 Runtime: org.freedesktop.Platform/x86_64/20.08
 Downloads (new last month): 29074 (rank: 1)
 Fedora Flatpak: False
-Comments:
-Include:
+Comments: extra-data
+Include: yes
 
 [org.telegram.desktop]
 Name: Telegram Desktop

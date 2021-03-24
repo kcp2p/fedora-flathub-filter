@@ -16,7 +16,7 @@ Include:
 Downloads (new last month): 191891 (rank: 3)
 Fedora Flatpak: False
 Comments:
-Include:
+Include: yes
 
 [org.freedesktop.Platform.VAAPI.Intel/20.08]
 Downloads (new last month): 153458 (rank: 4)
