@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 tempdir=$(cd "$1" && pwd)
 url=$2
 dest=$3

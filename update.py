@@ -103,34 +103,49 @@ class Component:
                     print(pretty + ":", value, file=file)
 
 
-def download_remote_data(remote_url, short):
+def download_remote_data(remote_url, short, force_download=False):
     base = cache_path / short
     appstream = cache_path / f'{short}-appstream.xml.gz'
     remote_ls = cache_path / f'{short}-remote-ls.txt'
-    try:
+
+    if not (appstream.exists() and remote_ls.exists()):
+        force_download = True
+
+    if not force_download:
         stat = remote_ls.stat()
-    except FileNotFoundError:
-        stat = None
+        if stat:
+            modified = datetime.fromtimestamp(stat.st_mtime, timezone.utc)
+            if datetime.now(timezone.utc) - modified > timedelta(days=1):
+                force_download = True
 
-    if stat:
-        modified = datetime.fromtimestamp(stat.st_mtime, timezone.utc)
-        if datetime.now(timezone.utc) - modified < timedelta(days=1):
-            verbose(f"{short}: using cached remote data")
-            return appstream, remote_ls
+    if force_download:
+        info(f"{short}: Downloading data from {remote_url}")
+        with tempfile.TemporaryDirectory() as tempdir:
+            try:
+                subprocess.check_call(
+                    [tools_path / "download-remote-data.sh", tempdir, remote_url, base]
+                )
+            except subprocess.CalledProcessError:
+                try:
+                    appstream.unlink()
+                except FileNotFoundError:
+                    pass
+                try:
+                    remote_ls.unlink()
+                except FileNotFoundError:
+                    pass
 
-    info(f"{short}: Downloading data from {remote_url}")
-
-    with tempfile.TemporaryDirectory() as tempdir:
-        subprocess.check_call(
-            [tools_path / "download-remote-data.sh", tempdir, remote_url, base]
-        )
+                error("Failed to download data")
+    else:
+        verbose(f"{short}: using cached remote data")
 
     return appstream, remote_ls
 
 
-def load_remote_components(remote_url, short):
+def load_remote_components(remote_url, short, force_download=False):
     components = {}
-    appstream, remote_ls = download_remote_data(remote_url, short)
+    appstream, remote_ls = download_remote_data(remote_url, short,
+                                                force_download=force_download)
 
     with open(remote_ls) as f:
         for line in f:
@@ -244,12 +259,14 @@ def load_components(directory):
     return components
 
 
-def update_report(input_dir, base_dir, output_dir):
+def update_report(input_dir, base_dir, output_dir, force_download=False):
     # Get current list of Flathub apps
-    flathub_components = load_remote_components('https://flathub.org/repo', 'flathub')
+    flathub_components = load_remote_components('https://flathub.org/repo', 'flathub',
+                                                force_download=force_download)
 
     # Mark which ones are in Fedora
-    fedora_components = load_remote_components('oci+https://registry.fedoraproject.org/', 'fedora')
+    fedora_components = load_remote_components('oci+https://registry.fedoraproject.org/', 'fedora',
+                                               force_download=force_download)
     for fedora_component in fedora_components.values():
         flathub_component = flathub_components.get(fedora_component.id)
         if flathub_component:
@@ -310,10 +327,14 @@ def update_report(input_dir, base_dir, output_dir):
     help="Directory to cache downloaded data in"
 )
 @click.option(
+    "--force-download", is_flag=True,
+    help="Force downloading of updated remote data"
+)
+@click.option(
     "--verbose", "-v", is_flag=True,
     help="Show debug messages"
 )
-def main(input_dir, base_dir, output_dir, cache_dir, verbose):
+def main(input_dir, base_dir, output_dir, cache_dir, force_download, verbose):
     global cache_path, is_verbose
     cache_path = Path(cache_dir)
     is_verbose = verbose
@@ -321,7 +342,10 @@ def main(input_dir, base_dir, output_dir, cache_dir, verbose):
     if not cache_path.exists():
         os.mkdir(cache_path)
 
-    update_report(Path(input_dir), Path(base_dir), Path(output_dir))
+    update_report(
+        Path(input_dir), Path(base_dir), Path(output_dir),
+        force_download=force_download
+    )
 
 
 if __name__ == "__main__":
