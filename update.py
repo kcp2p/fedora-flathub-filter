@@ -22,22 +22,25 @@ source_path = Path(sys.argv[0]).parent
 cache_path = source_path / "cache"
 tools_path = source_path / "tools"
 is_verbose = False
+is_quiet = False
 
 
 def info(*args):
-    print(click.style("INFO", fg="blue", bold=True) + ":",
-          *args, file=sys.stderr)
+    if not is_quiet:
+        print(click.style("INFO", fg="blue", bold=True) + ":",
+              *args, file=sys.stderr)
 
 
 def verbose(*args):
     if is_verbose:
         print(click.style("DEBUG", bold=True) + ":",
-              *args, file=sys.stderr)
+                *args, file=sys.stderr)
 
 
 def warning(*args):
-    print(click.style("WARNING", fg="red", bold=True) + ":",
-          *args, file=sys.stderr)
+    if not is_quiet:
+        print(click.style("WARNING", fg="red", bold=True) + ":",
+            *args, file=sys.stderr)
 
 
 def error(*args):
@@ -356,10 +359,17 @@ def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_dow
     "--verbose", "-v", is_flag=True,
     help="Show debug messages"
 )
-def main(input_dir, delta_from_dir, delta_to_dir, output_dir, cache_dir, force_download, verbose):
-    global cache_path, is_verbose
+@click.option(
+    "--quiet", "-q", is_flag=True,
+    help="Supress non-critical messages"
+)
+def main(
+    input_dir, delta_from_dir, delta_to_dir, output_dir, cache_dir, force_download, quiet, verbose
+):
+    global cache_path, is_verbose, is_quiet
     cache_path = Path(cache_dir)
     is_verbose = verbose
+    is_quiet = quiet
 
     if not cache_path.exists():
         os.mkdir(cache_path)
