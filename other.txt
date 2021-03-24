@@ -1,0 +1,7224 @@
+[org.freedesktop.Platform.GL.default/20.08]
+Downloads (new last month): 263945 (rank: 1)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.openh264/2.0]
+Name: openh264
+License: LicenseRef-proprietary=https://www.openh264.org/BINARY_LICENSE.txt
+Downloads (new last month): 242223 (rank: 2)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform/20.08]
+Downloads (new last month): 191891 (rank: 3)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.VAAPI.Intel/20.08]
+Downloads (new last month): 153458 (rank: 4)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Platform/3.38]
+Downloads (new last month): 120341 (rank: 5)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.Platform/5.15]
+Downloads (new last month): 119322 (rank: 6)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y/3.22]
+Name: Mint-Y Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 87264 (rank: 7)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.default/19.08]
+Downloads (new last month): 75960 (rank: 8)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-460-39/1.4]
+Downloads (new last month): 67265 (rank: 9)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-460-56/1.4]
+Downloads (new last month): 57137 (rank: 10)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Platform/3.36]
+Name: GNOME Application Platform version 3.36
+Homepage: http://www.gnome.org/
+License: GPL-2.0+
+Downloads (new last month): 52228 (rank: 11)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.VAAPI.Intel/19.08]
+Downloads (new last month): 49936 (rank: 12)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.PlatformTheme.QGnomePlatform/5.15]
+Downloads (new last month): 49005 (rank: 13)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.PlatformTheme.QtSNI/5.15]
+Downloads (new last month): 48522 (rank: 14)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.WaylandDecoration.QGnomePlatform-decoration/5.15]
+Downloads (new last month): 48353 (rank: 15)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.ffmpeg-full/20.08]
+Downloads (new last month): 45416 (rank: 16)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk/20.08]
+Downloads (new last month): 35453 (rank: 17)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Pop-dark/3.22]
+Name: Pop Gtk theme
+Homepage: https://github.com/system76/pop-gtk-theme
+Downloads (new last month): 35202 (rank: 18)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.chromium.Chromium.Codecs/stable]
+Downloads (new last month): 29652 (rank: 19)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gimp.GIMP.Manual/2.10]
+Name: GIMP User Manual
+Homepage: https://gimp.org/
+License: GPL-2.0+
+Downloads (new last month): 27779 (rank: 20)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.Adwaita/5.15]
+Downloads (new last month): 27061 (rank: 21)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.html5-codecs/18.08]
+Downloads (new last month): 26737 (rank: 22)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform/19.08]
+Downloads (new last month): 25180 (rank: 23)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Breeze/3.22]
+Name: Breeze Gtk theme
+Homepage: https://quickgit.kde.org/?p=breeze-gtk.git
+Downloads (new last month): 23085 (rank: 24)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.Compat.i386/20.08]
+Downloads (new last month): 19478 (rank: 25)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.default/20.08]
+Downloads (new last month): 17741 (rank: 26)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.VAAPI.Intel/18.08]
+Downloads (new last month): 17318 (rank: 27)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform/18.08]
+Name: Freedesktop Platform
+Homepage: https://freedesktop-sdk.gitlab.io/
+License: GPL-2.0+
+Downloads (new last month): 16616 (rank: 28)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.audacityteam.Audacity.Codecs/stable]
+Downloads (new last month): 15095 (rank: 29)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.swh/20.08]
+Downloads (new last month): 13036 (rank: 30)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Totem.Codecs/stable]
+Downloads (new last month): 12257 (rank: 31)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.Platform/5.14]
+Downloads (new last month): 12159 (rank: 32)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Adwaita-dark/3.22]
+Name: Adwaita dark GTK theme
+Homepage: https://gitlab.gnome.org/GNOME/gnome-themes-extra
+Downloads (new last month): 11458 (rank: 33)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark/3.22]
+Name: Mint-Y-Dark Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 11203 (rank: 34)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.blender.Blender.Codecs/stable]
+Downloads (new last month): 9978 (rank: 35)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Yaru/3.22]
+Name: Yaru Gtk Theme
+Homepage: https://github.com/ubuntu/yaru
+Downloads (new last month): 9883 (rank: 36)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk/19.08]
+Downloads (new last month): 8767 (rank: 37)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Totem.Videosite.YouTubeDl/stable]
+Name: yt-dl totem-pl-parser plugin
+Homepage: https://github.com/MathieuDuponchelle/totem-ydl-parser/
+License: Unlicense
+Downloads (new last month): 8722 (rank: 38)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.PlatformTheme.QtSNI/5.14]
+Downloads (new last month): 8419 (rank: 39)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.pitivi.Pitivi.Codecs/stable]
+Downloads (new last month): 8010 (rank: 40)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-141/1.4]
+Downloads (new last month): 7999 (rank: 41)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.PlatformTheme.QGnomePlatform/5.14]
+Downloads (new last month): 7927 (rank: 42)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.WaylandDecoration.QGnomePlatform-decoration/5.14]
+Downloads (new last month): 7892 (rank: 43)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Yaru-dark/3.22]
+Name: Yaru-dark Gtk Theme
+Homepage: https://github.com/ubuntu/yaru
+Downloads (new last month): 7629 (rank: 44)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-102-04/1.4]
+Downloads (new last month): 7517 (rank: 45)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.PlatformTheme.QtSNI/5.12]
+Name: QtSNI
+Homepage: https://github.com/ilya-fedin/qtsni-theme
+Downloads (new last month): 6544 (rank: 46)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.Eloston.UngoogledChromium.Codecs/stable]
+Downloads (new last month): 6036 (rank: 47)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk/3.38]
+Downloads (new last month): 5939 (rank: 48)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.PlatformTheme.QGnomePlatform/5.12]
+Name: QGnomePlatform
+Homepage: https://github.com/FedoraQt/QGnomePlatform
+Downloads (new last month): 5931 (rank: 49)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.WaylandDecoration.QGnomePlatform-decoration/5.12]
+Name: QGnomePlatform-decoration
+Homepage: https://github.com/FedoraQt/QGnomePlatform
+Downloads (new last month): 5849 (rank: 50)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-460-32-03/1.4]
+Downloads (new last month): 5816 (rank: 51)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-460-67/1.4]
+Downloads (new last month): 5241 (rank: 52)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-460-56/1.4]
+Downloads (new last month): 5240 (rank: 53)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.CAPS/20.08]
+Downloads (new last month): 5018 (rank: 54)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.CMT/20.08]
+Downloads (new last month): 4800 (rank: 55)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-340-108/1.4]
+Downloads (new last month): 4709 (rank: 56)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark-Blue/3.22]
+Name: Mint-Y-Dark-Blue Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 4425 (rank: 57)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-460-39/1.4]
+Downloads (new last month): 4289 (rank: 58)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.Platform/5.12]
+Name: KDE Application Platform
+Homepage: http://www.kde.org/
+License: GPL-2.0+
+Downloads (new last month): 4269 (rank: 59)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Pop/3.22]
+Name: Pop Gtk theme
+Homepage: https://github.com/system76/pop-gtk-theme
+Downloads (new last month): 4154 (rank: 60)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Boxes.Extension.OsinfoDb/stable]
+Name: GNOME Boxes Osinfo DB
+Homepage: https://libosinfo.org/
+License: GPL-2.0+
+Downloads (new last month): 4152 (rank: 61)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark-Aqua/3.22]
+Name: Mint-Y-Dark-Aqua Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 3735 (rank: 62)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.Adwaita/5.14]
+Downloads (new last month): 3635 (rank: 63)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Platform.Compat.i386/3.38]
+Downloads (new last month): 3278 (rank: 64)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Aqua/3.22]
+Name: Mint-Y-Aqua Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 3094 (rank: 65)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.hack_computer.Clippy.Extension/stable]
+Name: Clippy
+Homepage: https://hack-computer.com/
+License: LGPL-2.1
+Downloads (new last month): 2945 (rank: 66)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Matcha-sea/3.22]
+Name: Matcha-sea GTK theme
+Homepage: https://github.com/vinceliuice/matcha
+Downloads (new last month): 2918 (rank: 67)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.elementary/3.22]
+Name: elementary stylesheet
+Homepage: https://github.com/elementary/stylesheet
+Downloads (new last month): 2903 (rank: 68)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.Sdk/5.15]
+Downloads (new last month): 2737 (rank: 69)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.texlive/20.08]
+Downloads (new last month): 2648 (rank: 70)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark-Teal/3.22]
+Name: Mint-Y-Dark-Teal Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 2509 (rank: 71)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Blue/3.22]
+Name: Mint-Y-Blue Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 2294 (rank: 72)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Adapta-Nokto/3.22]
+Name: Adapta-Nokto Gtk+ theme
+Homepage: https://github.com/adapta-project/adapta-gtk-theme
+Downloads (new last month): 2165 (rank: 73)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark-Red/3.22]
+Name: Mint-Y-Dark-Red Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 2060 (rank: 74)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Greybird/3.22]
+Name: Greybird GTK+ Theme
+Homepage: https://github.com/shimmerproject/Greybird
+Downloads (new last month): 1917 (rank: 75)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark-Purple/3.22]
+Name: Mint-Y-Dark-Purple Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 1901 (rank: 76)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark-Grey/3.22]
+Name: Mint-Y-Dark-Grey Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 1846 (rank: 77)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.Compat.i386/19.08]
+Downloads (new last month): 1476 (rank: 78)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Arc-Dark/3.22]
+Name: Arc-Dark Gtk theme
+Homepage: https://github.com/horst3180/arc-theme
+Downloads (new last month): 1443 (rank: 79)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.default/19.08]
+Downloads (new last month): 1409 (rank: 80)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.Adwaita/5.12]
+Downloads (new last month): 1301 (rank: 81)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Arc-Darker/3.22]
+Name: Arc-Darker Gtk theme
+Homepage: https://github.com/horst3180/arc-theme
+Downloads (new last month): 1230 (rank: 82)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Teal/3.22]
+Name: Mint-Y-Teal Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 1223 (rank: 83)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kicad.KiCad.Library.Packages3D/stable]
+Downloads (new last month): 1205 (rank: 84)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Compat.i386/20.08]
+Downloads (new last month): 1174 (rank: 85)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark-Orange/3.22]
+Name: Mint-Y-Dark-Orange Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 1101 (rank: 86)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Yaru-light/3.22]
+Name: Yaru-light Gtk Theme
+Homepage: https://github.com/ubuntu/yaru
+Downloads (new last month): 1025 (rank: 87)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-38/1.4]
+Downloads (new last month): 1013 (rank: 88)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kicad.KiCad.Library.Footprints/stable]
+Name: KiCad Footprint Libraries
+Homepage: https://kicad.github.io/footprints/
+License: CC-BY-SA-4.0
+Downloads (new last month): 990 (rank: 89)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark-Pink/3.22]
+Name: Mint-Y-Dark-Pink Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 963 (rank: 90)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata-Noir/3.22]
+Name: Plata theme noir
+Homepage: https://gitlab.com/tista500/plata-theme
+Downloads (new last month): 951 (rank: 91)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kicad.KiCad.Library.Symbols/stable]
+Name: KiCad Schematic Symbol Libraries
+Homepage: https://kicad.github.io/symbols/
+License: CC-BY-SA-4.0
+Downloads (new last month): 948 (rank: 92)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kicad.KiCad.Library.Templates/stable]
+Name: KiCad Templates
+Homepage: https://gitlab.com/kicad/libraries/kicad-templates
+License: CC-BY-SA-4.0
+Downloads (new last month): 947 (rank: 93)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.valvesoftware.Steam.CompatibilityTool.Proton/stable]
+Name: Proton (community build)
+Homepage: https://github.com/ValveSoftware/Proton
+License: BSD-3-Clause and LGPL-2.1 and zlib-acknowledgement and Zlib and OFL-1.1 and MIT and MPL-2.0 and LicenseRef-proprietary
+Downloads (new last month): 890 (rank: 94)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Ambiance/3.22]
+Name: Ambiance Gtk theme
+Homepage: https://launchpad.net/ubuntu-themes
+Downloads (new last month): 860 (rank: 95)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Matcha-dark-sea/3.22]
+Name: Matcha-dark-sea GTK theme
+Homepage: https://github.com/vinceliuice/matcha
+Downloads (new last month): 821 (rank: 96)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.WaylandDecoration.QGnomePlatform-decoration/5.13]
+Downloads (new last month): 795 (rank: 97)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Breeze-Dark/3.22]
+Name: Breeze Gtk theme
+Homepage: https://quickgit.kde.org/?p=breeze-gtk.git
+Downloads (new last month): 727 (rank: 98)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-45-01/1.4]
+Downloads (new last month): 718 (rank: 99)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-80-02/1.4]
+Downloads (new last month): 706 (rank: 100)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.valvesoftware.Steam.CompatibilityTool.Proton-GE/stable]
+Name: Proton-GE (community build)
+Homepage: https://github.com/GloriousEggroll/proton-ge-custom
+License: BSD-3-Clause and LGPL-2.1 and zlib-acknowledgement and Zlib and OFL-1.1 and MIT and MPL-2.0 and LicenseRef-proprietary
+Downloads (new last month): 677 (rank: 101)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Purple/3.22]
+Name: Mint-Y-Purple Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 670 (rank: 102)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-80-02/1.4]
+Downloads (new last month): 663 (rank: 103)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ara/stable]
+Name: OCR Arabic
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 658 (rank: 104)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ChiSim/stable]
+Name: OCR Chinese - Simplified
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 649 (rank: 105)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Deu/stable]
+Name: OCR German
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 645 (rank: 106)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Dark/3.22]
+Name: Flat-Remix-GTK-Blue-Dark
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 644 (rank: 107)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Fra/stable]
+Name: OCR French
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 637 (rank: 108)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Hin/stable]
+Name: OCR Hindi
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 628 (rank: 109)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Jpn/stable]
+Name: OCR Japanese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 627 (rank: 110)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Equ/stable]
+Name: OCR Math / equation detection module
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 620 (rank: 111)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Rus/stable]
+Name: OCR Russian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 610 (rank: 112)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Red/3.22]
+Name: Mint-Y-Red Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 608 (rank: 113)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Spa/stable]
+Name: OCR Spanish; Castilian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 605 (rank: 114)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Por/stable]
+Name: OCR Portuguese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 600 (rank: 115)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.rust-stable/20.08]
+Downloads (new last month): 597 (rank: 116)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Grey/3.22]
+Name: Mint-Y-Grey Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 586 (rank: 117)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark-Sand/3.22]
+Name: Mint-Y-Dark-Sand Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 567 (rank: 118)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-460-67/1.4]
+Downloads (new last month): 536 (rank: 119)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.valvesoftware.Steam.Utility.MangoHud/stable]
+Name: MangoHud
+Homepage: https://github.com/flightlessmango/MangoHud
+License: MIT
+Downloads (new last month): 534 (rank: 120)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gimp.GIMP.Plugin.GMic/2-3.36]
+Name: G'MIC
+Homepage: https://gmic.eu/
+License: CECILL-C
+Downloads (new last month): 530 (rank: 121)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.Adwaita/5.13]
+Downloads (new last month): 523 (rank: 122)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Materia/3.22]
+Name: Materia GTK theme
+Homepage: https://github.com/nana-4/materia-theme
+Downloads (new last month): 491 (rank: 123)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker-Blue/3.22]
+Name: Mint-Y-Darker-Blue Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 486 (rank: 124)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.valvesoftware.Steam.Utility.protontricks/stable]
+Name: protontricks
+Homepage: https://github.com/Matoking/protontricks/wiki
+License: GPL-3.0
+Downloads (new last month): 479 (rank: 125)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Dark-Brown/3.22]
+Name: Mint-Y-Dark-Brown Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 477 (rank: 126)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker-Aqua/3.22]
+Name: Mint-Y-Darker-Aqua Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 465 (rank: 127)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Orange/3.22]
+Name: Mint-Y-Orange Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 464 (rank: 128)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Arc/3.22]
+Name: Arc Gtk theme
+Homepage: https://github.com/horst3180/arc-theme
+Downloads (new last month): 462 (rank: 129)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker/3.22]
+Name: Mint-Y-Darker Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 461 (rank: 130)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Pink/3.22]
+Name: Mint-Y-Pink Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 452 (rank: 131)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Materia-dark-compact/3.22]
+Name: Materia-dark-compact GTK theme
+Homepage: https://github.com/nana-4/materia-theme
+Downloads (new last month): 448 (rank: 132)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gimp.GIMP.Plugin.Resynthesizer/2-3.36]
+Name: Resynthesizer
+Homepage: http://logarithmic.net/pfh/resynthesizer
+License: GPL-3.0+
+Downloads (new last month): 435 (rank: 133)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-102-04/1.4]
+Downloads (new last month): 426 (rank: 134)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-460-32-03/1.4]
+Downloads (new last month): 423 (rank: 135)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Materia-dark/3.22]
+Name: Materia-dark GTK theme
+Homepage: https://github.com/nana-4/materia-theme
+Downloads (new last month): 422 (rank: 136)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.Adwaita/5.11]
+Downloads (new last month): 383 (rank: 137)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.videolan.VLC.Plugin.makemkv/3-19.08]
+Name: MakeMKV plugin for VLC
+Homepage: https://www.makemkv.com
+License: LicenseRef-proprietary AND LGPL-2.1-only
+Downloads (new last month): 372 (rank: 138)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.videolan.VLC.Plugin.fdkaac/3-19.08]
+Name: FDK-AAC Encoding Plugin for VLC
+Homepage: https://www.videolan.org/
+License: LGPL-2.1
+Downloads (new last month): 372 (rank: 139)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-dark/3.22]
+Name: Qogir-dark GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 367 (rank: 140)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-141/1.4]
+Downloads (new last month): 367 (rank: 141)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-430-40/1.4]
+Downloads (new last month): 360 (rank: 142)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gimp.GIMP.Plugin.BIMP/2-3.36]
+Name: BIMP
+Homepage: https://alessandrofrancesconi.it/projects/bimp/
+License: GPL-2.0+
+Downloads (new last month): 357 (rank: 143)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Sand/3.22]
+Name: Mint-Y-Sand Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 354 (rank: 144)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Adapta/3.22]
+Name: Adapta Gtk+ theme
+Homepage: https://github.com/adapta-project/adapta-gtk-theme
+Downloads (new last month): 345 (rank: 145)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gimp.GIMP.Plugin.LiquidRescale/2-3.36]
+Name: LiquidRescale
+Homepage: http://liquidrescale.wikidot.com/
+License: GPL-2.0+
+Downloads (new last month): 339 (rank: 146)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gimp.GIMP.Plugin.Lensfun/2-3.36]
+Name: GimpLensfun
+Homepage: https://seebk.github.io/GIMP-Lensfun/
+License: GPL-3.0
+Downloads (new last month): 335 (rank: 147)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.ffmpeg-full/19.08]
+Downloads (new last month): 324 (rank: 148)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gimp.GIMP.Plugin.FocusBlur/2-3.36]
+Name: FocusBlur
+Homepage: https://github.com/JMoerman/gimp-focusblur-plugin
+License: GPL-2.0
+Downloads (new last month): 321 (rank: 149)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-138/1.4]
+Downloads (new last month): 321 (rank: 150)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.videolan.VLC.Plugin.bdj/3-19.08]
+Name: Bluray Java menus (BDJ) plugin for VLC
+Homepage: https://www.videolan.org/developers/libbluray.html
+License: GPL-2.0+
+Downloads (new last month): 314 (rank: 151)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gimp.GIMP.Plugin.Fourier/2-3.36]
+Name: Fourier
+Homepage: https://www.lprp.fr/gimp_plugin_en/
+License: GPL-3.0
+Downloads (new last month): 314 (rank: 152)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.CrosAdapta/3.22]
+Name: CrosAdapta
+Homepage: https://chromium.googlesource.com/chromiumos/third_party/cros-adapta/
+Downloads (new last month): 303 (rank: 153)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Numix/3.22]
+Name: Numix Gtk Theme
+Homepage: https://github.com/numixproject/numix-gtk-theme/
+Downloads (new last month): 295 (rank: 154)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Materia-compact/3.22]
+Name: Materia-compact GTK theme
+Homepage: https://github.com/nana-4/materia-theme
+Downloads (new last month): 292 (rank: 155)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.openjdk11/18.08]
+Name: OpenJDK 11 SDK Extension
+Homepage: https://openjdk.java.net/
+License: 0BSD AND Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND FTL AND GPL-2.0 AND GPL-2.0-with-classpath-exception AND IJG AND ISC AND LGPL-2.1-or-later AND MIT AND MPL-2.0 AND RSA-MD AND SAX-PD AND W3C AND Zlib
+Downloads (new last month): 292 (rank: 156)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Adapta-Nokto-Eta/3.22]
+Name: Adapta-Nokto-Eta Gtk+ theme
+Homepage: https://github.com/adapta-project/adapta-gtk-theme
+Downloads (new last month): 286 (rank: 157)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk/18.08]
+Name: Freedesktop SDK
+Homepage: https://freedesktop-sdk.gitlab.io
+License: GPL-2.0+
+Downloads (new last month): 277 (rank: 158)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-181-07/1.4]
+Downloads (new last month): 277 (rank: 159)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker-Red/3.22]
+Name: Mint-Y-Darker-Red Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 276 (rank: 160)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker-Teal/3.22]
+Name: Mint-Y-Darker-Teal Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 267 (rank: 161)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-100/1.4]
+Downloads (new last month): 264 (rank: 162)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Adapta-Eta/3.22]
+Name: Adapta-Eta Gtk+ theme
+Homepage: https://github.com/adapta-project/adapta-gtk-theme
+Downloads (new last month): 263 (rank: 163)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.gitlab.somas.Apostrophe.Plugin.TexLive/stable]
+Name: TexLive Plugin
+Homepage: https://www.tug.org/texlive//
+License: LPPL-1.3c
+Downloads (new last month): 252 (rank: 164)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Brown/3.22]
+Name: Mint-Y-Brown Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 239 (rank: 165)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.valvesoftware.Steam.CompatibilityTool.Proton-Exp/stable]
+Name: Proton experimental (community build)
+Homepage: https://github.com/ValveSoftware/Proton
+License: BSD-3-Clause and LGPL-2.1 and zlib-acknowledgement and Zlib and OFL-1.1 and MIT and MPL-2.0 and LicenseRef-proprietary
+Downloads (new last month): 232 (rank: 166)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.deepin-dark/3.22]
+Name: Deepin Gtk+ theme (dark)
+Homepage: https://github.com/linuxdeepin/deepin-gtk-theme
+Downloads (new last month): 231 (rank: 167)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker-Grey/3.22]
+Name: Mint-Y-Darker-Grey Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 230 (rank: 168)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Materia-light-compact/3.22]
+Name: Materia-light-compact GTK theme
+Homepage: https://github.com/nana-4/materia-theme
+Downloads (new last month): 229 (rank: 169)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.valvesoftware.Steam.Utility.vkBasalt/stable]
+Name: vkBasalt
+Homepage: https://github.com/DadSchoorse/vkBasalt
+License: Zlib
+Downloads (new last month): 228 (rank: 170)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.openh264/19.08]
+Downloads (new last month): 222 (rank: 171)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.deepin/3.22]
+Name: Deepin Gtk+ theme
+Homepage: https://github.com/linuxdeepin/deepin-gtk-theme
+Downloads (new last month): 220 (rank: 172)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.openjdk/18.08]
+Name: OpenJDK SDK Extension
+Homepage: https://openjdk.java.net/
+License: 0BSD AND Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND FTL AND GPL-2.0 AND GPL-2.0-with-classpath-exception AND IJG AND ISC AND LGPL-2.1-or-later AND MIT AND MPL-2.0 AND RSA-MD AND SAX-PD AND W3C AND Zlib
+Downloads (new last month): 218 (rank: 173)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk/3.36]
+Name: GNOME Software Development Kit version 3.36
+Homepage: http://www.gnome.org/
+License: GPL-2.0+
+Downloads (new last month): 215 (rank: 174)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Materia-light/3.22]
+Name: Materia-light GTK theme
+Homepage: https://github.com/nana-4/materia-theme
+Downloads (new last month): 213 (rank: 175)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker-Purple/3.22]
+Name: Mint-Y-Darker-Purple Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 209 (rank: 176)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-340-108/1.4]
+Downloads (new last month): 206 (rank: 177)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Matcha-dark-aliz/3.22]
+Name: Matcha-dark-aliz GTK theme
+Homepage: https://github.com/vinceliuice/matcha
+Downloads (new last month): 201 (rank: 178)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Blue/3.22]
+Name: Flat-Remix-GTK-Blue
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 201 (rank: 179)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata-Noir-Compact/3.22]
+Name: Plata theme noir compact
+Homepage: https://gitlab.com/tista500/plata-theme
+Downloads (new last month): 200 (rank: 180)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Greybird-Geeko-Dark/3.22]
+Name: Greybird-Geeko GTK+ Theme
+Homepage: https://github.com/shimmerproject/Greybird-Geeko
+Downloads (new last month): 200 (rank: 181)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker-Orange/3.22]
+Name: Mint-Y-Darker-Orange Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 198 (rank: 182)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.Sdk/5.12]
+Name: KDE Software Development Kit
+Homepage: https://www.kde.org/
+License: GPL-2.0+
+Downloads (new last month): 196 (rank: 183)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Dark-Solid/3.22]
+Name: Flat-Remix-GTK-Blue-Dark-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 194 (rank: 184)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.rust-stable/19.08]
+Name: Rust stable Sdk extension
+Homepage: https://github.com/flathub/org.freedesktop.Sdk.Extension.rust-stable/
+License: Apache-2.0 AND MIT
+Downloads (new last month): 187 (rank: 185)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.node14/20.08]
+Name: Node.js 14.x
+Homepage: https://nodejs.org/
+License: MIT
+Downloads (new last month): 186 (rank: 186)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Yaru-remix-dark/3.22]
+Name: Yaru-remix-dark Gtk Theme
+Homepage: https://github.com/Muqtxdir/yaru-remix/
+Downloads (new last month): 175 (rank: 187)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-28/1.4]
+Downloads (new last month): 171 (rank: 188)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.valvesoftware.Steam.CompatibilityTool.Boxtron/stable]
+Name: Boxtron
+Homepage: https://github.com/dreamer/boxtron
+License: GPL-2.0
+Downloads (new last month): 171 (rank: 189)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[fr.handbrake.ghb.Plugin.IntelMediaSDK/1]
+Name: IntelMediaSDK plugin for HandBrake
+Homepage: https://github.com/Intel-Media-SDK/MediaSDK
+License: MIT
+Downloads (new last month): 170 (rank: 190)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-66/1.4]
+Downloads (new last month): 168 (rank: 191)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Matcha-azul/3.22]
+Name: Matcha-azul GTK theme
+Homepage: https://github.com/vinceliuice/matcha
+Downloads (new last month): 164 (rank: 192)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.HighContrast/5.14]
+Downloads (new last month): 160 (rank: 193)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Arc-Dark-solid/3.22]
+Name: Arc-Dark-solid Gtk theme
+Homepage: https://github.com/horst3180/arc-theme
+Downloads (new last month): 159 (rank: 194)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.golang/20.08]
+Downloads (new last month): 148 (rank: 195)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.visualstudio.code.tool.fish/20.08]
+Name: fish
+Homepage: https://fishshell.com
+License: GPL-2.0 and LGPL-2.0 and BSD-2-Clause and ISC
+Downloads (new last month): 148 (rank: 196)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.videolan.VLC.Plugin.makemkv/3-20.08]
+Downloads (new last month): 145 (rank: 197)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir/3.22]
+Name: Qogir GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 145 (rank: 198)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-340-107/1.4]
+Downloads (new last month): 141 (rank: 199)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker-Pink/3.22]
+Name: Mint-Y-Darker-Pink Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 138 (rank: 200)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-48/1.4]
+Downloads (new last month): 138 (rank: 201)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-384-130/1.4]
+Downloads (new last month): 138 (rank: 202)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.dotnet5/20.08]
+Name: .NET 5 SDK extension
+Homepage: https://dotnet.microsoft.com/
+License: MIT
+Downloads (new last month): 137 (rank: 203)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.videolan.VLC.Plugin.fdkaac/3-20.08]
+Downloads (new last month): 134 (rank: 204)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Yaru-remix/3.22]
+Name: Yaru-remix Gtk Theme
+Homepage: https://github.com/Muqtxdir/yaru-remix/
+Downloads (new last month): 133 (rank: 205)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.openjdk11/20.08]
+Downloads (new last month): 133 (rank: 206)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[io.dbeaver.DBeaverCommunity.Client.pgsql/stable]
+Name: PostgreSQL Client
+Homepage: https://dbeaver.io
+Downloads (new last month): 132 (rank: 207)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.videolan.VLC.Plugin.bdj/3-20.08]
+Downloads (new last month): 131 (rank: 208)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-21/1.4]
+Downloads (new last month): 128 (rank: 209)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.toolchain-i386/20.08]
+Downloads (new last month): 122 (rank: 210)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gajim.Gajim.Plugin.omemo/stable]
+Name: OMEMO Plugin
+Homepage: https://gajim.org/
+License: GPL-3.0
+Downloads (new last month): 120 (rank: 211)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-460-27-04/1.4]
+Downloads (new last month): 119 (rank: 212)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Darkest-NoBorder/3.22]
+Name: Flat-Remix-GTK-Blue-Darkest-NoBorder
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 118 (rank: 213)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-340-104/1.4]
+Downloads (new last month): 117 (rank: 214)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Yaru-remix-light/3.22]
+Name: Yaru-remix-light Gtk Theme
+Homepage: https://github.com/Muqtxdir/yaru-remix/
+Downloads (new last month): 116 (rank: 215)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Greybird-Geeko-Light/3.22]
+Name: Greybird-Geeko GTK+ Theme
+Homepage: https://github.com/shimmerproject/Greybird-Geeko
+Downloads (new last month): 113 (rank: 216)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Adementary/3.24]
+Name: Adementary GTK+ theme
+Homepage: https://github.com/hrdwrrsk/adementary-theme
+Downloads (new last month): 113 (rank: 217)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-82/1.4]
+Downloads (new last month): 113 (rank: 218)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-win-dark/3.22]
+Name: Qogir-win-dark GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 112 (rank: 219)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Greybird-dark/3.22]
+Name: Greybird-dark GTK+ Theme
+Homepage: https://github.com/shimmerproject/Greybird
+Downloads (new last month): 111 (rank: 220)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.dotnet/18.08]
+Name: .NET Core SDK extension
+Homepage: https://dotnet.microsoft.com/
+License: MIT
+Downloads (new last month): 110 (rank: 221)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.Adwaita/5.10]
+Name: Adwaita theme
+Homepage: https://github.com/MartinBriza/adwaita-qt
+Downloads (new last month): 108 (rank: 222)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker-Sand/3.22]
+Name: Mint-Y-Darker-Sand Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 108 (rank: 223)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.sublimetext.three.DevUtils/1.6]
+Name: Sublime Text Developer Utilities
+Homepage: https://github.com/flathub/com.sublimetext.three.DevUtils
+License: ...
+Downloads (new last month): 108 (rank: 224)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[io.dbeaver.DBeaverCommunity.Client.mariadb/stable]
+Name: MariaDB Client
+Homepage: https://dbeaver.io
+License: GPL-2.0
+Downloads (new last month): 107 (rank: 225)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Matcha-light-sea/3.22]
+Name: Matcha-light-sea GTK theme
+Homepage: https://github.com/vinceliuice/matcha
+Downloads (new last month): 105 (rank: 226)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.node10/18.08]
+Name: Node.js SDK extension
+Homepage: https://nodejs.org/
+License: MIT
+Downloads (new last month): 104 (rank: 227)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Arc-Darker-solid/3.22]
+Name: Arc-Darker-solid Gtk theme
+Homepage: https://github.com/horst3180/arc-theme
+Downloads (new last month): 103 (rank: 228)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.HighContrast/5.12]
+Downloads (new last month): 102 (rank: 229)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata/3.22]
+Name: Plata theme
+Homepage: https://gitlab.com/tista500/plata-theme
+Downloads (new last month): 99 (rank: 230)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata-Compact/3.22]
+Name: Plata theme compact
+Homepage: https://gitlab.com/tista500/plata-theme
+Downloads (new last month): 99 (rank: 231)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Darker/3.22]
+Name: Flat-Remix-GTK-Blue-Darker
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 99 (rank: 232)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder/3.22]
+Name: Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 97 (rank: 233)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-light/3.22]
+Name: Qogir-light GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 94 (rank: 234)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.mono6/19.08]
+Name: Mono 6.x Sdk extension
+Homepage: https://www.mono-project.com/
+Downloads (new last month): 94 (rank: 235)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-384-111/1.4]
+Downloads (new last month): 93 (rank: 236)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.Adwaita/5.9]
+Downloads (new last month): 92 (rank: 237)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Games.LibretroPlugin.PicoDrive/stable]
+Name: PicoDrive
+Homepage: https://github.com/libretro/picodrive
+License: LicenseRef-proprietary=https://github.com/libretro/picodrive/blob/master/COPYING
+Downloads (new last month): 88 (rank: 238)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-152-00/1.4]
+Downloads (new last month): 86 (rank: 239)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Arc-solid/3.22]
+Name: Arc-solid Gtk theme
+Homepage: https://github.com/horst3180/arc-theme
+Downloads (new last month): 85 (rank: 240)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gajim.Gajim.Plugin.url_image_preview/stable]
+Name: URL Image Preview Plugin
+Homepage: https://gajim.org/
+License: GPL-3.0
+Downloads (new last month): 81 (rank: 241)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.libreoffice.LibreOffice.Help/stable]
+Downloads (new last month): 80 (rank: 242)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Matcha-dark-azul/3.36]
+Name: Matcha-dark-azul GTK theme
+Homepage: https://github.com/vinceliuice/matcha
+Downloads (new last month): 80 (rank: 243)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Green-Dark/3.22]
+Name: Flat-Remix-GTK-Green-Dark
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 79 (rank: 244)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-win/3.22]
+Name: Qogir-win GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 77 (rank: 245)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Mint-Y-Darker-Brown/3.22]
+Name: Mint-Y-Darker-Brown Gtk Theme
+Homepage: https://github.com/linuxmint/mint-themes
+Downloads (new last month): 76 (rank: 246)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.BaseSdk/1.6]
+Downloads (new last month): 74 (rank: 247)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Matcha-aliz/3.22]
+Name: Matcha-aliz GTK theme
+Homepage: https://github.com/vinceliuice/matcha
+Downloads (new last month): 72 (rank: 248)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.texlive/18.08]
+Name: TeX Live Sdk extension
+Homepage: https://tug.org/texlive/
+Downloads (new last month): 72 (rank: 249)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.openjdk8/20.08]
+Downloads (new last month): 72 (rank: 250)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.Sdk/5.14]
+Downloads (new last month): 70 (rank: 251)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-57/1.4]
+Downloads (new last month): 69 (rank: 252)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-win-light/3.22]
+Name: Qogir-win-light GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 65 (rank: 253)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.node12/20.08]
+Downloads (new last month): 65 (rank: 254)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.node12/19.08]
+Name: Node.js SDK extension
+Homepage: https://nodejs.org/
+License: MIT
+Downloads (new last month): 65 (rank: 255)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.High-Sierra-Dark/3.22]
+Name: High Sierra GTK Theme
+Homepage: https://github.com/vinceliuice/Sierra-gtk-theme
+Downloads (new last month): 64 (rank: 256)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata-Lumine-Compact/3.22]
+Name: Plata theme lumine compact
+Homepage: https://gitlab.com/tista500/plata-theme
+Downloads (new last month): 62 (rank: 257)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Green-Dark-Solid/3.22]
+Name: Flat-Remix-GTK-Green-Dark-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 62 (rank: 258)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Matcha-light-azul/3.22]
+Name: Matcha-light-azul GTK theme
+Homepage: https://github.com/vinceliuice/matcha
+Downloads (new last month): 61 (rank: 259)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Jade-1-Blue/3.22]
+Name: Jade-1-Blue Gtk Theme
+Homepage: https://github.com/madmaxms/theme-jade-1/
+License: GPL-3.0
+Downloads (new last month): 61 (rank: 260)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Akwa-dark/3.22]
+Name: Akwa-dark
+Homepage: https://github.com/berkiyo/akwa
+License: GPL-3.0
+Downloads (new last month): 61 (rank: 261)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu-dark/3.22]
+Name: Qogir-ubuntu-dark GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 60 (rank: 262)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.High-Sierra/3.22]
+Name: High Sierra GTK Theme
+Homepage: https://github.com/vinceliuice/Sierra-gtk-theme
+Downloads (new last month): 60 (rank: 263)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Adapta-Brila-Eta/3.22]
+Name: Adapta-Brila-Eta Gtk+ theme
+Homepage: https://github.com/adapta-project/adapta-gtk-theme
+Downloads (new last month): 60 (rank: 264)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.openjdk8/19.08]
+Name: OpenJdk 8 Sdk extension
+Homepage: https://adoptopenjdk.net
+License: 0BSD AND Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND FTL AND GPL-2.0 AND GPL-2.0-with-classpath-exception AND IJG AND ISC AND LGPL-2.1-or-later AND MIT AND MPL-2.0 AND RSA-MD AND SAX-PD AND W3C AND Zlib
+Downloads (new last month): 60 (rank: 265)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.dotnet/20.08]
+Downloads (new last month): 60 (rank: 266)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-45-01/1.4]
+Downloads (new last month): 60 (rank: 267)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-23-04/1.4]
+Downloads (new last month): 60 (rank: 268)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir/3.34]
+Downloads (new last month): 59 (rank: 269)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro-dark/3.22]
+Name: Qogir-manjaro-dark GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 59 (rank: 270)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Pop-light/3.22]
+Name: Pop Gtk theme
+Homepage: https://github.com/system76/pop-gtk-theme
+Downloads (new last month): 59 (rank: 271)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Red-Dark/3.22]
+Name: Flat-Remix-GTK-Red-Dark
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 59 (rank: 272)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.wwmm.pulseeffects.plugin.lsp-plugins/4]
+Name: LSP (Linux Studio Plugins)
+Homepage: http://lsp-plug.in/
+License: LicenseRef-proprietary
+Downloads (new last month): 59 (rank: 273)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Jade-1/3.22]
+Name: Jade-1 Gtk Theme
+Homepage: https://github.com/madmaxms/theme-jade-1/
+License: GPL-3.0
+Downloads (new last month): 58 (rank: 274)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-116/1.4]
+Downloads (new last month): 58 (rank: 275)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-38/1.4]
+Downloads (new last month): 57 (rank: 276)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Communitheme/3.22]
+Name: Communitheme Gtk Theme
+Homepage: https://github.com/ubuntu/gtk-communitheme
+Downloads (new last month): 56 (rank: 277)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Solid/3.22]
+Name: Flat-Remix-GTK-Blue-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 54 (rank: 278)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.jetbrains.PyCharm.Extensions.Python2-7/20.08]
+Name: Python 2.7
+Homepage: https://www.python.org/
+License: Python-2.0
+Downloads (new last month): 54 (rank: 279)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-77/1.4]
+Downloads (new last month): 52 (rank: 280)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Pop-slim-dark/3.22]
+Name: Pop Gtk theme
+Homepage: https://github.com/system76/pop-gtk-theme
+Downloads (new last month): 51 (rank: 281)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Darkest/3.22]
+Name: Flat-Remix-GTK-Blue-Darkest
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 51 (rank: 282)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kicad.KiCad.Library.Packages3D/5.1]
+Name: KiCad 3D Model Libraries
+Homepage: https://kicad.github.io/packages3d/
+License: CC-BY-SA-4.0
+Downloads (new last month): 50 (rank: 283)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-304-135/1.4]
+Downloads (new last month): 49 (rank: 284)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Red-Darkest-NoBorder/3.22]
+Name: Flat-Remix-GTK-Red-Darkest-NoBorder
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 48 (rank: 285)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-181-07/1.4]
+Downloads (new last month): 48 (rank: 286)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata-Lumine/3.22]
+Name: Plata theme lumine
+Homepage: https://gitlab.com/tista500/plata-theme
+Downloads (new last month): 47 (rank: 287)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-95-01/1.4]
+Downloads (new last month): 47 (rank: 288)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.HighContrast/5.11]
+Downloads (new last month): 46 (rank: 289)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.mono5/18.08]
+Name: Mono 5.x Sdk extension
+Homepage: https://www.mono-project.com/
+Downloads (new last month): 46 (rank: 290)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-50-10/1.4]
+Downloads (new last month): 46 (rank: 291)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata-Noir/3.24]
+Downloads (new last month): 45 (rank: 292)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.openjdk/20.08]
+Downloads (new last month): 45 (rank: 293)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.fcitx.Fcitx5.Addon.Mozc/stable]
+Name: Mozc for Fcitx 5
+Homepage: https://fcitx-im.org
+License: GPL-2.0+
+Downloads (new last month): 45 (rank: 294)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Pop-slim-light/3.22]
+Name: Pop Gtk theme
+Homepage: https://github.com/system76/pop-gtk-theme
+Downloads (new last month): 44 (rank: 295)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Red-Darkest-Solid-NoBorder/3.22]
+Name: Flat-Remix-GTK-Red-Darkest-Solid-NoBorder
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 44 (rank: 296)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Green-Darkest-Solid-NoBorder/3.22]
+Name: Flat-Remix-GTK-Green-Darkest-Solid-NoBorder
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 44 (rank: 297)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Darker-Solid/3.22]
+Name: Flat-Remix-GTK-Blue-Darker-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 44 (rank: 298)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.rust-stable/18.08]
+Downloads (new last month): 44 (rank: 299)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.PlatformInputContexts.MaliitSailfishOS/5.14]
+Downloads (new last month): 43 (rank: 300)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Green-Darkest-NoBorder/3.22]
+Name: Flat-Remix-GTK-Green-Darkest-NoBorder
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 43 (rank: 301)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-138/1.4]
+Downloads (new last month): 43 (rank: 302)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro-win-dark/3.22]
+Name: Qogir-manjaro-win-dark GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 42 (rank: 303)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata-Noir-Compact/3.24]
+Downloads (new last month): 42 (rank: 304)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Numix-Frost/3.22]
+Name: Numix Frost Gtk Theme
+Homepage: https://github.com/Antergos/Numix-Frost
+Downloads (new last month): 42 (rank: 305)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata-Compact/3.24]
+Downloads (new last month): 41 (rank: 306)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Numix-Frost-Light/3.22]
+Name: Numix Frost Light Gtk Theme
+Homepage: https://github.com/Antergos/Numix-Frost
+Downloads (new last month): 41 (rank: 307)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Adapta-Brila/3.22]
+Name: Adapta-Brila Gtk+ theme
+Homepage: https://github.com/adapta-project/adapta-gtk-theme
+Downloads (new last month): 41 (rank: 308)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Yellow-Dark-Solid/3.22]
+Name: Flat-Remix-GTK-Yellow-Dark-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 40 (rank: 309)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.HighContrast/5.10]
+Name: HighContrast Theme
+Homepage: https://github.com/MartinBriza/highcontrast-qt
+Downloads (new last month): 39 (rank: 310)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Akwa-light/3.22]
+Name: Akwa
+Homepage: https://github.com/berkiyo/akwa
+License: GPL-3.0
+Downloads (new last month): 39 (rank: 311)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-64/1.4]
+Downloads (new last month): 39 (rank: 312)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.fcitx.Fcitx5.Addon.ChineseAddons/stable]
+Name: Chinese Addons
+Homepage: https://fcitx-im.org
+License: GPL-2.0+ and LGPL-2.1+
+Downloads (new last month): 39 (rank: 313)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Lounge-night-compact/3.22]
+Name: Lounge-night-compact gtk theme
+Homepage: https://github.com/monday15/lounge-gtk-theme
+Downloads (new last month): 38 (rank: 314)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-50-07/1.4]
+Downloads (new last month): 38 (rank: 315)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu/3.22]
+Name: Qogir-ubuntu GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 37 (rank: 316)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu-win-dark/3.22]
+Name: Qogir-ubuntu-win-dark GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 37 (rank: 317)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata/3.24]
+Downloads (new last month): 37 (rank: 318)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Yellow-Dark/3.22]
+Name: Flat-Remix-GTK-Yellow-Dark
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 37 (rank: 319)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gajim.Gajim.Plugin.pgp/stable]
+Name: PGP Plugin
+Homepage: https://gajim.org/
+License: GPL-3.0
+Downloads (new last month): 37 (rank: 320)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu-win/3.22]
+Name: Qogir-ubuntu-win GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 36 (rank: 321)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Lounge-night/3.22]
+Name: Lounge-night gtk theme
+Homepage: https://github.com/monday15/lounge-gtk-theme
+Downloads (new last month): 36 (rank: 322)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Red-Dark-Solid/3.22]
+Name: Flat-Remix-GTK-Red-Dark-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 36 (rank: 323)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Darkest-Solid/3.22]
+Name: Flat-Remix-GTK-Blue-Darkest-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 36 (rank: 324)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Akwa/3.22]
+Name: Akwa
+Homepage: https://github.com/berkiyo/akwa
+License: GPL-3.0
+Downloads (new last month): 36 (rank: 325)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gajim.Gajim.Plugin.appindicator/stable]
+Name: Ayatana Appindicator integration plugin
+Homepage: https://gajim.org/
+License: GPL-3.0
+Downloads (new last month): 35 (rank: 326)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.golang/18.08]
+Name: Go programming language Sdk extension
+Homepage: https://golang.org/
+Downloads (new last month): 35 (rank: 327)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.HighContrast/5.9]
+Downloads (new last month): 34 (rank: 328)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Zukitre/3.28]
+Name: Zukitre Gtk+ theme
+Homepage: https://github.com/lassekongo83/zuki-themes
+Downloads (new last month): 34 (rank: 329)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.SolArc-Dark/3.22]
+Name: SolArc-Dark Gtk theme
+Homepage: https://github.com/schemar/solarc-theme
+Downloads (new last month): 34 (rank: 330)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Red/3.22]
+Name: Flat-Remix-GTK-Red
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 34 (rank: 331)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Green-Darker/3.22]
+Name: Flat-Remix-GTK-Green-Darker
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 34 (rank: 332)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.mono5/19.08]
+Downloads (new last month): 34 (rank: 333)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.mingw-w64/20.08]
+Downloads (new last month): 34 (rank: 334)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-64/1.4]
+Downloads (new last month): 34 (rank: 335)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata-Lumine-Compact/3.24]
+Downloads (new last month): 33 (rank: 336)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Matcha-light-aliz/3.22]
+Name: Matcha-light-aliz GTK theme
+Homepage: https://github.com/vinceliuice/matcha
+Downloads (new last month): 32 (rank: 337)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-340-106/1.4]
+Downloads (new last month): 32 (rank: 338)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.KStyle.HighContrast/5.13]
+Downloads (new last month): 31 (rank: 339)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Sierra-Negra/3.22]
+Name: Sierra Negra GTK Theme
+Homepage: https://github.com/thepante/setup/releases
+Downloads (new last month): 31 (rank: 340)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-light/3.34]
+Downloads (new last month): 31 (rank: 341)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Lounge-compact/3.22]
+Name: Lounge-compact gtk theme
+Homepage: https://github.com/monday15/lounge-gtk-theme
+Downloads (new last month): 31 (rank: 342)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Green/3.22]
+Name: Flat-Remix-GTK-Green
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 31 (rank: 343)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gajim.Gajim.Plugin.openpgp/stable]
+Name: OpenPGP Plugin
+Homepage: https://gajim.org/
+License: GPL-3.0
+Downloads (new last month): 31 (rank: 344)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Lounge/3.22]
+Name: Lounge gtk theme
+Homepage: https://github.com/monday15/lounge-gtk-theme
+Downloads (new last month): 30 (rank: 345)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-56/1.4]
+Downloads (new last month): 30 (rank: 346)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Zukitwo/3.28]
+Name: Zukitwo Gtk+ theme
+Homepage: https://github.com/lassekongo83/zuki-themes
+Downloads (new last month): 29 (rank: 347)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.visualstudio.code.oss.Tools/stable]
+Downloads (new last month): 29 (rank: 348)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Plata-Lumine/3.24]
+Downloads (new last month): 28 (rank: 349)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Obsidian-2/3.22]
+Name: Obsidian-2 Gtk Theme
+Homepage: https://github.com/madmaxms/theme-obsidian-2/
+License: GPL-3.0
+Downloads (new last month): 28 (rank: 350)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-33-01/1.4]
+Downloads (new last month): 28 (rank: 351)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-430-40/1.4]
+Downloads (new last month): 28 (rank: 352)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.bitbucket.mystery_keeper.VapourSynthEditor.Plugin.FFMS2/1-5.12]
+Name: FFMS2 Plugin
+Homepage: https://github.com/FFMS/ffms2/
+License: MIT
+Downloads (new last month): 28 (rank: 353)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-win-light/3.34]
+Downloads (new last month): 27 (rank: 354)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-win-dark/3.34]
+Downloads (new last month): 27 (rank: 355)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro/3.22]
+Name: Qogir-manjaro GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 27 (rank: 356)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro-win-light/3.22]
+Name: Qogir-manjaro-win-light GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 27 (rank: 357)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Yellow/3.22]
+Name: Flat-Remix-GTK-Yellow
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 27 (rank: 358)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Yellow-Darkest-NoBorder/3.22]
+Name: Flat-Remix-GTK-Yellow-Darkest-NoBorder
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 27 (rank: 359)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Green-Darkest/3.22]
+Name: Flat-Remix-GTK-Green-Darkest
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 27 (rank: 360)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-430-64/1.4]
+Downloads (new last month): 27 (rank: 361)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-340-102/1.4]
+Downloads (new last month): 27 (rank: 362)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro-win/3.22]
+Name: Qogir-manjaro-win GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 26 (rank: 363)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro-light/3.22]
+Name: Qogir-manjaro-light GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 26 (rank: 364)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Yellow-Solid/3.22]
+Name: Flat-Remix-GTK-Yellow-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 26 (rank: 365)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Red-Darker-Solid/3.22]
+Name: Flat-Remix-GTK-Red-Darker-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 26 (rank: 366)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Green-Solid/3.22]
+Name: Flat-Remix-GTK-Green-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 26 (rank: 367)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.php74/20.08]
+Downloads (new last month): 26 (rank: 368)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Docs/18.08]
+Downloads (new last month): 26 (rank: 369)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-132/1.4]
+Downloads (new last month): 26 (rank: 370)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.sublimetext.three.DevUtils/19.08]
+Downloads (new last month): 26 (rank: 371)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-win/3.34]
+Downloads (new last month): 25 (rank: 372)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu-win-light/3.22]
+Name: Qogir-ubuntu-win-light GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 25 (rank: 373)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu-light/3.22]
+Name: Qogir-ubuntu-light GTK theme
+Homepage: https://github.com/vinceliuice/Qogir-theme
+Downloads (new last month): 25 (rank: 374)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Obsidian-2-Aqua/3.22]
+Name: Obsidian-2-Aqua Gtk Theme
+Homepage: https://github.com/madmaxms/theme-obsidian-2/
+License: GPL-3.0
+Downloads (new last month): 25 (rank: 375)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Yellow-Darker/3.22]
+Name: Flat-Remix-GTK-Yellow-Darker
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 25 (rank: 376)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.mono6/20.08]
+Downloads (new last month): 25 (rank: 377)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.haskell/20.08]
+Name: Haskell platform Sdk extension
+Homepage: https://www.haskell.org/
+License: BSD-3-Clause
+Downloads (new last month): 25 (rank: 378)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-59/1.4]
+Downloads (new last month): 25 (rank: 379)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[de.wolfvollprecht.UberWriter.Plugin.TexLive/stable]
+Name: TexLive Plugin
+Homepage: https://www.tug.org/texlive//
+License: LPPL
+Downloads (new last month): 25 (rank: 380)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Jade-1-Teal/3.22]
+Name: Jade-1-Teal Gtk Theme
+Homepage: https://github.com/madmaxms/theme-jade-1/
+License: GPL-3.0
+Downloads (new last month): 24 (rank: 381)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Jade-1-Green/3.22]
+Name: Jade-1-Green Gtk Theme
+Homepage: https://github.com/madmaxms/theme-jade-1/
+License: GPL-3.0
+Downloads (new last month): 24 (rank: 382)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Jade-1-Aqua/3.22]
+Name: Jade-1-Aqua Gtk Theme
+Homepage: https://github.com/madmaxms/theme-jade-1/
+License: GPL-3.0
+Downloads (new last month): 24 (rank: 383)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Yellow-Darkest-Solid-NoBorder/3.22]
+Name: Flat-Remix-GTK-Yellow-Darkest-Solid-NoBorder
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 24 (rank: 384)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Green-Darker-Solid/3.22]
+Name: Flat-Remix-GTK-Green-Darker-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 24 (rank: 385)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.rust-nightly/20.08]
+Downloads (new last month): 24 (rank: 386)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Obsidian-2-Indigo/3.22]
+Name: Obsidian-2-Indigo Gtk Theme
+Homepage: https://github.com/madmaxms/theme-obsidian-2/
+License: GPL-3.0
+Downloads (new last month): 23 (rank: 387)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Yellow-Darkest-Solid/3.22]
+Name: Flat-Remix-GTK-Yellow-Darkest-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 23 (rank: 388)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Red-Darker/3.22]
+Name: Flat-Remix-GTK-Red-Darker
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 23 (rank: 389)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Green-Darkest-Solid/3.22]
+Name: Flat-Remix-GTK-Green-Darkest-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 23 (rank: 390)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.llvm11/20.08]
+Name: LLVM 11
+Homepage: https://github.com/flathub/org.freedesktop.Sdk.Extension.llvm11
+License: Apache-2.0 WITH LLVM-exception
+Downloads (new last month): 23 (rank: 391)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-51-05/1.4]
+Downloads (new last month): 23 (rank: 392)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.LSP/19.08]
+Name: LSP
+Homepage: https://lsp-plug.in/
+License: LGPL-3.0
+Downloads (new last month): 23 (rank: 393)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.sublimetext.three.DevUtils/18.08]
+Downloads (new last month): 23 (rank: 394)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro-dark/3.34]
+Downloads (new last month): 22 (rank: 395)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Obsidian-2-Amber/3.22]
+Name: Obsidian-2-Amber Gtk Theme
+Homepage: https://github.com/madmaxms/theme-obsidian-2/
+License: GPL-3.0
+Downloads (new last month): 22 (rank: 396)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Jade-1-Gray/3.22]
+Name: Jade-1-Gray Gtk Theme
+Homepage: https://github.com/madmaxms/theme-jade-1/
+License: GPL-3.0
+Downloads (new last month): 22 (rank: 397)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Jade-1-Amber/3.22]
+Name: Jade-1-Amber Gtk Theme
+Homepage: https://github.com/madmaxms/theme-jade-1/
+License: GPL-3.0
+Downloads (new last month): 22 (rank: 398)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Yellow-Darkest/3.22]
+Name: Flat-Remix-GTK-Yellow-Darkest
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 22 (rank: 399)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Red-Darkest/3.22]
+Name: Flat-Remix-GTK-Red-Darkest
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 22 (rank: 400)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.PlatformInputContexts.MaliitSailfishOS/5.12]
+Name: Maliit plugin for SailfishOS
+Homepage: https://github.com/sailfishos-flatpak/maliit-framework
+Downloads (new last month): 21 (rank: 401)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu-dark/3.34]
+Downloads (new last month): 21 (rank: 402)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Jade-1-Purple/3.22]
+Name: Jade-1-Purple Gtk Theme
+Homepage: https://github.com/madmaxms/theme-jade-1/
+License: GPL-3.0
+Downloads (new last month): 21 (rank: 403)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.golang/19.08]
+Downloads (new last month): 21 (rank: 404)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-50-04/1.4]
+Downloads (new last month): 21 (rank: 405)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.ZynFusion/19.08]
+Name: ZynAddSubFx Synthesizer
+Homepage: https://zynaddsubfx.sourceforge.io/
+License: GPL-2.0+
+Downloads (new last month): 21 (rank: 406)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Obsidian-2-Teal/3.22]
+Name: Obsidian-2-Teal Gtk Theme
+Homepage: https://github.com/madmaxms/theme-obsidian-2/
+License: GPL-3.0
+Downloads (new last month): 20 (rank: 407)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Obsidian-2-Green/3.22]
+Name: Obsidian-2-Green Gtk Theme
+Homepage: https://github.com/madmaxms/theme-obsidian-2/
+License: GPL-3.0
+Downloads (new last month): 20 (rank: 408)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Yellow-Darker-Solid/3.22]
+Name: Flat-Remix-GTK-Yellow-Darker-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 20 (rank: 409)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Red-Solid/3.22]
+Name: Flat-Remix-GTK-Red-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 20 (rank: 410)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Flat-Remix-GTK-Red-Darkest-Solid/3.22]
+Name: Flat-Remix-GTK-Red-Darkest-Solid
+Homepage: https://drasite.com/flat-remix-gtk
+License: GPL-3.0
+Downloads (new last month): 20 (rank: 411)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.openjdk11/19.08]
+Downloads (new last month): 20 (rank: 412)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-87/1.4]
+Downloads (new last month): 20 (rank: 413)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.swh/19.08]
+Name: SWH
+Homepage: http://plugin.org.uk/
+License: GPL-2.0+ AND GPL-3.0+
+Downloads (new last month): 20 (rank: 414)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[io.github.Hexchat.Plugin.OTR/19.08]
+Downloads (new last month): 20 (rank: 415)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro/3.34]
+Downloads (new last month): 19 (rank: 416)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Obsidian-2-Gray/3.22]
+Name: Obsidian-2-Gray Gtk Theme
+Homepage: https://github.com/madmaxms/theme-obsidian-2/
+License: GPL-3.0
+Downloads (new last month): 19 (rank: 417)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk.Docs/3.38]
+Downloads (new last month): 19 (rank: 418)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.PreBootstrap/18.08]
+Downloads (new last month): 19 (rank: 419)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.rust-nightly/19.08]
+Name: Rust nightly Sdk extension
+Homepage: https://github.com/flathub/org.freedesktop.Sdk.Extension.rust-nightly/
+License: Apache-2.0 AND MIT
+Downloads (new last month): 19 (rank: 420)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.mingw-w64/18.08]
+Name: MinGW-w64
+Homepage: http://mingw-w64.sourceforge.net/
+License: ZPL-2.1 and GPL-3.0-or-later and LGPL-3.0-or-later and GPL-2.0-or-later and LGPL-2.0-or-later and LicenseRef-Public-Domain
+Downloads (new last month): 19 (rank: 421)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.ldc/19.08]
+Name: ldc2
+Homepage: http://wiki.dlang.org/LDC
+License: BSD-3-Clause AND BSL-1.0 AND (Artistic-1.0 OR GPL-2.0-or-later) AND NCSA AND MIT
+Downloads (new last month): 19 (rank: 422)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.dotnet/19.08]
+Downloads (new last month): 19 (rank: 423)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-50-04/1.4]
+Downloads (new last month): 19 (rank: 424)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-51-06/1.4]
+Downloads (new last month): 19 (rank: 425)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-113/1.4]
+Downloads (new last month): 19 (rank: 426)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-384-90/1.4]
+Downloads (new last month): 19 (rank: 427)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Helm/19.08]
+Name: Helm Synthesizer
+Homepage: https://tytel.org/helm/
+License: GPL-3.0+
+Downloads (new last month): 19 (rank: 428)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.bitbucket.mystery_keeper.VapourSynthEditor.Plugin.FFMS2/1-5.15]
+Downloads (new last month): 19 (rank: 429)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[io.github.Hexchat.Plugin.OTR/2]
+Downloads (new last month): 19 (rank: 430)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.Sdk.Docs/5.12]
+Downloads (new last month): 18 (rank: 431)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu/3.34]
+Downloads (new last month): 18 (rank: 432)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Obsidian-2-Purple/3.22]
+Name: Obsidian-2-Purple Gtk Theme
+Homepage: https://github.com/madmaxms/theme-obsidian-2/
+License: GPL-3.0
+Downloads (new last month): 18 (rank: 433)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Jade-1-Red/3.22]
+Name: Jade-1-Red Gtk Theme
+Homepage: https://github.com/madmaxms/theme-jade-1/
+License: GPL-3.0
+Downloads (new last month): 18 (rank: 434)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.node10/19.08]
+Downloads (new last month): 18 (rank: 435)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.dmd/19.08]
+Name: dmd
+Homepage: https://github.com/dlang/dmd
+License: BSL-1.0
+Downloads (new last month): 18 (rank: 436)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-100/1.4]
+Downloads (new last month): 18 (rank: 437)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.ZamPlugins/19.08]
+Name: ZamPlugins
+Homepage: http://www.zamaudio.com/?p=976
+License: GPL-2.0
+Downloads (new last month): 18 (rank: 438)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Yoshimi/20.08]
+Name: Yoshimi
+Homepage: https://yoshimi.github.io/
+License: GPL-2.0
+Downloads (new last month): 18 (rank: 439)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.CAPS/19.08]
+Name: CAPS
+Homepage: http://quitte.de/dsp/caps.html
+License: GPL-3.0+
+Downloads (new last month): 18 (rank: 440)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.AVLDrums/19.08]
+Name: AVL Drumkits
+Homepage: http://x42-plugins.com/x42/x42-avldrums
+License: GPL-2.0
+Downloads (new last month): 18 (rank: 441)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[io.github.Hexchat.Plugin.Perl/2]
+Downloads (new last month): 18 (rank: 442)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[io.github.Hexchat.Plugin.Perl/18.08]
+Name: Perl Plugin
+Homepage: https://hexchat.github.io/
+License: GPL-2.0+
+Downloads (new last month): 18 (rank: 443)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro-win-dark/3.34]
+Downloads (new last month): 17 (rank: 444)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Jade-1-Indigo/3.22]
+Name: Jade-1-Indigo Gtk Theme
+Homepage: https://github.com/madmaxms/theme-jade-1/
+License: GPL-3.0
+Downloads (new last month): 17 (rank: 445)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-384-98/1.4]
+Downloads (new last month): 17 (rank: 446)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.BasePlatform/1.6]
+Downloads (new last month): 17 (rank: 447)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[io.github.Hexchat.Plugin.OTR/18.08]
+Name: OTR Plugin
+Homepage: https://github.com/TingPing/hexchat-otr
+License: GPL-2.0+
+Downloads (new last month): 17 (rank: 448)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu-win/3.34]
+Downloads (new last month): 16 (rank: 449)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu-win-dark/3.34]
+Downloads (new last month): 16 (rank: 450)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Obsidian-2-Red/3.22]
+Name: Obsidian-2-Red Gtk Theme
+Homepage: https://github.com/madmaxms/theme-obsidian-2/
+License: GPL-3.0
+Downloads (new last month): 16 (rank: 451)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk.Compat.i386/3.38]
+Downloads (new last month): 16 (rank: 452)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.freepascal/20.08]
+Name: Free Pascal Compiler and Lazarus
+Homepage: http://www.freepascal.org/
+License: GPL-2.0-only
+Downloads (new last month): 16 (rank: 453)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-59/1.4]
+Downloads (new last month): 16 (rank: 454)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-21/1.4]
+Downloads (new last month): 16 (rank: 455)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-44/1.4]
+Downloads (new last month): 16 (rank: 456)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-430-50/1.4]
+Downloads (new last month): 16 (rank: 457)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.TAP/19.08]
+Name: TAP-plugins
+Homepage: http://tap-plugins.sourceforge.net/
+License: GPL-2.0
+Downloads (new last month): 16 (rank: 458)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Surge/19.08]
+Name: Surge Synthesizer
+Homepage: https://surge-synthesizer.github.io/
+License: GPL-3.0+
+Downloads (new last month): 16 (rank: 459)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.KapitonovPluginsPack/19.08]
+Name: KapitonovPluginsPack
+Homepage: https://github.com/olegkapitonov/Kapitonov-Plugins-Pack
+License: GPL-3.0+
+Downloads (new last month): 16 (rank: 460)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu-light/3.34]
+Downloads (new last month): 15 (rank: 461)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro-win-light/3.34]
+Downloads (new last month): 15 (rank: 462)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Platform.Compat.i386/3.36]
+Downloads (new last month): 15 (rank: 463)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.openjdk/19.08]
+Downloads (new last month): 15 (rank: 464)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.node10/20.08]
+Downloads (new last month): 15 (rank: 465)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Compat.i386/19.08]
+Downloads (new last month): 15 (rank: 466)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-66/1.4]
+Downloads (new last month): 15 (rank: 467)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-82/1.4]
+Downloads (new last month): 15 (rank: 468)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-415-27/1.4]
+Downloads (new last month): 15 (rank: 469)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.x42Plugins/19.08]
+Name: x42Plugins
+Homepage: https://x42-plugins.com/x42/
+License: GPL-2.0+ AND GPL-3.0+
+Downloads (new last month): 15 (rank: 470)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.setBfree/19.08]
+Name: setBfree
+Homepage: http://setbfree.org/
+License: GPL-2.0
+Downloads (new last month): 15 (rank: 471)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.ZynFusion/20.08]
+Downloads (new last month): 15 (rank: 472)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.DragonflyReverb/20.08]
+Name: DragonflyReverb
+Homepage: https://michaelwillis.github.io/dragonfly-reverb
+License: GPL-3.0
+Downloads (new last month): 15 (rank: 473)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Dexed/19.08]
+Name: Dexed
+Homepage: https://asb2m10.github.io/dexed
+License: GPL-3.0+
+Downloads (new last month): 15 (rank: 474)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro-win/3.34]
+Downloads (new last month): 14 (rank: 475)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Obsidian-2-Mint/3.22]
+Name: Obsidian-2-Mint Gtk Theme
+Homepage: https://github.com/madmaxms/theme-obsidian-2/
+License: GPL-3.0
+Downloads (new last month): 14 (rank: 476)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-28/1.4]
+Downloads (new last month): 14 (rank: 477)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-375-66/1.4]
+Downloads (new last month): 14 (rank: 478)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.reMID-lv2/19.08]
+Name: reMID
+Homepage: https://github.com/ssj71/reMID.lv2
+License: GPL-2.0
+Downloads (new last month): 14 (rank: 479)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.gmsynth/19.08]
+Name: GM Synth
+Homepage: http://x42-plugins.com/x42/x42-gmsynth
+License: GPL-2.0
+Downloads (new last month): 14 (rank: 480)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.MDA/19.08]
+Name: MDA
+Homepage: https://gitlab.com/drobilla/mda-lv2
+License: GPL-3.0
+Downloads (new last month): 14 (rank: 481)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.GxPlugins/19.08]
+Name: GxPlugins
+Homepage: https://github.com/brummer10/GxPlugins.lv2
+License: GPL-3.0+
+Downloads (new last month): 14 (rank: 482)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Geonkick/19.08]
+Name: Geonkick
+Homepage: https://gitlab.com/iurie-sw/geonkick
+License: GPL-3.0
+Downloads (new last month): 14 (rank: 483)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.DrumGizmo/19.08]
+Name: DrumGizmo
+Homepage: https://www.drumgizmo.org/wiki/doku.php?id=about
+License: LGPL-3.0
+Downloads (new last month): 14 (rank: 484)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.bitbucket.mystery_keeper.VapourSynthEditor.Plugin.FFMS2/1-5.14]
+Downloads (new last month): 14 (rank: 485)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.Sdk.Docs/5.14]
+Downloads (new last month): 13 (rank: 486)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-ubuntu-win-light/3.34]
+Downloads (new last month): 13 (rank: 487)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gtk.Gtk3theme.Qogir-manjaro-light/3.34]
+Downloads (new last month): 13 (rank: 488)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.php74/19.08]
+Name: PHP 7.4
+Homepage: https://php.net
+License: PHP-3.0 AND BSD-3-Clause AND MIT
+Downloads (new last month): 13 (rank: 489)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Docs/20.08]
+Downloads (new last month): 13 (rank: 490)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-87-00/1.4]
+Downloads (new last month): 13 (rank: 491)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-410-93/1.4]
+Downloads (new last month): 13 (rank: 492)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-25/1.4]
+Downloads (new last month): 13 (rank: 493)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-129/1.4]
+Downloads (new last month): 13 (rank: 494)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.DISTRHO-Ports/19.08]
+Name: DISTRHO-Ports
+Homepage: https://distrho.sourceforge.io/ports
+License: GPL-3.0+
+Downloads (new last month): 13 (rank: 495)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.bitbucket.mystery_keeper.VapourSynthEditor.Plugin.FFMS2/1-5.13]
+Downloads (new last month): 13 (rank: 496)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[io.github.Hexchat.Plugin.Perl/19.08]
+Downloads (new last month): 13 (rank: 497)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.php73/19.08]
+Name: PHP 7.3
+Homepage: https://php.net
+License: PHP-3.0 AND BSD-3-Clause AND MIT
+Downloads (new last month): 12 (rank: 498)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.ldc/20.08]
+Downloads (new last month): 12 (rank: 499)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.VAAPI.Intel.i386/20.08]
+Downloads (new last month): 12 (rank: 500)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-11/1.4]
+Downloads (new last month): 12 (rank: 501)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-03/1.4]
+Downloads (new last month): 12 (rank: 502)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-36/1.4]
+Downloads (new last month): 12 (rank: 503)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-31/1.4]
+Downloads (new last month): 12 (rank: 504)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-19-02/1.4]
+Downloads (new last month): 12 (rank: 505)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-430-26/1.4]
+Downloads (new last month): 12 (rank: 506)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-396-54/1.4]
+Downloads (new last month): 12 (rank: 507)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-381-09/1.4]
+Downloads (new last month): 12 (rank: 508)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-304-137/1.4]
+Downloads (new last month): 12 (rank: 509)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.sfizz/19.08]
+Name: sfizz
+Homepage: https://sfz.tools/sfizz/
+License: BSD-2-Clause
+Downloads (new last month): 12 (rank: 510)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.WolfShaper/20.08]
+Name: WolfShaper
+Homepage: https://github.com/pdesaulniers/wolf-shaper
+License: GPL-3.0
+Downloads (new last month): 12 (rank: 511)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.SoSynthLV2/19.08]
+Name: So Synth LV2
+Homepage: https://github.com/jeremysalwen/So-synth-LV2
+License: GPL-3.0+
+Downloads (new last month): 12 (rank: 512)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Guitarix/stable]
+Name: Guitarix LV2
+Homepage: http://guitarix.org/
+License: GPL-3.0+
+Downloads (new last month): 12 (rank: 513)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.CMT/19.08]
+Name: CMT
+Homepage: http://ladspa.org/cmt/overview.html
+License: GPL-2.0+
+Downloads (new last month): 12 (rank: 514)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.ziglang/19.08]
+Name: Zig SDK Extension
+Homepage: https://ziglang.org
+License: MIT
+Downloads (new last month): 11 (rank: 515)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.texlive/19.08]
+Downloads (new last month): 11 (rank: 516)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.mingw-w64/19.08]
+Downloads (new last month): 11 (rank: 517)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.dmd/20.08]
+Downloads (new last month): 11 (rank: 518)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.ffmpeg_full.i386/20.08]
+Downloads (new last month): 11 (rank: 519)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-460-27-04/1.4]
+Downloads (new last month): 11 (rank: 520)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-27-03/1.4]
+Downloads (new last month): 11 (rank: 521)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-42-02/1.4]
+Downloads (new last month): 11 (rank: 522)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.LSP/20.08]
+Downloads (new last month): 11 (rank: 523)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.KapitonovPluginsPack/20.08]
+Downloads (new last month): 11 (rank: 524)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.DrumGizmo/20.08]
+Downloads (new last month): 11 (rank: 525)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.AVLDrums/20.08]
+Downloads (new last month): 11 (rank: 526)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.ADLplug/20.08]
+Downloads (new last month): 11 (rank: 527)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Frk/stable]
+Name: OCR German - Fraktur
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 11 (rank: 528)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk.Compat.aarch64/3.38]
+Downloads (new last month): 10 (rank: 529)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.ziglang/20.08]
+Downloads (new last month): 10 (rank: 530)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-56-01/1.4]
+Downloads (new last month): 10 (rank: 531)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-52-18/1.4]
+Downloads (new last month): 10 (rank: 532)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-43/1.4]
+Downloads (new last month): 10 (rank: 533)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-415-25/1.4]
+Downloads (new last month): 10 (rank: 534)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-410-57/1.4]
+Downloads (new last month): 10 (rank: 535)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-410-129/1.4]
+Downloads (new last month): 10 (rank: 536)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-12/1.4]
+Downloads (new last month): 10 (rank: 537)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.Compat.i386/18.08]
+Downloads (new last month): 10 (rank: 538)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.sfizz/20.08]
+Downloads (new last month): 10 (rank: 539)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.ZamPlugins/20.08]
+Downloads (new last month): 10 (rank: 540)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.TAP/20.08]
+Downloads (new last month): 10 (rank: 541)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Surge/20.08]
+Downloads (new last month): 10 (rank: 542)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Sorcer/20.08]
+Downloads (new last month): 10 (rank: 543)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Ninjas2/20.08]
+Downloads (new last month): 10 (rank: 544)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Helm/20.08]
+Downloads (new last month): 10 (rank: 545)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Fabla/20.08]
+Downloads (new last month): 10 (rank: 546)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.DISTRHO-Ports/20.08]
+Downloads (new last month): 10 (rank: 547)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.fcitx.Fcitx5.Addon.Zhuyin/stable]
+Name: Zhuyin For Fcitx 5
+Homepage: https://fcitx-im.org
+License: GPL-2.0+
+Downloads (new last month): 10 (rank: 548)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk.Compat.aarch64/3.36]
+Downloads (new last month): 9 (rank: 549)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.toolchain-arm/19.08]
+Downloads (new last month): 9 (rank: 550)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.php73/20.08]
+Downloads (new last month): 9 (rank: 551)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Docs/19.08]
+Downloads (new last month): 9 (rank: 552)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-51-06/1.4]
+Downloads (new last month): 9 (rank: 553)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-152-00/1.4]
+Downloads (new last month): 9 (rank: 554)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-46-02/1.4]
+Downloads (new last month): 9 (rank: 555)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-34-01/1.4]
+Downloads (new last month): 9 (rank: 556)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-27-01/1.4]
+Downloads (new last month): 9 (rank: 557)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-67/1.4]
+Downloads (new last month): 9 (rank: 558)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-415-22/1.4]
+Downloads (new last month): 9 (rank: 559)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-415-18/1.4]
+Downloads (new last month): 9 (rank: 560)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-67/1.4]
+Downloads (new last month): 9 (rank: 561)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-387-34/1.4]
+Downloads (new last month): 9 (rank: 562)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.x42Plugins/20.08]
+Downloads (new last month): 9 (rank: 563)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.reMID-lv2/20.08]
+Downloads (new last month): 9 (rank: 564)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.gmsynth/20.08]
+Downloads (new last month): 9 (rank: 565)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.VL1Emulator/20.08]
+Downloads (new last month): 9 (rank: 566)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Tunefish4/20.08]
+Name: Tunefish4
+Homepage: https://tunefish-synth.com/
+License: GPL-3.0
+Downloads (new last month): 9 (rank: 567)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Ninjas2/19.08]
+Name: Ninjas2
+Homepage: https://github.com/clearly-broken-software/ninjas2
+License: GPL-3.0
+Downloads (new last month): 9 (rank: 568)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.GxPlugins/20.08]
+Downloads (new last month): 9 (rank: 569)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.DPF-Plugins/20.08]
+Downloads (new last month): 9 (rank: 570)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Pol/stable]
+Name: OCR Polish
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 9 (rank: 571)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Nld/stable]
+Name: OCR Dutch; Flemish
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 9 (rank: 572)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Kor/stable]
+Name: OCR Korean
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 9 (rank: 573)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk.Docs/3.36]
+Downloads (new last month): 8 (rank: 574)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk.Compat.i386/3.36]
+Downloads (new last month): 8 (rank: 575)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk.Compat.arm/3.36]
+Downloads (new last month): 8 (rank: 576)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.toolchain-i386/19.08]
+Downloads (new last month): 8 (rank: 577)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-50-07/1.4]
+Downloads (new last month): 8 (rank: 578)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-50-03/1.4]
+Downloads (new last month): 8 (rank: 579)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-52-03/1.4]
+Downloads (new last month): 8 (rank: 580)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-31-03/1.4]
+Downloads (new last month): 8 (rank: 581)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-56-06/1.4]
+Downloads (new last month): 8 (rank: 582)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-56-02/1.4]
+Downloads (new last month): 8 (rank: 583)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-51/1.4]
+Downloads (new last month): 8 (rank: 584)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-14/1.4]
+Downloads (new last month): 8 (rank: 585)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-74/1.4]
+Downloads (new last month): 8 (rank: 586)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-126-02/1.4]
+Downloads (new last month): 8 (rank: 587)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-415-18-04/1.4]
+Downloads (new last month): 8 (rank: 588)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-410-78/1.4]
+Downloads (new last month): 8 (rank: 589)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-410-104/1.4]
+Downloads (new last month): 8 (rank: 590)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-396-24/1.4]
+Downloads (new last month): 8 (rank: 591)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-59/1.4]
+Downloads (new last month): 8 (rank: 592)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-375-26/1.4]
+Downloads (new last month): 8 (rank: 593)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-340-101/1.4]
+Downloads (new last month): 8 (rank: 594)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-304-134/1.4]
+Downloads (new last month): 8 (rank: 595)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.Compat.x86_64/19.08]
+Downloads (new last month): 8 (rank: 596)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.setBfree/20.08]
+Downloads (new last month): 8 (rank: 597)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.VL1Emulator/19.08]
+Name: VL1Emulator
+Homepage: http://www.polyvalens.com/blog/vl-1/
+License: MIT OR CC0-1.0
+Downloads (new last month): 8 (rank: 598)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.SoSynthLV2/20.08]
+Downloads (new last month): 8 (rank: 599)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.MDA/20.08]
+Downloads (new last month): 8 (rank: 600)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.DPF-Plugins/19.08]
+Name: DPF-Plugins
+Homepage: https://distrho.sourceforge.io/plugins
+License: GPL-3.0+
+Downloads (new last month): 8 (rank: 601)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.ArtyFX/20.08]
+Downloads (new last month): 8 (rank: 602)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ita/stable]
+Name: OCR Italian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 8 (rank: 603)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ell/stable]
+Name: OCR Greek, Modern (1453-)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 8 (rank: 604)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Chr/stable]
+Name: OCR Cherokee
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 8 (rank: 605)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Bul/stable]
+Name: OCR Bulgarian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 8 (rank: 606)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Compat.x86_64/19.08]
+Downloads (new last month): 7 (rank: 607)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Compat.aarch64/20.08]
+Downloads (new last month): 7 (rank: 608)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Compat.aarch64/19.08]
+Downloads (new last month): 7 (rank: 609)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-50-10/1.4]
+Downloads (new last month): 7 (rank: 610)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-46-01/1.4]
+Downloads (new last month): 7 (rank: 611)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-23-04/1.4]
+Downloads (new last month): 7 (rank: 612)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-95-01/1.4]
+Downloads (new last month): 7 (rank: 613)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-12/1.4]
+Downloads (new last month): 7 (rank: 614)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-07/1.4]
+Downloads (new last month): 7 (rank: 615)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-04/1.4]
+Downloads (new last month): 7 (rank: 616)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-58-01/1.4]
+Downloads (new last month): 7 (rank: 617)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-43-02/1.4]
+Downloads (new last month): 7 (rank: 618)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-27-07/1.4]
+Downloads (new last month): 7 (rank: 619)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-24-02/1.4]
+Downloads (new last month): 7 (rank: 620)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-430-64/1.4]
+Downloads (new last month): 7 (rank: 621)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-87-01/1.4]
+Downloads (new last month): 7 (rank: 622)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-74/1.4]
+Downloads (new last month): 7 (rank: 623)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-52-16/1.4]
+Downloads (new last month): 7 (rank: 624)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-49-04/1.4]
+Downloads (new last month): 7 (rank: 625)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-113/1.4]
+Downloads (new last month): 7 (rank: 626)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-415-22-05/1.4]
+Downloads (new last month): 7 (rank: 627)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-410-66/1.4]
+Downloads (new last month): 7 (rank: 628)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-116/1.4]
+Downloads (new last month): 7 (rank: 629)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-375-39/1.4]
+Downloads (new last month): 7 (rank: 630)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-367-57/1.4]
+Downloads (new last month): 7 (rank: 631)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-340-102/1.4]
+Downloads (new last month): 7 (rank: 632)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-22-04/1.4]
+Downloads (new last month): 7 (rank: 633)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-64-00/1.4]
+Downloads (new last month): 7 (rank: 634)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-48-02/1.4]
+Downloads (new last month): 7 (rank: 635)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-43-02/1.4]
+Downloads (new last month): 7 (rank: 636)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-26/1.4]
+Downloads (new last month): 7 (rank: 637)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-27-08/1.4]
+Downloads (new last month): 7 (rank: 638)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-17/1.4]
+Downloads (new last month): 7 (rank: 639)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-430-34/1.4]
+Downloads (new last month): 7 (rank: 640)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-430-14/1.4]
+Downloads (new last month): 7 (rank: 641)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-88/1.4]
+Downloads (new last month): 7 (rank: 642)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-52-20/1.4]
+Downloads (new last month): 7 (rank: 643)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-52-07/1.4]
+Downloads (new last month): 7 (rank: 644)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-31-03/1.4]
+Downloads (new last month): 7 (rank: 645)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-415-18-02/1.4]
+Downloads (new last month): 7 (rank: 646)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-415-13/1.4]
+Downloads (new last month): 7 (rank: 647)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-410-73/1.4]
+Downloads (new last month): 7 (rank: 648)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-396-18/1.4]
+Downloads (new last month): 7 (rank: 649)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-390-42/1.4]
+Downloads (new last month): 7 (rank: 650)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-384-69/1.4]
+Downloads (new last month): 7 (rank: 651)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-375-39/1.4]
+Downloads (new last month): 7 (rank: 652)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.Compat.x86_64/20.08]
+Downloads (new last month): 7 (rank: 653)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.Compat.x86_64/18.08]
+Downloads (new last month): 7 (rank: 654)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.WhiteElephantAudio/20.08]
+Name: WhiteElephantAudio
+Homepage: https://whiteelephantaudio.com/plugins/
+License: GPL-3
+Downloads (new last month): 7 (rank: 655)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Geonkick/20.08]
+Downloads (new last month): 7 (rank: 656)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Dexed/20.08]
+Downloads (new last month): 7 (rank: 657)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.ADLplug/19.08]
+Name: ADLplug OPL/OPN
+Homepage: https://github.com/jpcima/ADLplug
+License: BSL-1.0
+Downloads (new last month): 7 (rank: 658)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ItaOld/stable]
+Name: OCR Italian - Old
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 7 (rank: 659)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Hun/stable]
+Name: OCR Hungarian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 7 (rank: 660)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Grc/stable]
+Name: OCR Greek, Ancient (to 1453)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 7 (rank: 661)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Enm/stable]
+Name: OCR English, Middle (1100-1500)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 7 (rank: 662)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ChiTraVert/stable]
+Name: OCR Chinese - Traditional (vertical)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 7 (rank: 663)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ChiTra/stable]
+Name: OCR Chinese - Traditional
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 7 (rank: 664)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Cat/stable]
+Name: OCR Catalan; Valencian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 7 (rank: 665)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Compat.x86_64/20.08]
+Downloads (new last month): 6 (rank: 666)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-50-02/1.4]
+Downloads (new last month): 6 (rank: 667)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-46-04/1.4]
+Downloads (new last month): 6 (rank: 668)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-46-02/1.4]
+Downloads (new last month): 6 (rank: 669)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-26-02/1.4]
+Downloads (new last month): 6 (rank: 670)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-26-01/1.4]
+Downloads (new last month): 6 (rank: 671)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-22-04/1.4]
+Downloads (new last month): 6 (rank: 672)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-57/1.4]
+Downloads (new last month): 6 (rank: 673)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-56-11/1.4]
+Downloads (new last month): 6 (rank: 674)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-17/1.4]
+Downloads (new last month): 6 (rank: 675)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-15/1.4]
+Downloads (new last month): 6 (rank: 676)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-09/1.4]
+Downloads (new last month): 6 (rank: 677)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-08/1.4]
+Downloads (new last month): 6 (rank: 678)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-02/1.4]
+Downloads (new last month): 6 (rank: 679)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-64-00/1.4]
+Downloads (new last month): 6 (rank: 680)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-58-02/1.4]
+Downloads (new last month): 6 (rank: 681)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-48-02/1.4]
+Downloads (new last month): 6 (rank: 682)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-44/1.4]
+Downloads (new last month): 6 (rank: 683)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-43-01/1.4]
+Downloads (new last month): 6 (rank: 684)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-33-01/1.4]
+Downloads (new last month): 6 (rank: 685)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-26/1.4]
+Downloads (new last month): 6 (rank: 686)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-27-06/1.4]
+Downloads (new last month): 6 (rank: 687)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-27-02/1.4]
+Downloads (new last month): 6 (rank: 688)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-27-00/1.4]
+Downloads (new last month): 6 (rank: 689)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-19-03/1.4]
+Downloads (new last month): 6 (rank: 690)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-430-34/1.4]
+Downloads (new last month): 6 (rank: 691)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-430-26/1.4]
+Downloads (new last month): 6 (rank: 692)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-430-14/1.4]
+Downloads (new last month): 6 (rank: 693)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-430-09/1.4]
+Downloads (new last month): 6 (rank: 694)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-88/1.4]
+Downloads (new last month): 6 (rank: 695)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-67/1.4]
+Downloads (new last month): 6 (rank: 696)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-52-20/1.4]
+Downloads (new last month): 6 (rank: 697)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-52-17/1.4]
+Downloads (new last month): 6 (rank: 698)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-52-14/1.4]
+Downloads (new last month): 6 (rank: 699)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-52-10/1.4]
+Downloads (new last month): 6 (rank: 700)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-52-07/1.4]
+Downloads (new last month): 6 (rank: 701)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-52-05/1.4]
+Downloads (new last month): 6 (rank: 702)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-43/1.4]
+Downloads (new last month): 6 (rank: 703)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-40-04/1.4]
+Downloads (new last month): 6 (rank: 704)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-30/1.4]
+Downloads (new last month): 6 (rank: 705)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-116-00/1.4]
+Downloads (new last month): 6 (rank: 706)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-415-27/1.4]
+Downloads (new last month): 6 (rank: 707)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-415-25/1.4]
+Downloads (new last month): 6 (rank: 708)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-415-23/1.4]
+Downloads (new last month): 6 (rank: 709)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-415-22-01/1.4]
+Downloads (new last month): 6 (rank: 710)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-415-18/1.4]
+Downloads (new last month): 6 (rank: 711)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-415-18-04/1.4]
+Downloads (new last month): 6 (rank: 712)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-415-18-02/1.4]
+Downloads (new last month): 6 (rank: 713)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-410-93/1.4]
+Downloads (new last month): 6 (rank: 714)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-410-79/1.4]
+Downloads (new last month): 6 (rank: 715)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-410-78/1.4]
+Downloads (new last month): 6 (rank: 716)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-410-73/1.4]
+Downloads (new last month): 6 (rank: 717)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-410-72/1.4]
+Downloads (new last month): 6 (rank: 718)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-410-104/1.4]
+Downloads (new last month): 6 (rank: 719)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-396-54/1.4]
+Downloads (new last month): 6 (rank: 720)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-396-51/1.4]
+Downloads (new last month): 6 (rank: 721)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-396-45/1.4]
+Downloads (new last month): 6 (rank: 722)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-396-24/1.4]
+Downloads (new last month): 6 (rank: 723)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-396-18/1.4]
+Downloads (new last month): 6 (rank: 724)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-67/1.4]
+Downloads (new last month): 6 (rank: 725)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-59/1.4]
+Downloads (new last month): 6 (rank: 726)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-42/1.4]
+Downloads (new last month): 6 (rank: 727)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-25/1.4]
+Downloads (new last month): 6 (rank: 728)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-387-22/1.4]
+Downloads (new last month): 6 (rank: 729)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-387-12/1.4]
+Downloads (new last month): 6 (rank: 730)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-384-90/1.4]
+Downloads (new last month): 6 (rank: 731)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-384-69/1.4]
+Downloads (new last month): 6 (rank: 732)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-384-59/1.4]
+Downloads (new last month): 6 (rank: 733)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-384-47/1.4]
+Downloads (new last month): 6 (rank: 734)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-381-22/1.4]
+Downloads (new last month): 6 (rank: 735)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-378-13/1.4]
+Downloads (new last month): 6 (rank: 736)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-375-82/1.4]
+Downloads (new last month): 6 (rank: 737)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-370-28/1.4]
+Downloads (new last month): 6 (rank: 738)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-304-135/1.4]
+Downloads (new last month): 6 (rank: 739)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-304-134/1.4]
+Downloads (new last month): 6 (rank: 740)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-50-03/1.4]
+Downloads (new last month): 6 (rank: 741)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-50-02/1.4]
+Downloads (new last month): 6 (rank: 742)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-46-04/1.4]
+Downloads (new last month): 6 (rank: 743)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-46-01/1.4]
+Downloads (new last month): 6 (rank: 744)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-26-02/1.4]
+Downloads (new last month): 6 (rank: 745)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-455-26-01/1.4]
+Downloads (new last month): 6 (rank: 746)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-450-56-11/1.4]
+Downloads (new last month): 6 (rank: 747)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-17/1.4]
+Downloads (new last month): 6 (rank: 748)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-15/1.4]
+Downloads (new last month): 6 (rank: 749)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-12/1.4]
+Downloads (new last month): 6 (rank: 750)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-09/1.4]
+Downloads (new last month): 6 (rank: 751)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-08/1.4]
+Downloads (new last month): 6 (rank: 752)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-07/1.4]
+Downloads (new last month): 6 (rank: 753)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-04/1.4]
+Downloads (new last month): 6 (rank: 754)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-66-02/1.4]
+Downloads (new last month): 6 (rank: 755)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-58-02/1.4]
+Downloads (new last month): 6 (rank: 756)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-58-01/1.4]
+Downloads (new last month): 6 (rank: 757)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-440-43-01/1.4]
+Downloads (new last month): 6 (rank: 758)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-27-07/1.4]
+Downloads (new last month): 6 (rank: 759)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-27-06/1.4]
+Downloads (new last month): 6 (rank: 760)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-27-02/1.4]
+Downloads (new last month): 6 (rank: 761)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-27-00/1.4]
+Downloads (new last month): 6 (rank: 762)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-24-02/1.4]
+Downloads (new last month): 6 (rank: 763)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-435-19-03/1.4]
+Downloads (new last month): 6 (rank: 764)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-430-09/1.4]
+Downloads (new last month): 6 (rank: 765)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-87-01/1.4]
+Downloads (new last month): 6 (rank: 766)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-52-17/1.4]
+Downloads (new last month): 6 (rank: 767)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-52-16/1.4]
+Downloads (new last month): 6 (rank: 768)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-52-14/1.4]
+Downloads (new last month): 6 (rank: 769)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-52-10/1.4]
+Downloads (new last month): 6 (rank: 770)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-52-05/1.4]
+Downloads (new last month): 6 (rank: 771)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-52-03/1.4]
+Downloads (new last month): 6 (rank: 772)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-49-04/1.4]
+Downloads (new last month): 6 (rank: 773)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-40-04/1.4]
+Downloads (new last month): 6 (rank: 774)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-30/1.4]
+Downloads (new last month): 6 (rank: 775)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-418-116-00/1.4]
+Downloads (new last month): 6 (rank: 776)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-415-23/1.4]
+Downloads (new last month): 6 (rank: 777)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-415-22-05/1.4]
+Downloads (new last month): 6 (rank: 778)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-415-22-01/1.4]
+Downloads (new last month): 6 (rank: 779)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-410-79/1.4]
+Downloads (new last month): 6 (rank: 780)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-410-72/1.4]
+Downloads (new last month): 6 (rank: 781)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-410-66/1.4]
+Downloads (new last month): 6 (rank: 782)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-396-51/1.4]
+Downloads (new last month): 6 (rank: 783)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-396-45/1.4]
+Downloads (new last month): 6 (rank: 784)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-387-22/1.4]
+Downloads (new last month): 6 (rank: 785)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-387-12/1.4]
+Downloads (new last month): 6 (rank: 786)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-384-59/1.4]
+Downloads (new last month): 6 (rank: 787)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-384-47/1.4]
+Downloads (new last month): 6 (rank: 788)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-381-22/1.4]
+Downloads (new last month): 6 (rank: 789)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-378-13/1.4]
+Downloads (new last month): 6 (rank: 790)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-375-82/1.4]
+Downloads (new last month): 6 (rank: 791)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-370-28/1.4]
+Downloads (new last month): 6 (rank: 792)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL.nvidia-367-57/1.4]
+Downloads (new last month): 6 (rank: 793)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.ArtyFX/19.08]
+Name: ArtyFX
+Homepage: http://openavproductions.com/artyfx/
+License: GPL-2.0
+Downloads (new last month): 6 (rank: 794)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Urd/stable]
+Name: OCR Urdu
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 795)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.SrpLatn/stable]
+Name: OCR Serbian - Latin
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 796)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptLatin/stable]
+Name: OCR Script Latin
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 797)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptJapaneseVert/stable]
+Name: OCR Script Japanese vertical
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 798)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptJapanese/stable]
+Name: OCR Script Japanese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 799)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptHanTVert/stable]
+Name: OCR Script Han traditional vertical
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 800)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptHanT/stable]
+Name: OCR Script Han traditional
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 801)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptHanSVert/stable]
+Name: OCR Script Han simplified vertical
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 802)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptHanS/stable]
+Name: OCR Script Han simplified
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 803)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptGreek/stable]
+Name: OCR Script Greek
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 804)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptArabic/stable]
+Name: OCR Script Arabic
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 805)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.JpnVert/stable]
+Name: OCR Japanese (vertical)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 806)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Iku/stable]
+Name: OCR Inuktitut
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 807)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.DeuFrak/stable]
+Name: OCR German - Fraktur
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 808)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ChiSimVert/stable]
+Name: OCR Chinese - Simplified (vertical)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 809)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ces/stable]
+Name: OCR Czech
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 6 (rank: 810)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.kde.Sdk.Docs/5.15]
+Downloads (new last month): 5 (rank: 811)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.toolchain-aarch64/20.08]
+Downloads (new last month): 5 (rank: 812)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.VAAPI.Intel.i386/19.08]
+Downloads (new last month): 5 (rank: 813)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-56-02/1.4]
+Downloads (new last month): 5 (rank: 814)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-36/1.4]
+Downloads (new last month): 5 (rank: 815)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-27-08/1.4]
+Downloads (new last month): 5 (rank: 816)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-27-01/1.4]
+Downloads (new last month): 5 (rank: 817)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-17/1.4]
+Downloads (new last month): 5 (rank: 818)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-126-02/1.4]
+Downloads (new last month): 5 (rank: 819)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-415-13/1.4]
+Downloads (new last month): 5 (rank: 820)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-129/1.4]
+Downloads (new last month): 5 (rank: 821)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-384-111/1.4]
+Downloads (new last month): 5 (rank: 822)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-375-26/1.4]
+Downloads (new last month): 5 (rank: 823)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-340-106/1.4]
+Downloads (new last month): 5 (rank: 824)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-304-137/1.4]
+Downloads (new last month): 5 (rank: 825)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Tur/stable]
+Name: OCR Turkish
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 826)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Tgl/stable]
+Name: OCR Tagalog (new - Filipino)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 827)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Tam/stable]
+Name: OCR Tamil
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 828)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Swe/stable]
+Name: OCR Swedish
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 829)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.SpaOld/stable]
+Name: OCR Spanish; Castilian - Old
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 830)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptTibetan/stable]
+Name: OCR Script Tibetan
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 831)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptThaana/stable]
+Name: OCR Script Thaana
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 832)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptTamil/stable]
+Name: OCR Script Tamil
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 833)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptOriya/stable]
+Name: OCR Script Oriya (Odia)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 834)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptMalayalam/stable]
+Name: OCR Script Malayalam
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 835)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptCanadianAboriginal/stable]
+Name: OCR Script Canadian Aboriginal
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 836)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptBengali/stable]
+Name: OCR Script Bengali
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 837)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptArmenian/stable]
+Name: OCR Script Armenian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 838)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Pan/stable]
+Name: OCR Panjabi; Punjabi
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 839)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Nor/stable]
+Name: OCR Norwegian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 840)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Mon/stable]
+Name: OCR Mongolian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 841)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Mkd/stable]
+Name: OCR Macedonian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 842)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Mal/stable]
+Name: OCR Malayalam
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 843)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Lat/stable]
+Name: OCR Latin
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 844)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.KurAra/stable]
+Name: OCR Kurdish (Arabic Script)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 845)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Isl/stable]
+Name: OCR Icelandic
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 846)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Heb/stable]
+Name: OCR Hebrew
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 847)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Hat/stable]
+Name: OCR Haitian; Haitian Creole
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 848)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Frm/stable]
+Name: OCR French, Middle (ca.1400-1600)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 849)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Fin/stable]
+Name: OCR Finnish
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 850)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Fil/stable]
+Name: OCR Filipino (old - Tagalog)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 851)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ceb/stable]
+Name: OCR Cebuano
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 852)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.AzeCyrl/stable]
+Name: OCR Azerbaijani - Cyrilic
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 5 (rank: 853)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Extension.toolchain-aarch64/19.08]
+Downloads (new last month): 4 (rank: 854)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Sdk.Compat.arm/19.08]
+Downloads (new last month): 4 (rank: 855)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-56-06/1.4]
+Downloads (new last month): 4 (rank: 856)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-51/1.4]
+Downloads (new last month): 4 (rank: 857)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-14/1.4]
+Downloads (new last month): 4 (rank: 858)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-340-107/1.4]
+Downloads (new last month): 4 (rank: 859)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-340-101/1.4]
+Downloads (new last month): 4 (rank: 860)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Sorcer/19.08]
+Name: Sorcer
+Homepage: http://openavproductions.com/sorcer/
+License: GPL-3.0
+Downloads (new last month): 4 (rank: 861)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.LinuxAudio.Plugins.Fabla/19.08]
+Name: Fabla
+Homepage: http://openavproductions.com/fabla/
+License: GPL-2.0
+Downloads (new last month): 4 (rank: 862)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[fr.free.hxc2001.HxCFloppyEmulator.Extension.capslib/1-19.08]
+Name: capslib plugin
+Homepage: https://www.kryoflux.com/
+License: LicenseRef-proprietary
+Downloads (new last month): 4 (rank: 863)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Yor/stable]
+Name: OCR Yoruba
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 864)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Yid/stable]
+Name: OCR Yiddish
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 865)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Vie/stable]
+Name: OCR Vietnamese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 866)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.UzbCyrl/stable]
+Name: OCR Uzbek - Cyrilic
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 867)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Uzb/stable]
+Name: OCR Uzbek
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 868)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ukr/stable]
+Name: OCR Ukrainian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 869)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Uig/stable]
+Name: OCR Uighur; Uyghur
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 870)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ton/stable]
+Name: OCR Tonga
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 871)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Tir/stable]
+Name: OCR Tigrinya
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 872)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Tha/stable]
+Name: OCR Thai
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 873)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Tgk/stable]
+Name: OCR Tajik
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 874)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Tel/stable]
+Name: OCR Telugu
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 875)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Tat/stable]
+Name: OCR Tatar
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 876)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Syr/stable]
+Name: OCR Syriac
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 877)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Swa/stable]
+Name: OCR Swahili
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 878)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Sun/stable]
+Name: OCR Sundanese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 879)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Srp/stable]
+Name: OCR Serbian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 880)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Sqi/stable]
+Name: OCR Albanian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 881)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Snd/stable]
+Name: OCR Sindhi
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 882)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Slv/stable]
+Name: OCR Slovenian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 883)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.SlkFrak/stable]
+Name: OCR Slovak - Fraktur
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 884)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Slk/stable]
+Name: OCR Slovak
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 885)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Sin/stable]
+Name: OCR Sinhala; Sinhalese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 886)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptVietnamese/stable]
+Name: OCR Script Vietnamese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 887)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptThai/stable]
+Name: OCR Script Thai
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 888)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptTelugu/stable]
+Name: OCR Script Telugu
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 889)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptSyriac/stable]
+Name: OCR Script Syriac
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 890)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptSinhala/stable]
+Name: OCR Script Sinhala
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 891)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptMyanmar/stable]
+Name: OCR Script Myanmar
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 892)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptLao/stable]
+Name: OCR Script Lao
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 893)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptKhmer/stable]
+Name: OCR Script Khmer
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 894)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptKannada/stable]
+Name: OCR Script Kannada
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 895)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptHebrew/stable]
+Name: OCR Script Hebrew
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 896)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptHangulVert/stable]
+Name: OCR Script Hangul vertical
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 897)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptHangul/stable]
+Name: OCR Script Hangul
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 898)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptGurmukhi/stable]
+Name: OCR Script Gurmukhi
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 899)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptGujarati/stable]
+Name: OCR Script Gujarati
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 900)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptGeorgian/stable]
+Name: OCR Script Georgian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 901)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptFraktur/stable]
+Name: OCR Script Fraktur
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 902)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptEthiopic/stable]
+Name: OCR Script Ethiopic
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 903)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptDevanagari/stable]
+Name: OCR Script Devanagari
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 904)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptCyrillic/stable]
+Name: OCR Script Cyrillic
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 905)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.ScriptCherokee/stable]
+Name: OCR Script Cherokee
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 906)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.San/stable]
+Name: OCR Sanskrit
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 907)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ron/stable]
+Name: OCR Romanian; Moldavian; Moldovan
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 908)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Que/stable]
+Name: OCR Quechua
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 909)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Pus/stable]
+Name: OCR Pushto; Pashto
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 910)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ori/stable]
+Name: OCR Oriya
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 911)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Oci/stable]
+Name: OCR Occitan (post 1500)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 912)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Nep/stable]
+Name: OCR Nepali
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 913)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Mya/stable]
+Name: OCR Burmese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 914)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Msa/stable]
+Name: OCR Malay
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 915)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Mri/stable]
+Name: OCR Maori
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 916)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Mlt/stable]
+Name: OCR Maltese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 917)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Mar/stable]
+Name: OCR Marathi
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 918)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ltz/stable]
+Name: OCR Luxembourgish
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 919)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Lit/stable]
+Name: OCR Lithuanian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 920)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Lav/stable]
+Name: OCR Latvian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 921)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Lao/stable]
+Name: OCR Lao
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 922)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Kur/stable]
+Name: OCR Kurdish
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 923)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.KorVert/stable]
+Name: OCR Korean (vertical)
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 924)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Kir/stable]
+Name: OCR Kirghiz; Kyrgyz
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 925)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Khm/stable]
+Name: OCR Central Khmer
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 926)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Kaz/stable]
+Name: OCR Kazakh
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 927)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.KatOld/stable]
+Name: OCR Georgian - Old
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 928)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Kat/stable]
+Name: OCR Georgian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 929)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Kan/stable]
+Name: OCR Kannada
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 930)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Jav/stable]
+Name: OCR Javanese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 931)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ind/stable]
+Name: OCR Indonesian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 932)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Hye/stable]
+Name: OCR Armenian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 933)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Hrv/stable]
+Name: OCR Croatian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 934)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Guj/stable]
+Name: OCR Gujarati
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 935)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Glg/stable]
+Name: OCR Galician
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 936)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Gle/stable]
+Name: OCR Irish
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 937)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Gla/stable]
+Name: OCR Scottish Gaelic
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 938)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Fry/stable]
+Name: OCR Western Frisian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 939)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Fas/stable]
+Name: OCR Persian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 940)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Fao/stable]
+Name: OCR Faroese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 941)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Eus/stable]
+Name: OCR Basque
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 942)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Est/stable]
+Name: OCR Estonian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 943)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Epo/stable]
+Name: OCR Esperanto
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 944)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Dzo/stable]
+Name: OCR Dzongkha
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 945)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Div/stable]
+Name: OCR Divehi
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 946)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.DanFrak/stable]
+Name: OCR Danish - Fraktur
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 947)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Dan/stable]
+Name: OCR Danish
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 948)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Cym/stable]
+Name: OCR Welsh
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 949)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Cos/stable]
+Name: OCR Corsican
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 950)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Bre/stable]
+Name: OCR Breton
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 951)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Bos/stable]
+Name: OCR Bosnian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 952)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Bod/stable]
+Name: OCR Tibetan
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 953)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Ben/stable]
+Name: OCR Bengali
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 954)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Bel/stable]
+Name: OCR Belarusian
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 955)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Aze/stable]
+Name: OCR Azerbaijani
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 956)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Asm/stable]
+Name: OCR Assamese
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 957)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Amh/stable]
+Name: OCR Amharic
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 958)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[com.github.unrud.djpdf.OCR.Afr/stable]
+Name: OCR Afrikaans
+Homepage: https://github.com/Unrud/djpdf
+License: GPL-3.0-or-later
+Downloads (new last month): 4 (rank: 959)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-455-34-01/1.4]
+Downloads (new last month): 3 (rank: 960)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-415-22/1.4]
+Downloads (new last month): 3 (rank: 961)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-410-57/1.4]
+Downloads (new last month): 3 (rank: 962)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-387-34/1.4]
+Downloads (new last month): 3 (rank: 963)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-384-130/1.4]
+Downloads (new last month): 3 (rank: 964)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-375-66/1.4]
+Downloads (new last month): 3 (rank: 965)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-56-01/1.4]
+Downloads (new last month): 2 (rank: 966)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-430-50/1.4]
+Downloads (new last month): 2 (rank: 967)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-87-00/1.4]
+Downloads (new last month): 2 (rank: 968)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-52-18/1.4]
+Downloads (new last month): 2 (rank: 969)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-410-129/1.4]
+Downloads (new last month): 2 (rank: 970)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-87/1.4]
+Downloads (new last month): 2 (rank: 971)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-77/1.4]
+Downloads (new last month): 2 (rank: 972)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-12/1.4]
+Downloads (new last month): 2 (rank: 973)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-340-104/1.4]
+Downloads (new last month): 2 (rank: 974)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-450-51-05/1.4]
+Downloads (new last month): 1 (rank: 975)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-11/1.4]
+Downloads (new last month): 1 (rank: 976)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-66-03/1.4]
+Downloads (new last month): 1 (rank: 977)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-440-31/1.4]
+Downloads (new last month): 1 (rank: 978)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-27-03/1.4]
+Downloads (new last month): 1 (rank: 979)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-435-19-02/1.4]
+Downloads (new last month): 1 (rank: 980)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-56/1.4]
+Downloads (new last month): 1 (rank: 981)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-418-42-02/1.4]
+Downloads (new last month): 1 (rank: 982)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-48/1.4]
+Downloads (new last month): 1 (rank: 983)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-390-132/1.4]
+Downloads (new last month): 1 (rank: 984)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-384-98/1.4]
+Downloads (new last month): 1 (rank: 985)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.freedesktop.Platform.GL32.nvidia-381-09/1.4]
+Downloads (new last month): 1 (rank: 986)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk/40]
+Downloads (new last month): 0 (rank: 987)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk.Docs/40]
+Downloads (new last month): 0 (rank: 988)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk.Compat.i386/40]
+Downloads (new last month): 0 (rank: 989)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Sdk.Compat.aarch64/40]
+Downloads (new last month): 0 (rank: 990)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Platform/40]
+Downloads (new last month): 0 (rank: 991)
+Fedora Flatpak: False
+Comments:
+Include:
+
+[org.gnome.Platform.Compat.i386/40]
+Downloads (new last month): 0 (rank: 992)
+Fedora Flatpak: False
+Comments:
+Include:
