@@ -71,9 +71,9 @@ mkdir "$tmpdir/last"
 mkdir "$tmpdir/base"
 mkdir "$tmpdir/work"
 
-### Add a commit on top of the target commit to update apps.txt/other.txt
+### Add a commit on top of the target commit to update apps.txt/other.txt/filter.txt
 
-echo -n "Updating apps.txt/other.txt in $target ... "
+echo -n "Updating apps.txt/other.txt/filter.txt in $target ... "
 
 export GIT_WORK_TREE=$tmpdir/target
 git checkout -q --detach "$target"
@@ -83,28 +83,28 @@ git checkout -f -- .
 if git diff-index --quiet "$target" -- ; then
     echo "nothing to do"
 else
-    git add apps.txt other.txt
+    git add apps.txt other.txt filter.txt
     git commit -q -m "Update to latest Flathub data"
     echo "done"
 fi
 
 onto="$(git rev-parse HEAD)"
 
-### Add a commit on top of the merge base with the updated apps.txt/other.txt
+### Add a commit on top of the merge base with the updated apps.txt/other.txt/filter.txt
 
 export GIT_WORK_TREE=$tmpdir/work
 git checkout -q "$merge_base"
 git checkout -f -- .
 
-cp "$tmpdir"/target/{apps.txt,other.txt} "$tmpdir/work"
+cp "$tmpdir"/target/{apps.txt,other.txt,filter.txt} "$tmpdir/work"
 if ! git diff-index --quiet "$merge_base" -- ; then
-    git add apps.txt other.txt
+    git add apps.txt other.txt filter.txt
     git commit -q -m "Update to latest Flathub data"
 fi
 
-### Now replay the commits, updating apps.txt/other.txt
+### Now replay the commits, updating apps.txt/other.txt/filter.txt
 
-echo "Rewriting commits with an updated apps.txt/other.txt:"
+echo "Rewriting commits with an updated apps.txt/other.txt/filter.txt:"
 
 from=$(git rev-parse HEAD)
 last=$from
@@ -120,7 +120,7 @@ for ((i = 0; i < ${#commits[@]}; i++)) ; do
         --delta-to-dir="$tmpdir/work" \
         --output-dir="$tmpdir/work"
 
-    git add apps.txt other.txt
+    git add apps.txt other.txt filter.txt
     if git diff-index --quiet --cached "$last" -- ; then
         echo "skipping (empty)"
         continue

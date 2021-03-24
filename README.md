@@ -23,6 +23,9 @@ Comments: very popular. Downloads via extra-data
 Include: yes
 ```
 
+[filter.txt](filter.txt) is the final filter file. It shouldn't
+be edited manually.
+
 Notes:
 
 * `Downloads (new last month)` is non-incremental downloads in the last month.
@@ -36,9 +39,9 @@ Notes:
 
 Updating
 --------
-The `update.py` script is used to update `apps.txt` and `other.txt`. Usage is simple.
-To download the latest data from Flathub and Fedora, and update `apps.txt` and `other.txt`,
-run:
+The `update.py` script is used to update `apps.txt`, `other.txt`, and `filter.txt`.
+Usage is simple. To download the latest data from Flathub and Fedora,
+and update the data files, run:
 
 ```
 ./update.py
