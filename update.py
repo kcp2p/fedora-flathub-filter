@@ -166,7 +166,8 @@ def load_remote_components(remote_url, short, force_download=False):
             component_id = id_from_ref(fields[0])
             component = Component(component_id)
             if len(fields) > 1:
-                component.runtime = fields[1]
+                runtime_parts = fields[1].split("/")
+                component.runtime = runtime_parts[0] + "/" + runtime_parts[2]
             components[component.id] = component
 
     with gzip.open(str(appstream), 'rb') as f:
@@ -333,6 +334,11 @@ def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_dow
                 other_rank += 1
 
             if component.include == "yes":
+                if component.runtime:
+                    runtime_component = flathub_components.get(component.runtime)
+                    if not runtime_component or runtime_component.include != "yes":
+                        warning(f"{component_id}: required runtime '{runtime_id}' not included")
+
                 parts = component_id.split("/")
                 if len(parts) == 1:
                     filters.append(parts[0])
