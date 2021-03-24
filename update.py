@@ -271,14 +271,17 @@ def load_components(directory):
     return components
 
 
-def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_download=False):
-    # Get current list of Flathub apps
-    flathub_components = load_remote_components('https://flathub.org/repo', 'flathub',
-                                                force_download=force_download)
+def load_all_remote_components(force_download=False):
+    return (load_remote_components('https://flathub.org/repo', 'flathub',
+                                   force_download=force_download),
+            load_remote_components('oci+https://registry.fedoraproject.org/', 'fedora',
+                                   force_download=force_download))
 
-    # Mark which ones are in Fedora
-    fedora_components = load_remote_components('oci+https://registry.fedoraproject.org/', 'fedora',
-                                               force_download=force_download)
+
+def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_download=False):
+    flathub_components, fedora_components = \
+        load_all_remote_components(force_download=force_download)
+
     for fedora_component in fedora_components.values():
         flathub_component = flathub_components.get(fedora_component.id)
         if flathub_component:
@@ -356,6 +359,10 @@ def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_dow
     help="Force downloading of updated remote data"
 )
 @click.option(
+    "--rebase", metavar="TARGET",
+    help="Do a git rebase onto TARGET, updating apps.txt and other.txt"
+)
+@click.option(
     "--verbose", "-v", is_flag=True,
     help="Show debug messages"
 )
@@ -364,7 +371,8 @@ def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_dow
     help="Supress non-critical messages"
 )
 def main(
-    input_dir, delta_from_dir, delta_to_dir, output_dir, cache_dir, force_download, quiet, verbose
+    input_dir, delta_from_dir, delta_to_dir, output_dir, cache_dir,
+    force_download, rebase, quiet, verbose
 ):
     global cache_path, is_verbose, is_quiet
     cache_path = Path(cache_dir)
@@ -373,6 +381,13 @@ def main(
 
     if not cache_path.exists():
         os.mkdir(cache_path)
+
+    if rebase:
+        # We do the downloading upfront to honor --force-download, and show
+        # any progress messages
+        load_all_remote_components(force_download=force_download)
+        get_flathub_totals()
+        sys.exit(subprocess.call([tools_path / "rebase.sh", rebase]))
 
     update_report(
         Path(input_dir),
