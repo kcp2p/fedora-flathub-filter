@@ -189,7 +189,7 @@ def get_flathub_stats(date):
     return response.json()
 
 
-def get_current_flathub_stats():
+def get_flathub_totals():
     now = datetime.now() - timedelta(days=1)
     date = datetime.now() - timedelta(days=30)
 
@@ -272,7 +272,7 @@ def update_report(input_dir, base_dir, output_dir, force_download=False):
         if flathub_component:
             flathub_component.fedora_flatpak = True
 
-    flathub_stats = get_current_flathub_stats()
+    flathub_totals = get_flathub_totals()
 
     input_dir = load_components(input_dir)
     if base_dir != input_dir:
@@ -283,10 +283,10 @@ def update_report(input_dir, base_dir, output_dir, force_download=False):
     with open(output_dir / "apps.txt.new", "w") as apps, \
          open(output_dir / "other.txt.new", "w") as other:
         for component_id in sorted(flathub_components.keys(),
-                                   key=lambda short_id: (flathub_stats[short_id], short_id),
+                                   key=lambda short_id: (flathub_totals[short_id], short_id),
                                    reverse=True):
             component = flathub_components.get(component_id)
-            component.download_count = flathub_stats[component_id]
+            component.download_count = flathub_totals[component_id]
 
             if "/" not in component_id:
                 component.download_rank = app_rank
