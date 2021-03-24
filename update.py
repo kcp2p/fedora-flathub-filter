@@ -91,6 +91,15 @@ class Component:
             self.homepage = homepage
         self.license = app.get_project_license()
 
+    def _merge_field(self, base, other, field_name):
+        new = getattr(other, field_name)
+        if not base or new != getattr(base, field_name):
+            setattr(self, field_name, new)
+
+    def merge(self, base, other):
+        for field_name in self.load_fields:
+            self._merge_field(base, other, field_name)
+
     def dump(self, file):
         print(f"[{self.id}]", file=file)
         for name, pretty in self.fields.items():
@@ -207,7 +216,7 @@ def get_flathub_totals():
     return totals
 
 
-def merge_components(components, path):
+def add_components_from_path(components, path):
     if not path.exists():
         return
 
@@ -253,13 +262,13 @@ def merge_components(components, path):
 
 def load_components(directory):
     components = {}
-    merge_components(components, directory / "apps.txt")
-    merge_components(components, directory / "other.txt")
+    add_components_from_path(components, directory / "apps.txt")
+    add_components_from_path(components, directory / "other.txt")
 
     return components
 
 
-def update_report(input_dir, base_dir, output_dir, force_download=False):
+def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_download=False):
     # Get current list of Flathub apps
     flathub_components = load_remote_components('https://flathub.org/repo', 'flathub',
                                                 force_download=force_download)
@@ -274,9 +283,9 @@ def update_report(input_dir, base_dir, output_dir, force_download=False):
 
     flathub_totals = get_flathub_totals()
 
-    input_dir = load_components(input_dir)
-    if base_dir != input_dir:
-        base_dir = load_components(base_dir)
+    input_components = load_components(input_dir)
+    delta_from_components = delta_from_dir and load_components(delta_from_dir)
+    delta_to_components = delta_to_dir and load_components(delta_to_dir)
 
     app_rank = 1
     other_rank = 1
@@ -287,6 +296,15 @@ def update_report(input_dir, base_dir, output_dir, force_download=False):
                                    reverse=True):
             component = flathub_components.get(component_id)
             component.download_count = flathub_totals[component_id]
+
+            input_component = input_components.get(component_id)
+            if input_component:
+                component.merge(None, input_component)
+
+            delta_from_component = delta_from_components and delta_from_components.get(component_id)
+            delta_to_component = delta_to_components and delta_to_components.get(component_id)
+            if delta_from_component and delta_to_component:
+                component.merge(delta_from_component, delta_to_component)
 
             if "/" not in component_id:
                 component.download_rank = app_rank
@@ -311,15 +329,19 @@ def update_report(input_dir, base_dir, output_dir, force_download=False):
 
 @click.command()
 @click.option(
-    "--input-dir", "-i", metavar="DIR", default=str(source_path),
+    "--input-dir", metavar="DIR", default=str(source_path),
     help="Directory to read app.txt and report.txt from"
 )
 @click.option(
-    "--base-dir", "-b", metavar="DIR", default=str(source_path),
-    help="Directory to compare app.txt and report.txt with"
+    "--delta-from-dir", metavar="DIR",
+    help="Add a delta from --delta-from-dir to delta-to-dir"
 )
 @click.option(
-    "--output-dir", "-o", metavar="DIR", default=str(source_path),
+    "--delta-to-dir", metavar="DIR",
+    help="Add a delta from --delta-from-dir to delta-to-dir"
+)
+@click.option(
+    "--output-dir", metavar="DIR", default=str(source_path),
     help="Directory to write app.txt and report.txt to"
 )
 @click.option(
@@ -334,7 +356,7 @@ def update_report(input_dir, base_dir, output_dir, force_download=False):
     "--verbose", "-v", is_flag=True,
     help="Show debug messages"
 )
-def main(input_dir, base_dir, output_dir, cache_dir, force_download, verbose):
+def main(input_dir, delta_from_dir, delta_to_dir, output_dir, cache_dir, force_download, verbose):
     global cache_path, is_verbose
     cache_path = Path(cache_dir)
     is_verbose = verbose
@@ -343,7 +365,10 @@ def main(input_dir, base_dir, output_dir, cache_dir, force_download, verbose):
         os.mkdir(cache_path)
 
     update_report(
-        Path(input_dir), Path(base_dir), Path(output_dir),
+        Path(input_dir),
+        delta_from_dir and Path(delta_from_dir),
+        delta_to_dir and Path(delta_to_dir),
+        Path(output_dir),
         force_download=force_download
     )
 
