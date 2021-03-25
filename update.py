@@ -35,13 +35,13 @@ def info(*args):
 def verbose(*args):
     if is_verbose:
         print(click.style("DEBUG", bold=True) + ":",
-                *args, file=sys.stderr)
+              *args, file=sys.stderr)
 
 
 def warning(*args):
     if not is_quiet:
         print(click.style("WARNING", fg="red", bold=True) + ":",
-            *args, file=sys.stderr)
+              *args, file=sys.stderr)
 
 
 def error(*args):
