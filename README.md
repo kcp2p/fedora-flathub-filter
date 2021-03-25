@@ -84,7 +84,7 @@ git checkout -b updates-2021-03-24
 
 # update your branch with any upstream and Flathub changes
 git fetch origin
-git --rebase origin/main
+./update.py --rebase origin/main
 
 # File your branch as a pull request
 ```
