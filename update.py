@@ -337,7 +337,8 @@ def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_dow
                 if component.runtime:
                     runtime_component = flathub_components.get(component.runtime)
                     if not runtime_component or runtime_component.include != "yes":
-                        warning(f"{component_id}: required runtime '{runtime_id}' not included")
+                        warning(f"{component_id}: "
+                                f"required runtime '{component.runtime}' not included")
 
                 parts = component_id.split("/")
                 if len(parts) == 1:
