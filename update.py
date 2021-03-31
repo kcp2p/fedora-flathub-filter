@@ -11,6 +11,7 @@ import subprocess
 import sys
 import tempfile
 from textwrap import dedent
+from typing import Dict, Optional, Tuple, TextIO
 
 import click
 
@@ -50,7 +51,7 @@ def error(*args):
     sys.exit(1)
 
 
-def id_from_ref(ref):
+def id_from_ref(ref: str) -> str:
     ref_split = ref.split("/")
     if ref_split[0] == "app":
         return ref_split[1]
@@ -85,7 +86,7 @@ class Component:
         self.include = ""
 
     @property
-    def downloads(self):
+    def downloads(self) -> str:
         return f"{self.download_count} (rank: {self.download_rank})"
 
     def update_from_as_app(self, app):
@@ -95,16 +96,16 @@ class Component:
             self.homepage = homepage
         self.license = app.get_project_license()
 
-    def _merge_field(self, base, other, field_name):
+    def _merge_field(self, base: Optional["Component"], other: "Component", field_name: str):
         new = getattr(other, field_name)
         if not base or new != getattr(base, field_name):
             setattr(self, field_name, new)
 
-    def merge(self, base, other):
+    def merge(self, base: Optional["Component"], other: "Component"):
         for field_name in self.load_fields:
             self._merge_field(base, other, field_name)
 
-    def dump(self, file):
+    def dump(self, file: TextIO):
         print(f"[{self.id}]", file=file)
         for name, pretty in self.fields.items():
             value = getattr(self, name)
@@ -116,7 +117,8 @@ class Component:
                     print(pretty + ":", value, file=file)
 
 
-def download_remote_data(remote_url, short, force_download=False):
+def download_remote_data(remote_url: str, short: str, force_download: bool = False
+                         ) -> Tuple[Path, Path]:
     base = cache_path / short
     appstream = cache_path / f'{short}-appstream.xml.gz'
     remote_ls = cache_path / f'{short}-remote-ls.txt'
@@ -155,11 +157,7 @@ def download_remote_data(remote_url, short, force_download=False):
     return appstream, remote_ls
 
 
-def load_remote_components(remote_url, short, force_download=False):
-    components = {}
-    appstream, remote_ls = download_remote_data(remote_url, short,
-                                                force_download=force_download)
-
+def load_components_from_remote_ls(components: Dict[str, Component], remote_ls: Path):
     with open(remote_ls) as f:
         for line in f:
             fields = line.strip().split()
@@ -170,6 +168,8 @@ def load_remote_components(remote_url, short, force_download=False):
                 component.runtime = runtime_parts[0] + "/" + runtime_parts[2]
             components[component.id] = component
 
+
+def load_components_from_appstream(components: Dict[str, Component], short: str, appstream: Path):
     with gzip.open(str(appstream), 'rb') as f:
         store = AppStreamGlib.Store()
         store.from_bytes(GLib.Bytes(f.read()), None)
@@ -183,13 +183,23 @@ def load_remote_components(remote_url, short, force_download=False):
         else:
             warning(f"{short}: {component_id} in appstream not in remote-ls")
 
+
+def load_remote_components(remote_url: str, short: str, force_download: bool = False
+                           ) -> Dict[str, Component]:
+    components: Dict[str, Component] = {}
+    appstream, remote_ls = download_remote_data(remote_url, short,
+                                                force_download=force_download)
+
+    load_components_from_remote_ls(components, remote_ls)
+    load_components_from_appstream(components, short, appstream)
+
     return components
 
 
-def get_flathub_stats(date):
+def get_flathub_stats(date: datetime) -> dict:
     cache_file = cache_path / f'flathub-downloads-{date.year}-{date.month:02}-{date.day:02}.json'
     if cache_file.exists():
-        with open(cache_file, 'r') as f:
+        with open(cache_file, 'rb') as f:
             return json.load(f)
 
     url = f'https://flathub.org/stats/{date.year}/{date.month:02}/{date.day:02}.json'
@@ -203,11 +213,11 @@ def get_flathub_stats(date):
     return response.json()
 
 
-def get_flathub_totals():
+def get_flathub_totals() -> Dict[str, int]:
     now = datetime.now() - timedelta(days=1)
     date = datetime.now() - timedelta(days=30)
 
-    totals = defaultdict(int)
+    totals: Dict[str, int] = defaultdict(int)
     while date < now:
         stats = get_flathub_stats(date)
         date += timedelta(days=1)
@@ -221,7 +231,7 @@ def get_flathub_totals():
     return totals
 
 
-def add_components_from_path(components, path):
+def add_components_from_path(components: Dict[str, Component], path: Path):
     if not path.exists():
         return
 
@@ -265,22 +275,27 @@ def add_components_from_path(components, path):
         components[component.id] = component
 
 
-def load_components(directory):
-    components = {}
+def load_components(directory: Path) -> Dict[str, Component]:
+    components: Dict[str, Component] = {}
     add_components_from_path(components, directory / "apps.txt")
     add_components_from_path(components, directory / "other.txt")
 
     return components
 
 
-def load_all_remote_components(force_download=False):
+def load_all_remote_components(force_download: bool = False
+                               ) -> Tuple[Dict[str, Component], Dict[str, Component]]:
     return (load_remote_components('https://flathub.org/repo', 'flathub',
                                    force_download=force_download),
             load_remote_components('oci+https://registry.fedoraproject.org/', 'fedora',
                                    force_download=force_download))
 
 
-def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_download=False):
+def update_report(input_dir: Path,
+                  delta_from_dir: Optional[Path],
+                  delta_to_dir: Optional[Path],
+                  output_dir: Path,
+                  force_download: bool = False):
     flathub_components, fedora_components = \
         load_all_remote_components(force_download=force_download)
 
@@ -304,7 +319,7 @@ def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_dow
         for component_id in sorted(flathub_components.keys(),
                                    key=lambda short_id: (flathub_totals[short_id], short_id),
                                    reverse=True):
-            component = flathub_components.get(component_id)
+            component = flathub_components[component_id]
             component.download_count = flathub_totals[component_id]
 
             input_component = input_components.get(component_id)
@@ -400,8 +415,15 @@ def update_report(input_dir, delta_from_dir, delta_to_dir, output_dir, force_dow
     help="Supress non-critical messages"
 )
 def main(
-    input_dir, delta_from_dir, delta_to_dir, output_dir, cache_dir,
-    force_download, rebase, quiet, verbose
+    input_dir: str,
+    delta_from_dir: Optional[str],
+    delta_to_dir: Optional[str],
+    output_dir: str,
+    cache_dir: str,
+    force_download: bool,
+    rebase: str,
+    quiet: bool,
+    verbose: bool
 ):
     global cache_path, is_verbose, is_quiet
     cache_path = Path(cache_dir)
@@ -420,8 +442,8 @@ def main(
 
     update_report(
         Path(input_dir),
-        delta_from_dir and Path(delta_from_dir),
-        delta_to_dir and Path(delta_to_dir),
+        Path(delta_from_dir) if delta_from_dir else None,
+        Path(delta_to_dir) if delta_to_dir else None,
         Path(output_dir),
         force_download=force_download
     )
