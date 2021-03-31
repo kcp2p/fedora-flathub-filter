@@ -85,6 +85,9 @@ class Component:
         self.comments = ""
         self.include = ""
 
+        # Sort each segment separately, to force precendence between . and /
+        self.sort_key = tuple(x.lower() for x in self.id.split("/"))
+
     @property
     def downloads(self) -> str:
         return f"{self.download_count} (rank: {self.download_rank})"
@@ -378,18 +381,17 @@ def get_updated_wildcards(
     return wildcards
 
 
-def write_wildcard_components(output_dir: Path, wildcards: Dict[str, Component]) -> List[str]:
+def write_wildcard_components(output_dir: Path, wildcards: Dict[str, Component]) -> List[Component]:
     filters = []
     with open(output_dir / "wildcard.txt.new", "w") as wildcard_file:
-        for i, wildcard_id in enumerate(sorted(wildcards)):
+        for i, component in enumerate(sorted(wildcards.values(), key=lambda w: w.sort_key)):
             if i != 0:
                 print(file=wildcard_file)
 
-            wildcard_component = wildcards[wildcard_id]
-            if wildcard_component.include == "yes":
-                filters.append(wildcard_component.filter_ref)
+            if component.include == "yes":
+                filters.append(component)
 
-            wildcard_component.dump(file=wildcard_file)
+            component.dump(file=wildcard_file)
 
     return filters
 
@@ -420,18 +422,19 @@ def update_report(input_dir: Path,
     other_rank = 1
     with open(output_dir / "apps.txt.new", "w") as apps, \
          open(output_dir / "other.txt.new", "w") as other:
-        for component_id in sorted(flathub_components.keys(),
-                                   key=lambda short_id: (flathub_totals[short_id], short_id),
-                                   reverse=True):
-            component = flathub_components[component_id]
-            component.download_count = flathub_totals[component_id]
 
-            input_component = input_components.get(component_id)
+        def sort_key(component: Component):
+            return (-flathub_totals[component.id], component.sort_key)
+
+        for component in sorted(flathub_components.values(), key=sort_key):
+            component.download_count = flathub_totals[component.id]
+
+            input_component = input_components.get(component.id)
             if input_component:
                 component.merge(None, input_component)
 
-            delta_from_component = delta_from_components and delta_from_components.get(component_id)
-            delta_to_component = delta_to_components and delta_to_components.get(component_id)
+            delta_from_component = delta_from_components and delta_from_components.get(component.id)
+            delta_to_component = delta_to_components and delta_to_components.get(component.id)
             if delta_from_component and delta_to_component:
                 component.merge(delta_from_component, delta_to_component)
 
@@ -439,7 +442,7 @@ def update_report(input_dir: Path,
                 if wildcard_component.matches(component):
                     component.merge(None, wildcard_component)
 
-            if "/" not in component_id:
+            if "/" not in component.id:
                 component.download_rank = app_rank
 
                 if app_rank > 1:
@@ -460,10 +463,10 @@ def update_report(input_dir: Path,
                 if component.runtime:
                     runtime_component = flathub_components.get(component.runtime)
                     if not runtime_component or runtime_component.include != "yes":
-                        warning(f"{component_id}: "
+                        warning(f"{component.   id}: "
                                 f"required runtime '{component.runtime}' not included")
 
-                filters.append(component.filter_ref)
+                filters.append(component)
 
     with open(output_dir / "filter.txt.new", "w") as f:
         f.write(dedent("""\
@@ -473,8 +476,8 @@ def update_report(input_dir: Path,
             # Deny by default
             deny *
             """))
-        for filt in sorted(filters):
-            f.write("allow " + filt + "\n")
+        for filt in sorted(filters, key=lambda c: c.sort_key):
+            f.write("allow " + filt.filter_ref + "\n")
 
     os.rename(output_dir / "apps.txt.new", output_dir / "apps.txt")
     os.rename(output_dir / "other.txt.new", output_dir / "other.txt")
