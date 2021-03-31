@@ -9,7 +9,7 @@ This repository holds data files with the status of available
 downloads from Flathub,
 and scripts for updating those files.
 
-The data files are [apps.txt](apps.txt) with applications and
+The main data files are [apps.txt](apps.txt) with applications and
 [other.txt](other.txt) with other downloads:
 runtime, runtime extensions, and app extensions. An entry in
 one of these files looks like:
@@ -26,9 +26,6 @@ Comments: very popular. Downloads via extra-data
 Include: yes
 ```
 
-[filter.txt](filter.txt) is the final filter file. It shouldn't
-be edited manually.
-
 Notes:
 
 * `Downloads (new last month)` is non-incremental downloads in the last month.
@@ -39,6 +36,32 @@ Notes:
 * `Include` indicates a decision to include or exclude the Flatpak from Fedora.
    For now, most components will have blank values for `Include`, which means
    they will be excluded, but no decision has been made.
+
+There is also a file [wildcard.txt](wildcard.txt) which holds entries
+for wild-card patterns that match against many entries in `apps.txt`
+or `other.txt`.
+
+```
+[org.freedesktop.Platform.GL.nvidia-*/*]
+Comments: extra-data download of NVIDIA provided builds
+Include: yes
+```
+
+Unlike `apps.txt` and `other.txt`, `wildcard.txt` starts off empty,
+and entries have to be added to it manually. When entries in
+`wildcard.txt` match items in `apps.txt` or `other.txt`, they are
+inserted as follows:
+
+```
+[org.freedesktop.Platform.GL.nvidia-460-56/1.4]
+Downloads (new last month): 61322 (rank: 10)
+Fedora Flatpak: False
+Comments: [org.freedesktop.Platform.GL.nvidia-*/*] extra-data download of NVIDIA provided builds
+Include: [org.freedesktop.Platform.GL.nvidia-*/*] yes
+```
+
+[filter.txt](filter.txt) is the final filter file. It shouldn't
+be edited manually.
 
 Updating
 --------
@@ -67,7 +90,7 @@ Commits to this repository that mixed updates and substantive changes would be u
 
 What `--rebase=TARGET` does is create a single commit on top of `TARGET`
 with only changes from running `update.py`, and then replays commits not in `TARGET`,
-merging changes to `apps.txt` and `other.txt` in a smart fashion.
+merging changes to `apps.txt`, `other.txt`, and `wildcard.txt` in a smart fashion.
 
 Workflow
 --------

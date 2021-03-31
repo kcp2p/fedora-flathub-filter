@@ -11,7 +11,7 @@ import subprocess
 import sys
 import tempfile
 from textwrap import dedent
-from typing import Dict, Optional, Tuple, TextIO
+from typing import cast, Dict, List, Optional, Tuple, TextIO
 
 import click
 
@@ -89,6 +89,15 @@ class Component:
     def downloads(self) -> str:
         return f"{self.download_count} (rank: {self.download_rank})"
 
+    @property
+    def filter_ref(self) -> str:
+        parts = self.id.split("/")
+        if len(parts) == 1:
+            return parts[0]
+        else:
+            assert len(parts) == 2
+            return "runtime/" + parts[0] + "/*/" + parts[1]
+
     def update_from_as_app(self, app):
         self.name = app.get_name()
         homepage = app.get_url_item(AppStreamGlib.UrlKind.HOMEPAGE)
@@ -99,22 +108,61 @@ class Component:
     def _merge_field(self, base: Optional["Component"], other: "Component", field_name: str):
         new = getattr(other, field_name)
         if not base or new != getattr(base, field_name):
-            setattr(self, field_name, new)
+            if isinstance(other, WildcardComponent):
+                if getattr(self, field_name):
+                    warning(f"{self.id}: matched by wildcard {other.id}, "
+                            f"but {field_name} explicitly specified")
+                elif new:
+                    setattr(self, field_name, f"[{other.id}] {new}")
+            else:
+                setattr(self, field_name, new)
 
     def merge(self, base: Optional["Component"], other: "Component"):
         for field_name in self.load_fields:
             self._merge_field(base, other, field_name)
 
-    def dump(self, file: TextIO):
+    def dump_header(self, file: TextIO):
         print(f"[{self.id}]", file=file)
-        for name, pretty in self.fields.items():
-            value = getattr(self, name)
-            if value is not None:
-                if value == "":
-                    # Avoid trailing space
-                    print(pretty + ":", file=file)
+
+    def dump_field(self, name: str, file: TextIO):
+        pretty = self.fields[name]
+        value = getattr(self, name)
+        if value is not None:
+            if value == "":
+                # Avoid trailing space
+                print(pretty + ":", file=file)
+            else:
+                print(pretty + ":", value, file=file)
+
+    def dump(self, file: TextIO):
+        self.dump_header(file)
+        for name in self.fields:
+            self.dump_field(name, file)
+
+
+class WildcardComponent(Component):
+    def __init__(self, component_id: str):
+        super().__init__(component_id)
+
+        result_parts: List[str] = []
+        for part in self.id.split("/"):
+            result_part = ""
+            for p in re.split(r"(\*)", part):
+                if p == "*":
+                    result_part += r"[^/]*"
                 else:
-                    print(pretty + ":", value, file=file)
+                    result_part += re.escape(p)
+            result_parts.append(result_part)
+
+        self.regex = re.compile(r"^" + "/".join(result_parts) + r"$")
+
+    def dump(self, file: TextIO):
+        self.dump_header(file)
+        for name in self.load_fields:
+            self.dump_field(name, file)
+
+    def matches(self, component: Component) -> bool:
+        return self.regex.match(component.id) is not None
 
 
 def download_remote_data(remote_url: str, short: str, force_download: bool = False
@@ -196,6 +244,14 @@ def load_remote_components(remote_url: str, short: str, force_download: bool = F
     return components
 
 
+def load_all_remote_components(force_download: bool = False
+                               ) -> Tuple[Dict[str, Component], Dict[str, Component]]:
+    return (load_remote_components('https://flathub.org/repo', 'flathub',
+                                   force_download=force_download),
+            load_remote_components('oci+https://registry.fedoraproject.org/', 'fedora',
+                                   force_download=force_download))
+
+
 def get_flathub_stats(date: datetime) -> dict:
     cache_file = cache_path / f'flathub-downloads-{date.year}-{date.month:02}-{date.day:02}.json'
     if cache_file.exists():
@@ -231,11 +287,12 @@ def get_flathub_totals() -> Dict[str, int]:
     return totals
 
 
-def add_components_from_path(components: Dict[str, Component], path: Path):
+def add_components_from_path(components: Dict[str, Component], path: Path,
+                             wildcard: bool = False):
     if not path.exists():
         return
 
-    component = None
+    component: Optional[Component] = None
     with open(path) as f:
         line_no = 0
         for line in f:
@@ -249,7 +306,10 @@ def add_components_from_path(components: Dict[str, Component], path: Path):
                     components[component.id] = component
                     component = None
 
-                component = Component(line[1:-1])
+                if wildcard:
+                    component = WildcardComponent(line[1:-1])
+                else:
+                    component = Component(line[1:-1])
             else:
                 if not component:
                     error(f"{path}: {line_no}: Text before first component")
@@ -262,6 +322,10 @@ def add_components_from_path(components: Dict[str, Component], path: Path):
                     error(f"{path}: {line_no}: unknown key '{field_name_raw}'")
 
                 value = value.strip()
+                # A wildcard reference Comment: [org.freedesktop.Platform.Foo.*]: good stuff
+                # we don't want to load this
+                if value.startswith("["):
+                    value = ""
 
                 if field_name == "include":
                     value = value.lower()
@@ -283,12 +347,51 @@ def load_components(directory: Path) -> Dict[str, Component]:
     return components
 
 
-def load_all_remote_components(force_download: bool = False
-                               ) -> Tuple[Dict[str, Component], Dict[str, Component]]:
-    return (load_remote_components('https://flathub.org/repo', 'flathub',
-                                   force_download=force_download),
-            load_remote_components('oci+https://registry.fedoraproject.org/', 'fedora',
-                                   force_download=force_download))
+def load_wildcards(directory: Path) -> Dict[str, WildcardComponent]:
+    components: Dict[str, Component] = {}
+    add_components_from_path(components, directory / "wildcard.txt", wildcard=True)
+
+    return cast(Dict[str, WildcardComponent], components)
+
+
+def get_updated_wildcards(
+        input_dir: Path,
+        delta_from_dir: Optional[Path],
+        delta_to_dir: Optional[Path]
+):
+    wildcards = load_wildcards(input_dir)
+    if delta_from_dir and delta_to_dir:
+        delta_from_wildcards = load_wildcards(delta_from_dir)
+        delta_to_wildcards = load_wildcards(delta_to_dir)
+
+        for component_id, to_component in delta_to_wildcards.items():
+            from_component = delta_from_wildcards.get(component_id)
+            component = wildcards.get(component_id)
+            if component:
+                if not from_component or to_component.comments != from_component.comments:
+                    component.comments = to_component.comments
+                if not from_component or to_component.include != from_component.include:
+                    component.include = to_component.include
+            else:
+                wildcards[component_id] = to_component
+
+    return wildcards
+
+
+def write_wildcard_components(output_dir: Path, wildcards: Dict[str, Component]) -> List[str]:
+    filters = []
+    with open(output_dir / "wildcard.txt.new", "w") as wildcard_file:
+        for i, wildcard_id in enumerate(sorted(wildcards)):
+            if i != 0:
+                print(file=wildcard_file)
+
+            wildcard_component = wildcards[wildcard_id]
+            if wildcard_component.include == "yes":
+                filters.append(wildcard_component.filter_ref)
+
+            wildcard_component.dump(file=wildcard_file)
+
+    return filters
 
 
 def update_report(input_dir: Path,
@@ -306,11 +409,12 @@ def update_report(input_dir: Path,
 
     flathub_totals = get_flathub_totals()
 
+    wildcards = get_updated_wildcards(input_dir, delta_from_dir, delta_to_dir)
+    filters = write_wildcard_components(output_dir, wildcards)
+
     input_components = load_components(input_dir)
     delta_from_components = delta_from_dir and load_components(delta_from_dir)
     delta_to_components = delta_to_dir and load_components(delta_to_dir)
-
-    filters = []
 
     app_rank = 1
     other_rank = 1
@@ -330,6 +434,10 @@ def update_report(input_dir: Path,
             delta_to_component = delta_to_components and delta_to_components.get(component_id)
             if delta_from_component and delta_to_component:
                 component.merge(delta_from_component, delta_to_component)
+
+            for wildcard_component in wildcards.values():
+                if wildcard_component.matches(component):
+                    component.merge(None, wildcard_component)
 
             if "/" not in component_id:
                 component.download_rank = app_rank
@@ -355,11 +463,7 @@ def update_report(input_dir: Path,
                         warning(f"{component_id}: "
                                 f"required runtime '{component.runtime}' not included")
 
-                parts = component_id.split("/")
-                if len(parts) == 1:
-                    filters.append(parts[0])
-                else:
-                    filters.append("runtime/" + parts[0] + "/*/" + parts[1])
+                filters.append(component.filter_ref)
 
     with open(output_dir / "filter.txt.new", "w") as f:
         f.write(dedent("""\
@@ -375,6 +479,7 @@ def update_report(input_dir: Path,
     os.rename(output_dir / "apps.txt.new", output_dir / "apps.txt")
     os.rename(output_dir / "other.txt.new", output_dir / "other.txt")
     os.rename(output_dir / "filter.txt.new", output_dir / "filter.txt")
+    os.rename(output_dir / "wildcard.txt.new", output_dir / "wildcard.txt")
 
 
 @click.command()
