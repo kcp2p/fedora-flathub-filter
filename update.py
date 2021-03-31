@@ -67,6 +67,7 @@ class Component:
         "comments": "Comments",
         "summary": "Summary",
         "homepage": "Homepage",
+        "links": "Links",
         "license": "License",
         "runtime": "Runtime",
         "downloads": "Downloads (new last month)",
@@ -89,6 +90,21 @@ class Component:
 
         # Sort each segment separately, to force precendence between . and /
         self.sort_key = tuple(x.lower() for x in self.id.split("/"))
+
+    @property
+    def links(self) -> Optional[str]:
+        # It's hard to form reliable links for extensions and runtimes,
+        # because, e.g.,
+        # org.freedesktop.Platform.GL.nvidia-460-56/1.4
+        # needs to link to
+        # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
+        # we could consider making Links: a user-editable field in
+        # other.txt and wildcard.txt.
+        if "/" in self.id:
+            return None
+        else:
+            return (f"https://flathub.org/apps/details/{self.id} "
+                    f"https://github.com/flathub/{self.id}")
 
     @property
     def downloads(self) -> str:
