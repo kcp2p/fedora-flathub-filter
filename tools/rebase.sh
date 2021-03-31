@@ -23,6 +23,8 @@ if ! git diff-index --quiet HEAD -- ; then
     error "Uncommitted changes"
 fi
 
+SPECIAL_FILES=(apps.txt other.txt filter.txt)
+
 commits=()
 parents=()
 subjects=()
@@ -71,9 +73,9 @@ mkdir "$tmpdir/last"
 mkdir "$tmpdir/base"
 mkdir "$tmpdir/work"
 
-### Add a commit on top of the target commit to update apps.txt/other.txt/filter.txt
+### Add a commit on top of the target commit to update apps.txt/etc.
 
-echo -n "Updating apps.txt/other.txt/filter.txt in $target ... "
+echo -n "Updating ${SPECIAL_FILES[*]} in $target ... "
 
 export GIT_WORK_TREE=$tmpdir/target
 git checkout -q --detach "$target"
@@ -83,28 +85,31 @@ git checkout -f -- .
 if git diff-index --quiet "$target" -- ; then
     echo "nothing to do"
 else
-    git add apps.txt other.txt filter.txt
+    git add "${SPECIAL_FILES[@]}"
     git commit -q -m "Update to latest Flathub data"
     echo "done"
 fi
 
 onto="$(git rev-parse HEAD)"
 
-### Add a commit on top of the merge base with the updated apps.txt/other.txt/filter.txt
+### Add a commit on top of the merge base with the updated apps.txt/etc.
 
 export GIT_WORK_TREE=$tmpdir/work
 git checkout -q "$merge_base"
 git checkout -f -- .
 
-cp "$tmpdir"/target/{apps.txt,other.txt,filter.txt} "$tmpdir/work"
+for file in "${SPECIAL_FILES[@]}" ; do
+    cp "$tmpdir/target/$file" "$tmpdir/work"
+done
+
 if ! git diff-index --quiet "$merge_base" -- ; then
-    git add apps.txt other.txt filter.txt
+    git add "${SPECIAL_FILES[@]}"
     git commit -q -m "Update to latest Flathub data"
 fi
 
-### Now replay the commits, updating apps.txt/other.txt/filter.txt
+### Now replay the commits, updating apps.txt/etc.
 
-echo "Rewriting commits with an updated apps.txt/other.txt/filter.txt:"
+echo "Rewriting commits with an updated ${SPECIAL_FILES[*]}:"
 
 from=$(git rev-parse HEAD)
 last=$from
@@ -120,7 +125,7 @@ for ((i = 0; i < ${#commits[@]}; i++)) ; do
         --delta-to-dir="$tmpdir/work" \
         --output-dir="$tmpdir/work"
 
-    git add apps.txt other.txt filter.txt
+    git add "${SPECIAL_FILES[@]}"
     if git diff-index --quiet --cached "$last" -- ; then
         echo "skipping (empty)"
         continue
