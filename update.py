@@ -63,13 +63,13 @@ def id_from_ref(ref: str) -> str:
 class Component:
     fields = {
         "name": "Name",
+        "include": "Include",
+        "comments": "Comments",
         "homepage": "Homepage",
         "license": "License",
         "runtime": "Runtime",
         "downloads": "Downloads (new last month)",
         "fedora_flatpak": "Fedora Flatpak",
-        "comments": "Comments",
-        "include": "Include"
     }
     load_fields = ("comments", "include")
 
