@@ -223,6 +223,7 @@ def load_components_from_remote_ls(components: Dict[str, Component], remote_ls: 
 def load_components_from_appstream(components: Dict[str, Component], short: str, appstream: Path):
     with gzip.open(str(appstream), 'rb') as f:
         store = AppStreamGlib.Store()
+        store.set_add_flags(store.get_add_flags() | AppStreamGlib.StoreAddFlags.USE_UNIQUE_ID)
         store.from_bytes(GLib.Bytes(f.read()), None)
 
     for as_app in store.get_apps():
