@@ -65,6 +65,7 @@ class Component:
         "name": "Name",
         "include": "Include",
         "comments": "Comments",
+        "summary": "Summary",
         "homepage": "Homepage",
         "license": "License",
         "runtime": "Runtime",
@@ -76,6 +77,7 @@ class Component:
     def __init__(self, component_id):
         self.id = component_id
         self.name = None
+        self.summary = None
         self.homepage = None
         self.license = None
         self.runtime = None
@@ -103,6 +105,9 @@ class Component:
 
     def update_from_as_app(self, app):
         self.name = app.get_name()
+        summary = app.get_comment()
+        if summary:
+            self.summary = summary
         homepage = app.get_url_item(AppStreamGlib.UrlKind.HOMEPAGE)
         if homepage:
             self.homepage = homepage
