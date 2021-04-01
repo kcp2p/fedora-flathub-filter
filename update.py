@@ -90,9 +90,13 @@ class Component:
         self.fedora_flatpak = "no"
         self.comments = ""
         self.include = ""
+        self._links = None
 
         # Sort each segment separately, to force precendence between . and /
         self.sort_key = tuple(x.lower() for x in self.id.split("/"))
+
+        if "/" in self.id:
+            self.load_fields = self.load_fields + ("links",)
 
     @property
     def matched(self) -> Optional[str]:
@@ -115,10 +119,14 @@ class Component:
         # we could consider making Links: a user-editable field in
         # other.txt and wildcard.txt.
         if "/" in self.id:
-            return None
+            return self._links
         else:
             return (f"https://flathub.org/apps/details/{self.id} "
                     f"https://github.com/flathub/{self.id}")
+
+    @links.setter
+    def links(self, value):
+        self._links = value
 
     @property
     def downloads(self) -> str:
@@ -374,7 +382,7 @@ def add_components_from_path(components: Dict[str, Component], path: Path,
                     if value not in ("", "yes", "no"):
                         error(f"{path}: {line_no}: include should be 'yes' or 'no', not '{value}'")
 
-                if field_name in Component.load_fields:
+                if field_name in component.load_fields:
                     setattr(component, field_name, value)
 
     if component:
