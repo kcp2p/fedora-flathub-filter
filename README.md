@@ -17,13 +17,15 @@ one of these files looks like:
 ```
 [com.spotify.Client]
 Name: Spotify
-Homepage: https://www.spotify.com
-License: LicenseRef-proprietary=https://www.spotify.com/us/legal/end-user-agreement/
-Runtime: org.freedesktop.Platform/x86_64/20.08
-Downloads (new last month): 29074 (rank: 1)
-Fedora Flatpak: False
-Comments: very popular. Downloads via extra-data
 Include: yes
+Comments: very popular. Downloads via extra-data
+Summary: Online music streaming service
+Homepage: https://www.spotify.com
+Links: https://flathub.org/apps/details/com.spotify.Client https://github.com/flathub/com.spotify.Client
+License: LicenseRef-proprietary=https://www.spotify.com/us/legal/end-user-agreement/
+Runtime: org.freedesktop.Platform/20.08
+Downloads (new last month): 29978 (rank: 1)
+Fedora Flatpak: no
 ```
 
 Notes:
@@ -36,15 +38,19 @@ Notes:
 * `Include` indicates a decision to include or exclude the Flatpak from Fedora.
    For now, most components will have blank values for `Include`, which means
    they will be excluded, but no decision has been made.
+* `Links` is a field with useful links to learn more about this entry. Its
+   filled in automatically for `apps.txt`, but starts off empty and is editable
+   in `other.txt`.
 
 There is also a file [wildcard.txt](wildcard.txt) which holds entries
 for wild-card patterns that match against many entries in `apps.txt`
 or `other.txt`.
 
 ```
-[org.freedesktop.Platform.GL.nvidia-*/*]
-Comments: extra-data download of NVIDIA provided builds
+[org.freedesktop.Platform.GL.default/*]
+Comments: Mesa libGL. Built as part of org.freedesktop.Platform
 Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 ```
 
 Unlike `apps.txt` and `other.txt`, `wildcard.txt` starts off empty,
@@ -53,11 +59,13 @@ and entries have to be added to it manually. When entries in
 inserted as follows:
 
 ```
-[org.freedesktop.Platform.GL.nvidia-460-56/1.4]
-Downloads (new last month): 61322 (rank: 10)
-Fedora Flatpak: False
-Comments: [org.freedesktop.Platform.GL.nvidia-*/*] extra-data download of NVIDIA provided builds
-Include: [org.freedesktop.Platform.GL.nvidia-*/*] yes
+[org.freedesktop.Platform.GL.default/20.08]
+Matched: org.freedesktop.Platform.GL.default/*
+Include: # yes
+Comments: # Mesa libGL. Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+Downloads (new last month): 278820 (rank: 1)
+Fedora Flatpak: no
 ```
 
 [filter.txt](filter.txt) is the final filter file. It shouldn't
