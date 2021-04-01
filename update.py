@@ -63,6 +63,7 @@ def id_from_ref(ref: str) -> str:
 class Component:
     fields = {
         "name": "Name",
+        "matched": "Matched",
         "include": "Include",
         "comments": "Comments",
         "summary": "Summary",
@@ -74,6 +75,8 @@ class Component:
         "fedora_flatpak": "Fedora Flatpak",
     }
     load_fields = ("comments", "include")
+
+    wildcard: Optional["WildcardComponent"] = None
 
     def __init__(self, component_id):
         self.id = component_id
@@ -90,6 +93,17 @@ class Component:
 
         # Sort each segment separately, to force precendence between . and /
         self.sort_key = tuple(x.lower() for x in self.id.split("/"))
+
+    @property
+    def matched(self) -> Optional[str]:
+        if self.wildcard:
+            return self.wildcard.id
+        else:
+            return None
+
+    @matched.setter
+    def matched(self, value):
+        pass
 
     @property
     def links(self) -> Optional[str]:
@@ -132,14 +146,7 @@ class Component:
     def _merge_field(self, base: Optional["Component"], other: "Component", field_name: str):
         new = getattr(other, field_name)
         if not base or new != getattr(base, field_name):
-            if isinstance(other, WildcardComponent):
-                if getattr(self, field_name):
-                    warning(f"{self.id}: matched by wildcard {other.id}, "
-                            f"but {field_name} explicitly specified")
-                elif new:
-                    setattr(self, field_name, f"[{other.id}] {new}")
-            else:
-                setattr(self, field_name, new)
+            setattr(self, field_name, new)
 
     def merge(self, base: Optional["Component"], other: "Component"):
         for field_name in self.load_fields:
@@ -151,11 +158,20 @@ class Component:
     def dump_field(self, name: str, file: TextIO):
         pretty = self.fields[name]
         value = getattr(self, name)
-        if value is not None:
-            if value == "":
+        if name in self.load_fields:
+            if not value and self.wildcard:
+                value = getattr(self.wildcard, name)
+                if value:
+                    print(pretty + ": #", value, file=file)
+                else:
+                    print(pretty + ":", file=file)
+            elif value:
+                print(pretty + ":", value, file=file)
+            else:
                 # Avoid trailing space
                 print(pretty + ":", file=file)
-            else:
+        else:
+            if value:
                 print(pretty + ":", value, file=file)
 
     def dump(self, file: TextIO):
@@ -347,9 +363,10 @@ def add_components_from_path(components: Dict[str, Component], path: Path,
                     error(f"{path}: {line_no}: unknown key '{field_name_raw}'")
 
                 value = value.strip()
-                # A wildcard reference Comment: [org.freedesktop.Platform.Foo.*]: good stuff
-                # we don't want to load this
-                if value.startswith("["):
+                # For Wildcard-substituted values, we output:
+                #   Comment: # cool app, include this!
+                # and skip on load
+                if value.startswith("#"):
                     value = ""
 
                 if field_name == "include":
@@ -462,7 +479,17 @@ def update_report(input_dir: Path,
 
             for wildcard_component in wildcards.values():
                 if wildcard_component.matches(component):
-                    component.merge(None, wildcard_component)
+                    if component.wildcard:
+                        warning(f"{component.id}: ignoring wildcard match {wildcard_component.id}, "
+                                f"already matched {component.wildcard.id}")
+                        continue
+
+                    component.wildcard = wildcard_component
+                    for field_name in component.load_fields:
+                        if (getattr(component, field_name) and
+                                getattr(wildcard_component, field_name)):
+                            warning(f"{component.id}: value for {field_name} overrides value "
+                                    f"from {wildcard_component.id}")
 
             if "/" not in component.id:
                 component.download_rank = app_rank
