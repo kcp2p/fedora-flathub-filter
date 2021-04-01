@@ -24,8 +24,8 @@ Fedora Flatpak: no
 
 [us.zoom.Zoom]
 Name: Zoom
-Include:
-Comments:
+Include: yes
+Comments: one of the most popular apps on Flathub. Downloads client via extra-data
 Summary: Video Conferencing, Web Conferencing, Webinars, Screen Sharing
 Homepage: https://zoom.us
 Links: https://flathub.org/apps/details/us.zoom.Zoom https://github.com/flathub/us.zoom.Zoom
