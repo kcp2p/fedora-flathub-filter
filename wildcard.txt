@@ -1,0 +1,64 @@
+[org.freedesktop.Platform/*]
+Comments: Main runtime for Flathub. Base for gnome and KDE runtimes
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Platform.Compat.i386/*]
+Comments: Built as part of org.freedesktop.Platform
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Platform.Compat.x86_64/*]
+Comments: Built as part of org.freedesktop.Platform
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Platform.ffmpeg-full/*]
+Comments: Includes many codecs not shipped in Fedora
+Include: no
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/tree/master/elements/extensions/ffmpeg-full
+
+[org.freedesktop.Platform.GL.default/*]
+Comments: Mesa libGL. Built as part of org.freedesktop.Platform
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Platform.GL32.default/*]
+Comments: 32-bit Mesa libGL. Built as part of org.freedesktop.Platform
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Platform.VAAPI.Intel/*]
+Comments: Same as libva-intel-driver RPM. https://bugzilla.redhat.com/show_bug.cgi?id=770371
+Include: no
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/tree/master/elements/extensions/platform-vaapi-intel
+
+[org.freedesktop.Sdk/*]
+Comments: SDK for org.freedesktop.Platform
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Sdk.Compat.aarch64/*]
+Comments: Built as part of org.freedesktop.Sdk
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Sdk.Compat.arm/*]
+Comments: Built as part of org.freedesktop.Sdk
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Sdk.Compat.i386/*]
+Comments: Built as part of org.freedesktop.Sdk
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Sdk.Compat.x86_64/*]
+Comments: Built as part of org.freedesktop.Sdk
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Sdk.Docs/*]
+Comments: Built as part of org.freedesktop.Sdk
+Include: yes
+Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk

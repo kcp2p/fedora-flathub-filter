@@ -1,7 +1,8 @@
 [org.freedesktop.Platform.GL.default/20.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.default/*
+Include: # yes
+Comments: # Mesa libGL. Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 278820 (rank: 1)
 Fedora Flatpak: no
 
@@ -17,19 +18,21 @@ Fedora Flatpak: no
 
 [org.freedesktop.Platform/20.08]
 Name: Freedesktop Platform
-Include:
-Comments:
+Matched: org.freedesktop.Platform/*
+Include: # yes
+Comments: # Main runtime for Flathub. Base for gnome and KDE runtimes
 Summary: Shared libraries
 Homepage: https://freedesktop-sdk.gitlab.io/
-Links:
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 License: GPL-2.0+
 Downloads (new last month): 193545 (rank: 3)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.VAAPI.Intel/20.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.VAAPI.Intel/*
+Include: # no
+Comments: # Same as libva-intel-driver RPM. https://bugzilla.redhat.com/show_bug.cgi?id=770371
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/tree/master/elements/extensions/platform-vaapi-intel
 Downloads (new last month): 162116 (rank: 4)
 Fedora Flatpak: no
 
@@ -77,9 +80,10 @@ Downloads (new last month): 85846 (rank: 8)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.default/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.default/*
+Include: # yes
+Comments: # Mesa libGL. Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 72027 (rank: 9)
 Fedora Flatpak: no
 
@@ -121,16 +125,18 @@ Downloads (new last month): 49568 (rank: 13)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.VAAPI.Intel/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.VAAPI.Intel/*
+Include: # no
+Comments: # Same as libva-intel-driver RPM. https://bugzilla.redhat.com/show_bug.cgi?id=770371
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/tree/master/elements/extensions/platform-vaapi-intel
 Downloads (new last month): 47835 (rank: 14)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.ffmpeg-full/20.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.ffmpeg-full/*
+Include: # no
+Comments: # Includes many codecs not shipped in Fedora
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/tree/master/elements/extensions/ffmpeg-full
 Downloads (new last month): 46858 (rank: 15)
 Fedora Flatpak: no
 
@@ -143,11 +149,12 @@ Fedora Flatpak: no
 
 [org.freedesktop.Sdk/20.08]
 Name: Freedesktop SDK
-Include:
-Comments:
+Matched: org.freedesktop.Sdk/*
+Include: # yes
+Comments: # SDK for org.freedesktop.Platform
 Summary: Tools and headers for developing applications
 Homepage: https://freedesktop-sdk.gitlab.io
-Links:
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 License: GPL-2.0+
 Downloads (new last month): 35912 (rank: 17)
 Fedora Flatpak: no
@@ -206,11 +213,12 @@ Fedora Flatpak: no
 
 [org.freedesktop.Platform/19.08]
 Name: Freedesktop Platform
-Include:
-Comments:
+Matched: org.freedesktop.Platform/*
+Include: # yes
+Comments: # Main runtime for Flathub. Base for gnome and KDE runtimes
 Summary: Shared libraries
 Homepage: https://freedesktop-sdk.gitlab.io/
-Links:
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 License: GPL-2.0+
 Downloads (new last month): 24050 (rank: 24)
 Fedora Flatpak: no
@@ -226,23 +234,26 @@ Downloads (new last month): 22802 (rank: 25)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.Compat.i386/20.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.Compat.i386/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 19620 (rank: 26)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.default/20.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.default/*
+Include: # yes
+Comments: # 32-bit Mesa libGL. Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 17826 (rank: 27)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.VAAPI.Intel/18.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.VAAPI.Intel/*
+Include: # no
+Comments: # Same as libva-intel-driver RPM. https://bugzilla.redhat.com/show_bug.cgi?id=770371
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/tree/master/elements/extensions/platform-vaapi-intel
 Downloads (new last month): 17239 (rank: 28)
 Fedora Flatpak: no
 
@@ -255,11 +266,12 @@ Fedora Flatpak: no
 
 [org.freedesktop.Platform/18.08]
 Name: Freedesktop Platform
-Include:
-Comments:
+Matched: org.freedesktop.Platform/*
+Include: # yes
+Comments: # Main runtime for Flathub. Base for gnome and KDE runtimes
 Summary: Shared libraries
 Homepage: https://freedesktop-sdk.gitlab.io/
-Links:
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 License: GPL-2.0+
 Downloads (new last month): 16003 (rank: 30)
 Fedora Flatpak: no
@@ -353,11 +365,12 @@ Fedora Flatpak: no
 
 [org.freedesktop.Sdk/19.08]
 Name: Freedesktop SDK
-Include:
-Comments:
+Matched: org.freedesktop.Sdk/*
+Include: # yes
+Comments: # SDK for org.freedesktop.Platform
 Summary: Tools and headers for developing applications
 Homepage: https://freedesktop-sdk.gitlab.io
-Links:
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 License: GPL-2.0+
 Downloads (new last month): 8533 (rank: 40)
 Fedora Flatpak: no
@@ -748,16 +761,18 @@ Downloads (new last month): 1605 (rank: 81)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.Compat.i386/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.Compat.i386/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 1483 (rank: 82)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.default/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.default/*
+Include: # yes
+Comments: # 32-bit Mesa libGL. Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 1395 (rank: 83)
 Fedora Flatpak: no
 
@@ -782,9 +797,10 @@ Downloads (new last month): 1254 (rank: 85)
 Fedora Flatpak: no
 
 [org.freedesktop.Sdk.Compat.i386/20.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Sdk.Compat.i386/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Sdk
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 1231 (rank: 86)
 Fedora Flatpak: no
 
@@ -1313,9 +1329,10 @@ Downloads (new last month): 388 (rank: 138)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.ffmpeg-full/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.ffmpeg-full/*
+Include: # no
+Comments: # Includes many codecs not shipped in Fedora
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/tree/master/elements/extensions/ffmpeg-full
 Downloads (new last month): 367 (rank: 139)
 Fedora Flatpak: no
 
@@ -1630,11 +1647,12 @@ Fedora Flatpak: no
 
 [org.freedesktop.Sdk/18.08]
 Name: Freedesktop SDK
-Include:
-Comments:
+Matched: org.freedesktop.Sdk/*
+Include: # yes
+Comments: # SDK for org.freedesktop.Platform
 Summary: Tools and headers for developing applications
 Homepage: https://freedesktop-sdk.gitlab.io
-Links:
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 License: GPL-2.0+
 Downloads (new last month): 247 (rank: 171)
 Fedora Flatpak: no
@@ -3712,9 +3730,10 @@ Downloads (new last month): 30 (rank: 382)
 Fedora Flatpak: no
 
 [org.freedesktop.Sdk.Docs/18.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Sdk.Docs/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Sdk
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 30 (rank: 383)
 Fedora Flatpak: no
 
@@ -4837,16 +4856,18 @@ Downloads (new last month): 18 (rank: 497)
 Fedora Flatpak: no
 
 [org.freedesktop.Sdk.Compat.i386/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Sdk.Compat.i386/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Sdk
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 18 (rank: 498)
 Fedora Flatpak: no
 
 [org.freedesktop.Sdk.Docs/20.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Sdk.Docs/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Sdk
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 18 (rank: 499)
 Fedora Flatpak: no
 
@@ -5558,9 +5579,10 @@ Downloads (new last month): 12 (rank: 578)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.Compat.i386/18.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.Compat.i386/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 12 (rank: 579)
 Fedora Flatpak: no
 
@@ -6045,9 +6067,10 @@ Downloads (new last month): 10 (rank: 639)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.Compat.x86_64/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.Compat.x86_64/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 10 (rank: 640)
 Fedora Flatpak: no
 
@@ -6640,9 +6663,10 @@ Downloads (new last month): 10 (rank: 724)
 Fedora Flatpak: no
 
 [org.freedesktop.Sdk.Compat.aarch64/20.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Sdk.Compat.aarch64/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Sdk
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 10 (rank: 725)
 Fedora Flatpak: no
 
@@ -7135,16 +7159,18 @@ Downloads (new last month): 9 (rank: 789)
 Fedora Flatpak: no
 
 [org.freedesktop.Sdk.Compat.aarch64/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Sdk.Compat.aarch64/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Sdk
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 9 (rank: 790)
 Fedora Flatpak: no
 
 [org.freedesktop.Sdk.Compat.x86_64/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Sdk.Compat.x86_64/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Sdk
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 9 (rank: 791)
 Fedora Flatpak: no
 
@@ -7522,16 +7548,18 @@ Downloads (new last month): 8 (rank: 825)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.Compat.x86_64/18.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.Compat.x86_64/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 8 (rank: 826)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.Compat.x86_64/20.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.Compat.x86_64/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Platform
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 8 (rank: 827)
 Fedora Flatpak: no
 
@@ -7578,9 +7606,10 @@ Downloads (new last month): 8 (rank: 833)
 Fedora Flatpak: no
 
 [org.freedesktop.Sdk.Docs/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Sdk.Docs/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Sdk
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 8 (rank: 834)
 Fedora Flatpak: no
 
@@ -8392,9 +8421,10 @@ Downloads (new last month): 7 (rank: 910)
 Fedora Flatpak: no
 
 [org.freedesktop.Sdk.Compat.x86_64/20.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Sdk.Compat.x86_64/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Sdk
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 7 (rank: 911)
 Fedora Flatpak: no
 
@@ -9263,9 +9293,10 @@ Downloads (new last month): 3 (rank: 1002)
 Fedora Flatpak: no
 
 [org.freedesktop.Sdk.Compat.arm/19.08]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Sdk.Compat.arm/*
+Include: # yes
+Comments: # Built as part of org.freedesktop.Sdk
+Links: # https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 Downloads (new last month): 3 (rank: 1003)
 Fedora Flatpak: no
 
