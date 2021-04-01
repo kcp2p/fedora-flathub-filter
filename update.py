@@ -87,7 +87,7 @@ class Component:
         self.runtime = None
         self.download_count = 0
         self.download_rank = 0
-        self.fedora_flatpak = False
+        self.fedora_flatpak = "no"
         self.comments = ""
         self.include = ""
 
@@ -446,7 +446,7 @@ def update_report(input_dir: Path,
     for fedora_component in fedora_components.values():
         flathub_component = flathub_components.get(fedora_component.id)
         if flathub_component:
-            flathub_component.fedora_flatpak = True
+            flathub_component.fedora_flatpak = "yes"
 
     flathub_totals = get_flathub_totals()
 
