@@ -90,8 +90,9 @@ Interesting options are:
      even if the cached data is recent.
 * `--rebase=TARGET` like `git rebase TARGET`,
   but with special handling of `apps.txt` and `other.text`
+* `--merge=PR_NUMBER` rebase and merge a pull request
 
-The last deserves more explanation.
+`--rebase` deserves more explanation.
 The big problem with the strategy of checking `apps.txt` and `other.txt` into git
 is that as download statistics change, they change a *lot*.
 Commits to this repository that mixed updates and substantive changes would be unreadable.
@@ -118,6 +119,21 @@ git fetch origin
 ./update.py --rebase origin/main
 
 # File your branch as a pull request
+```
+
+Merging a pull request
+--------
+
+Most pull requests will need to be rebased before landing, since they
+include updates to the latest Flathub data. Asking contributors to do
+this is annoying, so `update.py` has a special `--merge` flag for maintainers
+to use to rebase-and-merge a pull request, using the right text to get
+Pagure to mark the pull request as merged.
+
+``` sh
+./update.py --merge=123
+# Check that everything looks good
+git push origin main
 ```
 
 Guidelines

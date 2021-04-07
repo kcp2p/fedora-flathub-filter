@@ -572,6 +572,14 @@ def update_report(input_dir: Path,
     help="Do a git rebase onto TARGET, updating apps.txt and other.txt"
 )
 @click.option(
+    "--merge", metavar="[PR_NUMBER|continue]",
+    help="Rebase and merge the given pull request"
+)
+@click.option(
+    "--merge-continue", is_flag=True,
+    help="Merge the given pull request after resolving rebase conflicts"
+)
+@click.option(
     "--verbose", "-v", is_flag=True,
     help="Show debug messages"
 )
@@ -587,6 +595,8 @@ def main(
     cache_dir: str,
     force_download: bool,
     rebase: str,
+    merge: str,
+    merge_continue: bool,
     quiet: bool,
     verbose: bool
 ):
@@ -598,12 +608,18 @@ def main(
     if not cache_path.exists():
         os.mkdir(cache_path)
 
-    if rebase:
+    if rebase or merge:
         # We do the downloading upfront to honor --force-download, and show
         # any progress messages
         load_all_remote_components(force_download=force_download)
         get_flathub_totals()
-        sys.exit(subprocess.call([tools_path / "rebase.sh", rebase]))
+
+        if rebase:
+            sys.exit(subprocess.call([tools_path / "rebase.sh", rebase]))
+        else:
+            sys.exit(subprocess.call([tools_path / "merge.sh", merge]))
+    elif merge_continue:
+        sys.exit(subprocess.call([tools_path / "merge.sh", "continue"]))
 
     update_report(
         Path(input_dir),

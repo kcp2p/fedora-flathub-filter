@@ -158,4 +158,5 @@ git checkout -q -f "$branch"
 echo "Rebasing rewritten commits onto $target"
 if ! git rebase "$from" --onto="$onto" ; then
     echo "update.py: please resolve conflicts manually"
+    exit 42
 fi
