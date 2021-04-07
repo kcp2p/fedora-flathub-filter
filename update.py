@@ -11,7 +11,7 @@ import subprocess
 import sys
 import tempfile
 from textwrap import dedent
-from typing import cast, Dict, List, Optional, Tuple, TextIO
+from typing import cast, Dict, List, NoReturn, Optional, Tuple, TextIO
 
 import click
 
@@ -45,7 +45,7 @@ def warning(*args):
               *args, file=sys.stderr)
 
 
-def error(*args):
+def error(*args) -> NoReturn:
     print(click.style("ERROR", fg="red", bold=True) + ":",
           *args, file=sys.stderr)
     sys.exit(1)
