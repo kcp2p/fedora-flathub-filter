@@ -14,3 +14,4 @@ allow runtime/org.freedesktop.Sdk.Compat.arm/*/*
 allow runtime/org.freedesktop.Sdk.Compat.i386/*/*
 allow runtime/org.freedesktop.Sdk.Compat.x86_64/*/*
 allow runtime/org.freedesktop.Sdk.Docs/*/*
+allow us.zoom.Zoom
