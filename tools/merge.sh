@@ -68,7 +68,6 @@ echo "$title"
 
 if ! $continue ; then
     git fetch origin "pull/$pr/head:merge_pr_$pr"
-    git switch "merge_pr_$pr"
 fi
 
 delete_branch() {
@@ -81,7 +80,7 @@ trap delete_branch EXIT
 
 if ! $continue ; then
     info "Rebasing pull request onto main"
-    if "$update_py" --quiet --rebase=main ; then
+    if "$update_py" --quiet --rebase=main --rebase-branch="merge_pr_$pr" ; then
         :
     else
         if [ $? = 42 ] ; then

@@ -11,13 +11,20 @@ error() {
     exit 1
 }
 
-[ $# == 1 ] || error "Usage: rebase.sh TARGET"
-target=$1
+original_branch=$(git branch --show-current)
+
+if [ $# == 2 ] ; then
+    branch=$1
+    shift
+else
+    branch=$original_branch
+fi
+
+[ $# == 1 ] || error "Usage: rebase.sh [BRANCH] UPSTREAM"
+upstream=$1
 
 toplevel=$(git rev-parse --show-toplevel)
 update_py=$toplevel/update.py
-
-branch=$(git branch --show-current)
 
 if ! git diff-index --quiet HEAD -- ; then
     error "Uncommitted changes"
@@ -35,7 +42,7 @@ committer_dates=()
 
 ### Find the commits we need to rebase
 
-merge_base=$(git merge-base HEAD "$target")
+merge_base=$(git merge-base "$branch" "$upstream")
 
 saveIFS=$IFS
 IFS=$'\001'
@@ -50,7 +57,7 @@ while read -r -d "" commit parent author_name author_date committer_name committ
     author_dates+=("$author_date")
     committer_names+=("$committer_name")
     committer_dates+=("$committer_date")
-done < <(git log -z --reverse --pretty=tformat:'%H%x01%P%x01%an%x01%ad%x01%cn%x01%cd%x01%s' "$merge_base"..HEAD)
+done < <(git log -z --reverse --pretty=tformat:'%H%x01%P%x01%an%x01%ad%x01%cn%x01%cd%x01%s' "$merge_base".."$branch")
 IFS=$saveIFS
 
 ### Now we rewrites commits with the appropriate other.txt and
@@ -63,27 +70,27 @@ success=false
 cleanup() {
     unset GIT_WORK_TREE
     rm -rf "$tmpdir"
-    $success || git checkout --force "$branch"
+    $success || git switch --force "$original_branch"
 }
 
 trap cleanup EXIT
 
-mkdir "$tmpdir/target"
+mkdir "$tmpdir/upstream"
 mkdir "$tmpdir/last"
 mkdir "$tmpdir/base"
 mkdir "$tmpdir/work"
 
-### Add a commit on top of the target commit to update apps.txt/etc.
+### Add a commit on top of the upstream commit to update apps.txt/etc.
 
-echo -n "Updating ${SPECIAL_FILES[*]} in $target ... "
+echo -n "Updating ${SPECIAL_FILES[*]} in $upstream ... "
 
-export GIT_WORK_TREE=$tmpdir/target
-git checkout -q --detach "$target"
+export GIT_WORK_TREE=$tmpdir/upstream
+git checkout -q --detach "$upstream"
 git checkout -f -- .
 
-"$update_py" -q --input-dir="$tmpdir/target" --output-dir="$tmpdir/target"
+"$update_py" -q --input-dir="$tmpdir/upstream" --output-dir="$tmpdir/upstream"
 git add "${SPECIAL_FILES[@]}"
-if git diff-index --quiet "$target" -- ; then
+if git diff-index --quiet "$upstream" -- ; then
     echo "nothing to do"
 else
     git commit -q -m "Update to latest Flathub data"
@@ -99,7 +106,7 @@ git checkout -q "$merge_base"
 git checkout -f -- .
 
 for file in "${SPECIAL_FILES[@]}" ; do
-    cp "$tmpdir/target/$file" "$tmpdir/work"
+    cp "$tmpdir/upstream/$file" "$tmpdir/work"
 done
 
 git add "${SPECIAL_FILES[@]}"
@@ -150,13 +157,16 @@ git branch -f "$branch" "$last"
 success=true
 
 unset GIT_WORK_TREE
-git checkout -q -f "$branch"
+git reset "$original_branch"
+git switch -q -f "$branch"
 
 ### Now run the rebase - the user may need to resolve conflicts to
 ### other files like README.md manually
 
-echo "Rebasing rewritten commits onto $target"
+echo "Rebasing rewritten commits onto $upstream"
 if ! git rebase "$from" --onto="$onto" ; then
     echo "update.py: please resolve conflicts manually"
     exit 42
 fi
+
+git switch -q -f "$original_branch"

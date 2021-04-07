@@ -568,8 +568,12 @@ def update_report(input_dir: Path,
     help="Force downloading of updated remote data"
 )
 @click.option(
-    "--rebase", metavar="TARGET",
-    help="Do a git rebase onto TARGET, updating apps.txt and other.txt"
+    "--rebase", metavar="UPSTREAM",
+    help="Do a git rebase onto UPSTREAM, updating apps.txt and other.txt"
+)
+@click.option(
+    "--rebase-branch", metavar="BRANCH",
+    help="Rebase BRANCH instead of the current branch"
 )
 @click.option(
     "--merge", metavar="[PR_NUMBER|continue]",
@@ -595,6 +599,7 @@ def main(
     cache_dir: str,
     force_download: bool,
     rebase: str,
+    rebase_branch: str,
     merge: str,
     merge_continue: bool,
     quiet: bool,
@@ -615,7 +620,11 @@ def main(
         get_flathub_totals()
 
         if rebase:
-            sys.exit(subprocess.call([tools_path / "rebase.sh", rebase]))
+            cmd: list = [tools_path / "rebase.sh"]
+            if rebase_branch:
+                cmd.append(rebase_branch)
+            cmd.append(rebase)
+            sys.exit(subprocess.call(cmd))
         else:
             sys.exit(subprocess.call([tools_path / "merge.sh", merge]))
     elif merge_continue:
