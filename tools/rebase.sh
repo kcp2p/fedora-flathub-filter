@@ -82,10 +82,10 @@ git checkout -q --detach "$target"
 git checkout -f -- .
 
 "$update_py" -q --input-dir="$tmpdir/target" --output-dir="$tmpdir/target"
+git add "${SPECIAL_FILES[@]}"
 if git diff-index --quiet "$target" -- ; then
     echo "nothing to do"
 else
-    git add "${SPECIAL_FILES[@]}"
     git commit -q -m "Update to latest Flathub data"
     echo "done"
 fi
@@ -102,8 +102,8 @@ for file in "${SPECIAL_FILES[@]}" ; do
     cp "$tmpdir/target/$file" "$tmpdir/work"
 done
 
+git add "${SPECIAL_FILES[@]}"
 if ! git diff-index --quiet "$merge_base" -- ; then
-    git add "${SPECIAL_FILES[@]}"
     git commit -q -m "Update to latest Flathub data"
 fi
 
