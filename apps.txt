@@ -180,8 +180,8 @@ Fedora Flatpak: no
 
 [com.skype.Client]
 Name: Skype
-Include:
-Comments:
+Include: yes
+Comments: Downloads app via extra-data
 Summary: Call and message skype users, with video chat support
 Homepage: https://www.skype.com
 Links: https://flathub.org/apps/details/com.skype.Client https://github.com/flathub/com.skype.Client
