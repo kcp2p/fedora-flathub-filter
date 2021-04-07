@@ -3,6 +3,7 @@
 #
 # Deny by default
 deny *
+allow com.microsoft.Teams
 allow runtime/org.freedesktop.Platform/*/*
 allow runtime/org.freedesktop.Platform.Compat.i386/*/*
 allow runtime/org.freedesktop.Platform.Compat.x86_64/*/*
