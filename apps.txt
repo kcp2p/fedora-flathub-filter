@@ -240,8 +240,8 @@ Fedora Flatpak: no
 
 [com.getpostman.Postman]
 Name: Postman
-Include:
-Comments:
+Include: yes
+Comments: Downloads application via extra-data
 Summary: Postman is a complete API development environment.
 Homepage: https://www.getpostman.com
 Links: https://flathub.org/apps/details/com.getpostman.Postman https://github.com/flathub/com.getpostman.Postman
