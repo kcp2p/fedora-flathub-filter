@@ -372,8 +372,8 @@ Fedora Flatpak: yes
 
 [com.mojang.Minecraft]
 Name: Minecraft
-Include:
-Comments:
+Include: yes
+Comments: Downloads app via extra-data
 Summary: Create your own world in one of the most popular video games
 Homepage: https://minecraft.net
 Links: https://flathub.org/apps/details/com.mojang.Minecraft https://github.com/flathub/com.mojang.Minecraft
