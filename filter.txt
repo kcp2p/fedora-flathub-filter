@@ -3,6 +3,7 @@
 #
 # Deny by default
 deny *
+allow com.bitwarden.desktop
 allow com.microsoft.Teams
 allow com.skype.Client
 allow runtime/org.freedesktop.Platform/*/*

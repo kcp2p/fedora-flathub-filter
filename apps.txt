@@ -216,8 +216,8 @@ Fedora Flatpak: no
 
 [com.bitwarden.desktop]
 Name: Bitwarden
-Include:
-Comments:
+Include: yes
+Comments: Downloads application via extra-data
 Summary: A secure and free password manager for all of your devices
 Homepage: https://www.bitwarden.com/
 Links: https://flathub.org/apps/details/com.bitwarden.desktop https://github.com/flathub/com.bitwarden.desktop
