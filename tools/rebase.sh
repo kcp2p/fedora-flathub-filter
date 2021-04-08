@@ -36,8 +36,10 @@ commits=()
 parents=()
 subjects=()
 author_names=()
+author_emails=()
 author_dates=()
 committer_names=()
+committer_emails=()
 committer_dates=()
 
 ### Find the commits we need to rebase
@@ -46,7 +48,11 @@ merge_base=$(git merge-base "$branch" "$upstream")
 
 saveIFS=$IFS
 IFS=$'\001'
-while read -r -d "" commit parent author_name author_date committer_name committer_date subject ; do
+while read -r -d "" \
+           commit parent \
+           author_name author_email author_date \
+           committer_name committer_email committer_date \
+           subject ; do
     if [[ $parent = *" "* ]] ; then
         error "Merge commits in history to rebase"
     fi
@@ -54,10 +60,14 @@ while read -r -d "" commit parent author_name author_date committer_name committ
     parents+=("$parent")
     subjects+=("$subject")
     author_names+=("$author_name")
+    author_emails+=("$author_email")
     author_dates+=("$author_date")
     committer_names+=("$committer_name")
+    committer_emails+=("$committer_email")
     committer_dates+=("$committer_date")
-done < <(git log -z --reverse --pretty=tformat:'%H%x01%P%x01%an%x01%ad%x01%cn%x01%cd%x01%s' "$merge_base".."$branch")
+done < <(git log -z --reverse \
+         --pretty=tformat:'%H%x01%P%x01%an%x01%ae%x01%ad%x01%cn%x01%ce%x01%cd%x01%s' \
+         "$merge_base".."$branch")
 IFS=$saveIFS
 
 ### Now we rewrites commits with the appropriate other.txt and
@@ -143,8 +153,10 @@ for ((i = 0; i < ${#commits[@]}; i++)) ; do
     git log --pretty=format:'%B' "${commits[i]}" -1 > "$tmpdir/work/commitmsg"
     last=$(
         GIT_AUTHOR_NAME="${author_names[i]}" \
+        GIT_AUTHOR_EMAIL="${author_emails[i]}" \
         GIT_AUTHOR_DATE="${author_dates[i]}" \
         GIT_COMMITTER_NAME="${committer_names[i]}" \
+        GIT_COMMITTER_EMAIL="${committer_emails[i]}" \
         GIT_COMMITER_DATE="${committer_dates[i]}" \
             git commit-tree -p "$last" -F "$tmpdir/work/commitmsg" "$tree"
         )
