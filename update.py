@@ -308,7 +308,7 @@ def get_flathub_stats(date: datetime) -> dict:
             return json.load(f)
 
     url = f'https://flathub.org/stats/{date.year}/{date.month:02}/{date.day:02}.json'
-    info("Downloading %s", url)
+    info(f"Downloading {url}")
     response = requests.get(url)
     response.raise_for_status()
 
