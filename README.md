@@ -68,13 +68,13 @@ Downloads (new last month): 278820 (rank: 1)
 Fedora Flatpak: no
 ```
 
-[filter.txt](filter.txt) is the final filter file. It shouldn't
+[fedora-flathub.filter](fedora-flathub.filter) is the final filter file. It shouldn't
 be edited manually.
 
 Updating
 --------
 
-The `update.py` script is used to update `apps.txt`, `other.txt`, and `filter.txt`.
+The `update.py` script is used to update `apps.txt`, `other.txt`, and `fedora-flathub.filter`.
 Usage is simple. To download the latest data from Flathub and Fedora,
 and update the data files, run:
 

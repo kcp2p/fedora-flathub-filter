@@ -30,7 +30,7 @@ if ! git diff-index --quiet HEAD -- ; then
     error "Uncommitted changes"
 fi
 
-SPECIAL_FILES=(apps.txt other.txt wildcard.txt filter.txt)
+SPECIAL_FILES=(apps.txt other.txt wildcard.txt fedora-flathub.filter)
 
 commits=()
 parents=()
