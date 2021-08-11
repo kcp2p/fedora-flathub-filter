@@ -1,6 +1,6 @@
 Name:		fedora-flathub-remote
 Version:	1
-Release:	1
+Release:	1%{dist}
 Summary:        Third party remote pointing to a filtered version of flathub.org
 
 License:        MIT
