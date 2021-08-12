@@ -5,9 +5,10 @@ Summary:        Third party remote pointing to a filtered version of flathub.org
 
 License:        MIT
 URL:		https://pagure.io/fedora-flathub-filter
-Source0:        fedora-flathub.filter
-Source1:        fedora-flathub.conf
-Source2:        fedora-flathub.flatpakrepo
+Source0:        LICENSE
+Source1:        fedora-flathub.filter
+Source2:        fedora-flathub.conf
+Source3:        fedora-flathub.flatpakrepo
 
 BuildArch:	noarch
 
@@ -27,12 +28,15 @@ remote is no longer managed as a third-party repository.)
 %build
 
 %install
-install -D -m0644 %{SOURCE0} %{buildroot}%{_datadir}/flatpak/fedora-flathub.filter
-install -D -m0644 %{SOURCE1} -t %{buildroot}%{_prefix}/lib/fedora-third-party/conf.d
+install -D -m0644 %{SOURCE0} %{buildroot}%{_datadir}/licenses/%{name}/LICENSE
+
+install -D -m0644 %{SOURCE1} %{buildroot}%{_datadir}/flatpak/fedora-flathub.filter
 install -D -m0644 %{SOURCE2} -t %{buildroot}%{_prefix}/lib/fedora-third-party/conf.d
+install -D -m0644 %{SOURCE3} -t %{buildroot}%{_prefix}/lib/fedora-third-party/conf.d
 
 
 %files
+%license LICENSE
 %{_datadir}/flatpak/fedora-flathub.filter
 %{_prefix}/lib/fedora-third-party/conf.d/*
 
