@@ -1,19 +1,19 @@
 Name:		fedora-flathub-remote
 Version:	1
 Release:	1%{dist}
-Summary:        Third party remote pointing to a filtered version of flathub.org
+Summary:	Third party remote pointing to a filtered version of flathub.org
 
-License:        MIT
+License:	MIT
 URL:		https://pagure.io/fedora-flathub-filter
-Source0:        LICENSE
-Source1:        fedora-flathub.filter
-Source2:        fedora-flathub.conf
-Source3:        fedora-flathub.flatpakrepo
+Source0:	LICENSE
+Source1:	fedora-flathub.filter
+Source2:	fedora-flathub.conf
+Source3:	fedora-flathub.flatpakrepo
 
 BuildArch:	noarch
 
-Requires:       fedora-third-party
-Requires:       flatpak
+Requires:	fedora-third-party
+Requires:	flatpak
 
 %description
 This package adds configuration to add a remote pointing to flathub.org when
