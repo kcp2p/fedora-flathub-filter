@@ -4,6 +4,7 @@
 # Deny by default
 deny *
 allow com.bitwarden.desktop
+allow com.discordapp.Discord
 allow com.getpostman.Postman
 allow com.microsoft.Teams
 allow com.mojang.Minecraft
