@@ -12,7 +12,7 @@ Fedora Flatpak: no
 
 [com.discordapp.Discord]
 Name: Discord
-Include:
+Include: yes
 Comments:
 Summary: Messaging, Voice, and Video Client
 Homepage: https://discord.com
