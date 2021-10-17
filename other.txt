@@ -114,9 +114,10 @@ Downloads (new last month): 86749 (rank: 11)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-470-63-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 78645 (rank: 12)
 Fedora Flatpak: no
 
@@ -220,9 +221,10 @@ Downloads (new last month): 41424 (rank: 22)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-470-74/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 35053 (rank: 23)
 Fedora Flatpak: no
 
@@ -360,9 +362,10 @@ Downloads (new last month): 10711 (rank: 37)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-470-63-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10081 (rank: 38)
 Fedora Flatpak: no
 
@@ -377,9 +380,10 @@ Downloads (new last month): 9434 (rank: 39)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-460-91-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9141 (rank: 40)
 Fedora Flatpak: no
 
@@ -427,16 +431,18 @@ Downloads (new last month): 7640 (rank: 45)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-144/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 7598 (rank: 46)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-470-57-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 7239 (rank: 47)
 Fedora Flatpak: no
 
@@ -518,9 +524,10 @@ Downloads (new last month): 4866 (rank: 55)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-470-74/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 4482 (rank: 56)
 Fedora Flatpak: no
 
@@ -630,9 +637,10 @@ Downloads (new last month): 2744 (rank: 66)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-340-108/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 2703 (rank: 67)
 Fedora Flatpak: no
 
@@ -892,9 +900,10 @@ Downloads (new last month): 1136 (rank: 92)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-470-57-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 1092 (rank: 93)
 Fedora Flatpak: no
 
@@ -983,9 +992,10 @@ Downloads (new last month): 783 (rank: 101)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-465-31/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 777 (rank: 102)
 Fedora Flatpak: no
 
@@ -1001,16 +1011,18 @@ Downloads (new last month): 748 (rank: 103)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-460-91-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 678 (rank: 104)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-460-73-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 673 (rank: 105)
 Fedora Flatpak: no
 
@@ -1187,16 +1199,18 @@ Downloads (new last month): 596 (rank: 121)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-460-80/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 555 (rank: 122)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-144/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 555 (rank: 123)
 Fedora Flatpak: no
 
@@ -1368,9 +1382,10 @@ Downloads (new last month): 411 (rank: 139)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-495-29-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 402 (rank: 140)
 Fedora Flatpak: no
 
@@ -1406,9 +1421,10 @@ Downloads (new last month): 366 (rank: 143)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-142-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 353 (rank: 144)
 Fedora Flatpak: no
 
@@ -1476,9 +1492,10 @@ Downloads (new last month): 321 (rank: 150)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-430-40/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 313 (rank: 151)
 Fedora Flatpak: no
 
@@ -1610,16 +1627,18 @@ Downloads (new last month): 281 (rank: 163)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-143/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 281 (rank: 164)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-80-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 281 (rank: 165)
 Fedora Flatpak: no
 
@@ -1820,9 +1839,10 @@ Downloads (new last month): 217 (rank: 184)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-460-39/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 215 (rank: 185)
 Fedora Flatpak: no
 
@@ -1881,9 +1901,10 @@ Downloads (new last month): 203 (rank: 190)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-460-56/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 198 (rank: 191)
 Fedora Flatpak: no
 
@@ -1919,9 +1940,10 @@ Downloads (new last month): 188 (rank: 194)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-460-67/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 180 (rank: 195)
 Fedora Flatpak: no
 
@@ -1963,9 +1985,10 @@ Downloads (new last month): 170 (rank: 199)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-460-84/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 170 (rank: 200)
 Fedora Flatpak: no
 
@@ -1980,9 +2003,10 @@ Downloads (new last month): 170 (rank: 201)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-211-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 163 (rank: 202)
 Fedora Flatpak: no
 
@@ -2039,9 +2063,10 @@ Downloads (new last month): 148 (rank: 207)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-102-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 145 (rank: 208)
 Fedora Flatpak: no
 
@@ -2057,9 +2082,10 @@ Downloads (new last month): 145 (rank: 209)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-460-32-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 144 (rank: 210)
 Fedora Flatpak: no
 
@@ -2075,9 +2101,10 @@ Downloads (new last month): 144 (rank: 211)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-141/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 142 (rank: 212)
 Fedora Flatpak: no
 
@@ -2164,16 +2191,18 @@ Downloads (new last month): 129 (rank: 220)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-465-31/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 127 (rank: 221)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-119-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 126 (rank: 222)
 Fedora Flatpak: no
 
@@ -2198,16 +2227,18 @@ Downloads (new last month): 124 (rank: 224)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-340-107/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 118 (rank: 225)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-465-27/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 118 (rank: 226)
 Fedora Flatpak: no
 
@@ -2265,9 +2296,10 @@ Downloads (new last month): 113 (rank: 231)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-38/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 112 (rank: 232)
 Fedora Flatpak: no
 
@@ -2334,9 +2366,10 @@ Downloads (new last month): 109 (rank: 238)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-340-108/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 105 (rank: 239)
 Fedora Flatpak: no
 
@@ -2485,9 +2518,10 @@ Downloads (new last month): 89 (rank: 254)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-48/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 88 (rank: 255)
 Fedora Flatpak: no
 
@@ -2513,16 +2547,18 @@ Downloads (new last month): 86 (rank: 257)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-465-19-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 85 (rank: 258)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-495-29-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 85 (rank: 259)
 Fedora Flatpak: no
 
@@ -2559,9 +2595,10 @@ Downloads (new last month): 83 (rank: 262)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-80-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 82 (rank: 263)
 Fedora Flatpak: no
 
@@ -2665,23 +2702,26 @@ Downloads (new last month): 73 (rank: 273)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-384-130/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 73 (rank: 274)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-470-42-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 73 (rank: 275)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-211-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 71 (rank: 276)
 Fedora Flatpak: no
 
@@ -2728,9 +2768,10 @@ Downloads (new last month): 70 (rank: 280)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-340-104/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 69 (rank: 281)
 Fedora Flatpak: no
 
@@ -2756,9 +2797,10 @@ Downloads (new last month): 68 (rank: 283)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-100/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 68 (rank: 284)
 Fedora Flatpak: no
 
@@ -2947,9 +2989,10 @@ Downloads (new last month): 55 (rank: 302)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-460-39/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 54 (rank: 303)
 Fedora Flatpak: no
 
@@ -2964,23 +3007,26 @@ Downloads (new last month): 54 (rank: 304)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-465-24-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 53 (rank: 305)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-470-62-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 53 (rank: 306)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-143/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 53 (rank: 307)
 Fedora Flatpak: no
 
@@ -3076,16 +3122,18 @@ Downloads (new last month): 51 (rank: 316)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-384-111/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 50 (rank: 317)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-21/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 50 (rank: 318)
 Fedora Flatpak: no
 
@@ -3100,9 +3148,10 @@ Downloads (new last month): 50 (rank: 319)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-82/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 48 (rank: 320)
 Fedora Flatpak: no
 
@@ -3182,9 +3231,10 @@ Downloads (new last month): 44 (rank: 327)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-28/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 43 (rank: 328)
 Fedora Flatpak: no
 
@@ -3199,9 +3249,10 @@ Downloads (new last month): 43 (rank: 329)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-66/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 42 (rank: 330)
 Fedora Flatpak: no
 
@@ -3324,16 +3375,18 @@ Downloads (new last month): 39 (rank: 341)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-460-67/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 38 (rank: 342)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-460-84/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 38 (rank: 343)
 Fedora Flatpak: no
 
@@ -3416,9 +3469,10 @@ Downloads (new last month): 37 (rank: 351)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-45-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 36 (rank: 352)
 Fedora Flatpak: no
 
@@ -3455,9 +3509,10 @@ Downloads (new last month): 36 (rank: 355)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-116/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 35 (rank: 356)
 Fedora Flatpak: no
 
@@ -3584,9 +3639,10 @@ Downloads (new last month): 32 (rank: 368)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-470-62-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 32 (rank: 369)
 Fedora Flatpak: no
 
@@ -3608,16 +3664,18 @@ Downloads (new last month): 32 (rank: 371)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-138/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 31 (rank: 372)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-430-40/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 31 (rank: 373)
 Fedora Flatpak: no
 
@@ -3654,16 +3712,18 @@ Downloads (new last month): 31 (rank: 376)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-119-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 30 (rank: 377)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-142-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 30 (rank: 378)
 Fedora Flatpak: no
 
@@ -3699,9 +3759,10 @@ Downloads (new last month): 30 (rank: 381)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-77/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 29 (rank: 382)
 Fedora Flatpak: no
 
@@ -3716,16 +3777,18 @@ Downloads (new last month): 29 (rank: 383)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-340-106/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 28 (rank: 384)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-415-27/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 28 (rank: 385)
 Fedora Flatpak: no
 
@@ -3862,16 +3925,18 @@ Downloads (new last month): 26 (rank: 398)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-430-50/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 25 (rank: 399)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-95-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 25 (rank: 400)
 Fedora Flatpak: no
 
@@ -3906,37 +3971,42 @@ Downloads (new last month): 25 (rank: 403)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-304-135/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 24 (rank: 404)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-396-54/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 24 (rank: 405)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-410-78/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 24 (rank: 406)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-460-73-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 24 (rank: 407)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-460-80/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 24 (rank: 408)
 Fedora Flatpak: no
 
@@ -3982,9 +4052,10 @@ Downloads (new last month): 23 (rank: 412)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-197-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 23 (rank: 413)
 Fedora Flatpak: no
 
@@ -4043,9 +4114,10 @@ Downloads (new last month): 22 (rank: 418)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-56/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 22 (rank: 419)
 Fedora Flatpak: no
 
@@ -4133,9 +4205,10 @@ Downloads (new last month): 21 (rank: 427)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-465-24-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 21 (rank: 428)
 Fedora Flatpak: no
 
@@ -4200,23 +4273,26 @@ Downloads (new last month): 20 (rank: 434)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-304-137/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 20 (rank: 435)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-152-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 20 (rank: 436)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-430-64/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 20 (rank: 437)
 Fedora Flatpak: no
 
@@ -4337,16 +4413,18 @@ Downloads (new last month): 19 (rank: 448)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-396-51/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 19 (rank: 449)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-64/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 19 (rank: 450)
 Fedora Flatpak: no
 
@@ -4416,9 +4494,10 @@ Downloads (new last month): 18 (rank: 457)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-465-19-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 18 (rank: 458)
 Fedora Flatpak: no
 
@@ -4525,16 +4604,18 @@ Downloads (new last month): 17 (rank: 468)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-132/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 17 (rank: 469)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-59/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 17 (rank: 470)
 Fedora Flatpak: no
 
@@ -4868,16 +4949,18 @@ Downloads (new last month): 15 (rank: 502)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-410-93/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 15 (rank: 503)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-460-27-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 15 (rank: 504)
 Fedora Flatpak: no
 
@@ -5021,51 +5104,58 @@ Downloads (new last month): 14 (rank: 517)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-384-90/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 14 (rank: 518)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-384-98/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 14 (rank: 519)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-36/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 14 (rank: 520)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-44/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 14 (rank: 521)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-57/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 14 (rank: 522)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-460-32-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 14 (rank: 523)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-470-42-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 14 (rank: 524)
 Fedora Flatpak: no
 
@@ -5289,23 +5379,26 @@ Downloads (new last month): 13 (rank: 545)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-87/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 13 (rank: 546)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-43/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 13 (rank: 547)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-51-06/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 13 (rank: 548)
 Fedora Flatpak: no
 
@@ -5521,58 +5614,66 @@ Downloads (new last month): 12 (rank: 568)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-340-102/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 12 (rank: 569)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-381-22/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 12 (rank: 570)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-59/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 12 (rank: 571)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-181-07/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 12 (rank: 572)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-87-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 12 (rank: 573)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-33-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 12 (rank: 574)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-470-56-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 12 (rank: 575)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-470-62-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 12 (rank: 576)
 Fedora Flatpak: no
 
@@ -5817,86 +5918,98 @@ Downloads (new last month): 11 (rank: 599)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-113/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 600)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-74/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 601)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-430-26/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 602)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-430-34/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 603)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-48-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 604)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-51-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 605)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-46-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 606)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-152-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 607)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-64/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 608)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-82/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 609)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-51-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 610)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-66/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 11 (rank: 611)
 Fedora Flatpak: no
 
@@ -6152,79 +6265,90 @@ Downloads (new last month): 10 (rank: 635)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-375-82/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 636)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-67/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 637)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-410-73/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 638)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-384-130/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 639)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-396-51/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 640)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-197-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 641)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-42-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 642)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-74/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 643)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-12/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 644)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-460-27-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 645)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-460-56/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 10 (rank: 646)
 Fedora Flatpak: no
 
@@ -6490,415 +6614,474 @@ Downloads (new last month): 9 (rank: 671)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-375-39/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 672)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-384-59/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 673)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-384-69/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 674)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-25/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 675)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-396-18/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 676)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-396-24/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 677)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-410-104/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 678)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-410-72/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 679)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-410-79/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 680)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-415-22-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 681)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-30/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 682)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-52-17/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 683)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-430-14/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 684)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-17/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 685)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-27-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 686)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-27-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 687)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-118-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 688)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-31/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 689)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-43-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 690)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-58-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 691)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 692)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-09/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 693)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-22-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 694)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-23-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 695)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-46-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 696)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-340-107/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 697)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-367-57/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 698)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-375-82/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 699)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-381-09/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 700)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-387-12/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 701)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-25/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 702)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-42/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 703)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-410-129/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 704)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-410-93/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 705)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-415-18-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 706)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-415-22-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 707)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-126-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 708)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-181-07/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 709)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-52-10/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 710)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-52-16/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 711)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-52-17/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 712)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-52-20/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 713)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-56/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 714)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-88/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 715)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-17/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 716)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-27-07/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 717)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-27-08/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 718)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-31/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 719)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-64-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 720)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 721)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-51/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 722)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-51-06/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 723)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-28/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 724)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-34-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 725)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-50-07/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 726)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-50-10/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 727)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-50-12/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 728)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-465-27/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 729)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-470-56-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 9 (rank: 730)
 Fedora Flatpak: no
 
@@ -7330,1269 +7513,1450 @@ Downloads (new last month): 8 (rank: 770)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-304-134/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 771)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-340-101/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 772)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-367-57/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 773)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-370-28/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 774)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-375-26/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 775)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-375-66/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 776)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-378-13/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 777)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-381-09/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 778)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-384-47/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 779)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-387-12/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 780)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-387-22/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 781)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-387-34/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 782)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-12/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 783)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-129/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 784)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-390-42/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 785)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-396-45/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 786)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-410-129/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 787)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-410-57/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 788)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-410-66/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 789)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-415-13/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 790)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-415-18/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 791)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-415-18-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 792)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-415-18-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 793)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-415-22/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 794)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-415-22-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 795)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-415-23/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 796)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-415-25/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 797)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-116-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 798)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-126-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 799)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-31-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 800)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-40-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 801)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-42-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 802)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-49-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 803)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-52-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 804)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-52-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 805)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-52-07/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 806)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-52-10/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 807)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-52-14/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 808)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-52-16/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 809)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-52-18/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 810)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-52-20/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 811)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-67/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 812)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-87-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 813)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-418-88/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 814)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-430-09/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 815)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-19-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 816)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-19-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 817)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-24-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 818)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-27-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 819)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-27-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 820)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-27-06/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 821)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-27-07/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 822)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-435-27-08/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 823)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-26/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 824)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-43-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 825)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-58-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 826)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-64-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 827)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 828)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 829)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-07/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 830)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-08/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 831)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-11/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 832)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-12/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 833)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-14/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 834)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-15/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 835)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-440-66-17/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 836)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-51/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 837)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-56-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 838)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-56-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 839)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-56-06/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 840)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-450-56-11/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 841)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-26-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 842)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-26-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 843)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-34-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 844)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-46-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 845)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-50-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 846)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-50-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 847)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-50-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 848)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-50-07/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 849)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-50-10/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 850)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-50-12/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 851)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-50-14/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 852)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL.nvidia-455-50-19/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL.nvidia-*/*
+Include: # yes
+Comments: # Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 853)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-304-134/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 854)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-304-135/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 855)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-340-101/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 856)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-340-102/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 857)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-370-28/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 858)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-375-26/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 859)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-375-39/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 860)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-375-66/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 861)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-378-13/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 862)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-381-22/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 863)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-384-47/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 864)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-384-59/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 865)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-384-69/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 866)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-384-90/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 867)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-387-22/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 868)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-387-34/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 869)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-12/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 870)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-129/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 871)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-138/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 872)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-141/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 873)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-59/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 874)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-87/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 875)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-396-18/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 876)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-396-45/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 877)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-396-54/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 878)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-410-104/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 879)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-410-57/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 880)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-410-66/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 881)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-410-72/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 882)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-410-73/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 883)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-410-78/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 884)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-410-79/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 885)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-415-13/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 886)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-415-18/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 887)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-415-18-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 888)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-415-22/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 889)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-415-22-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 890)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-415-23/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 891)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-415-25/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 892)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-415-27/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 893)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-116-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 894)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-30/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 895)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-31-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 896)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-40-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 897)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-49-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 898)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-52-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 899)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-52-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 900)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-52-07/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 901)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-52-14/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 902)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-52-18/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 903)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-67/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 904)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-87-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 905)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-87-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 906)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-430-09/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 907)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-430-14/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 908)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-430-50/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 909)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-430-64/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 910)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-19-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 911)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-19-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 912)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-24-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 913)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-27-00/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 914)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-27-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 915)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-27-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 916)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-27-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 917)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-27-06/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 918)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-118-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 919)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-26/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 920)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-33-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 921)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-43-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 922)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-43-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 923)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-58-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 924)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-58-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 925)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 926)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 927)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-07/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 928)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-08/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 929)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-09/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 930)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-11/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 931)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-14/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 932)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-15/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 933)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-66-17/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 934)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-119-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 935)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-56-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 936)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-56-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 937)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-56-06/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 938)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-56-11/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 939)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-57/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 940)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-22-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 941)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-23-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 942)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-26-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 943)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-26-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 944)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-46-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 945)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-46-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 946)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-50-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 947)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-50-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 948)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-50-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 949)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-50-14/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 950)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-50-19/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 8 (rank: 951)
 Fedora Flatpak: no
 
@@ -9436,44 +9800,50 @@ Downloads (new last month): 7 (rank: 1030)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-340-106/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 7 (rank: 1031)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-384-111/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 7 (rank: 1032)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-67/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 7 (rank: 1033)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-396-24/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 7 (rank: 1034)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-435-21/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 7 (rank: 1035)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-470-62-05/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 7 (rank: 1036)
 Fedora Flatpak: no
 
@@ -10648,51 +11018,58 @@ Downloads (new last month): 6 (rank: 1145)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-340-104/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 6 (rank: 1146)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-48/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 6 (rank: 1147)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-113/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 6 (rank: 1148)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-430-34/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 6 (rank: 1149)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-100/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 6 (rank: 1150)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-48-02/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 6 (rank: 1151)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-46-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 6 (rank: 1152)
 Fedora Flatpak: no
 
@@ -10893,30 +11270,34 @@ Downloads (new last month): 5 (rank: 1172)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-384-98/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 5 (rank: 1173)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-430-26/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 5 (rank: 1174)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-44/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 5 (rank: 1175)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-45-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 5 (rank: 1176)
 Fedora Flatpak: no
 
@@ -10971,37 +11352,42 @@ Downloads (new last month): 5 (rank: 1181)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-116/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 4 (rank: 1182)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-77/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 4 (rank: 1183)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-418-43/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 4 (rank: 1184)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-59/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 4 (rank: 1185)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-119-03/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 4 (rank: 1186)
 Fedora Flatpak: no
 
@@ -11014,44 +11400,50 @@ Downloads (new last month): 4 (rank: 1187)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-304-137/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 3 (rank: 1188)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-390-132/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 3 (rank: 1189)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-36/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 3 (rank: 1190)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-440-95-01/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 3 (rank: 1191)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-450-102-04/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 3 (rank: 1192)
 Fedora Flatpak: no
 
 [org.freedesktop.Platform.GL32.nvidia-455-38/1.4]
-Include:
-Comments:
-Links:
+Matched: org.freedesktop.Platform.GL32.nvidia-*/*
+Include: # yes
+Comments: # 32-bit Nvidia userspace drivers.
+Links: # https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 Downloads (new last month): 3 (rank: 1193)
 Fedora Flatpak: no
 

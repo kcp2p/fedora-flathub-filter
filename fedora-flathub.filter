@@ -13,7 +13,9 @@ allow runtime/org.freedesktop.Platform/*/*
 allow runtime/org.freedesktop.Platform.Compat.i386/*/*
 allow runtime/org.freedesktop.Platform.Compat.x86_64/*/*
 allow runtime/org.freedesktop.Platform.GL.default/*/*
+allow runtime/org.freedesktop.Platform.GL.nvidia-*/*/*
 allow runtime/org.freedesktop.Platform.GL32.default/*/*
+allow runtime/org.freedesktop.Platform.GL32.nvidia-*/*/*
 allow runtime/org.freedesktop.Sdk/*/*
 allow runtime/org.freedesktop.Sdk.Compat.aarch64/*/*
 allow runtime/org.freedesktop.Sdk.Compat.arm/*/*
