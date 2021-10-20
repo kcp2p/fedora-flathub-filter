@@ -23,10 +23,20 @@ Comments: Mesa libGL. Built as part of org.freedesktop.Platform
 Include: yes
 Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
 
+[org.freedesktop.Platform.GL.nvidia-*/*]
+Comments: Nvidia userspace drivers.
+Include: yes
+Links: https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
+
 [org.freedesktop.Platform.GL32.default/*]
 Comments: 32-bit Mesa libGL. Built as part of org.freedesktop.Platform
 Include: yes
 Links: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
+
+[org.freedesktop.Platform.GL32.nvidia-*/*]
+Comments: 32-bit Nvidia userspace drivers.
+Include: yes
+Links: https://github.com/flathub/org.freedesktop.Platform.GL.nvidia
 
 [org.freedesktop.Platform.VAAPI.Intel/*]
 Comments: Same as libva-intel-driver RPM. https://bugzilla.redhat.com/show_bug.cgi?id=770371
