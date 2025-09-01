@@ -6,9 +6,7 @@ deny *
 allow com.bitwarden.desktop
 allow com.discordapp.Discord
 allow com.getpostman.Postman
-allow com.microsoft.Teams
 allow com.mojang.Minecraft
-allow com.skype.Client
 allow runtime/org.freedesktop.Platform/*/*
 allow runtime/org.freedesktop.Platform.Compat.i386/*/*
 allow runtime/org.freedesktop.Platform.Compat.x86_64/*/*
